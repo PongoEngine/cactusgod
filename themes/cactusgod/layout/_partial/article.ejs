@@ -8,5 +8,9 @@
   <p class="post-date">
     <%= item.date.format(config.date_format) %>
   </p>
-  <%- item.content %>
+  <% if (item.excerpt && index){ %>
+    <p><%- item.excerpt %></p>
+  <% } else { %>
+    <%- item.content %>
+  <% } %>
 </div>
