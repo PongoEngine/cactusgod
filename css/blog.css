@@ -38,6 +38,9 @@ a {
 .post p {
   max-width: 800px;
 }
+.post p strong {
+  color: #E6DB74;
+}
 
 h1,
 h2,
