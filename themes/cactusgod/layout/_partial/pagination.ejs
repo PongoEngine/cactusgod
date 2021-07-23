@@ -1,0 +1,9 @@
+<nav>
+  <% if (page.prev){ %>
+  <a class="left-arrow" href="<%- config.root %><%- page.prev_link %>"
+    >&larr;</a>
+  <% } %> <span class="page-number"><%= page.current %></span> <% if (page.next){ %>
+  <a class="right-arrow" href="<%- config.root %><%- page.next_link %>"
+    >&rarr;</a>
+  <% } %>
+</nav>

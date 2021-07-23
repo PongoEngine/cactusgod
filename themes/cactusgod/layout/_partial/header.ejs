@@ -1,0 +1,13 @@
+<header>
+  <ul class="blog-nav">
+    <% for (var item in theme.menu){ %>
+    <li class="blog-nav-item">
+      <a href="<%- url_for(theme.menu[item]) %>"><%= item %></a>
+    </li>
+    <% } %>
+  </ul>
+  <h1>
+    <a href="<%- config.root %>">Cactus God</a
+    ><span class="blinking-cursor">|</span>
+  </h1>
+</header>
