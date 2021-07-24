@@ -34,7 +34,18 @@ a {
 .post-title{
   margin-bottom: 0rem;
 }
-
+.post-title a {
+  text-decoration: none;
+}
+.post-title a:hover {
+  text-decoration: underline;
+}
+.post-excerpt {
+  margin-bottom: 1rem;
+}
+.post-read-more {
+  margin-top: 0;
+}
 .post {
   padding-top: 1em;
   border-bottom: 1px solid #f8f8f2;

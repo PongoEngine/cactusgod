@@ -3,7 +3,7 @@
   <h2 class="post-title">
     <% if (index){ %>
       <a href="<%- config.root %><%- item.path %>">
-        <%- item.title %>&nbsp;
+        <%- item.title %>
       </a>
     <% } else { %>
       <%- item.title %><% if (!item.completed){ %> - <span class="italic">In Progress</span><% } %>
@@ -15,7 +15,8 @@
     </p>
   <% } %>
   <% if (item.excerpt && index){ %>
-    <p><%- item.excerpt %></p>
+    <p class="post-excerpt"><%- item.excerpt %></p>
+    <p class="post-read-more"><a href="<%- config.root %><%- item.path %>">Read More</a></p>
   <% } else { %>
     <%- item.content %>
   <% } %>
