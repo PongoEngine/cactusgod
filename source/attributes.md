@@ -5,7 +5,7 @@ title: Attributes
 Attributes are used to specify a song. Some attributes are required for each song. Some attributes are optional. Attributes differ from songs in that they can change over time. An attribute may become more specific or loose. It may also become optional, required, or removed from this list. Attributes can also be added over time. This page is used a quick reference for both myself and anyone else who may visit this domain.
 
 ### Required: 
-A required attribute must when describing a musical document. A required attribute may be omitted if and only if a song has been created before the attribute has become required.
+All required attributes must be included when describing a musical document. A required attribute may be omitted if and only if a song has been created before the attribute has become required.
 
 #### Story
 The story is defined using DAN HARMON's STORY CIRCLE.
