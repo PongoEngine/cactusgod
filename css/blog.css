@@ -15,6 +15,9 @@ body,
 a {
   color: #f8f8f2;
 }
+::-moz-selection {
+  background: #49483e;
+}
 ::selection {
   background: #49483e;
 }
@@ -28,7 +31,8 @@ a {
 
 .blinking-cursor {
   color: #f8f8f0;
-  animation: 1s blink step-end infinite;
+  -webkit-animation: 1s blink step-end infinite;
+          animation: 1s blink step-end infinite;
 }
 
 .post {
@@ -119,6 +123,16 @@ a:hover {
 
 .page-number {
   padding: 0 1rem;
+}
+
+@-webkit-keyframes blink {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: #f8f8f0;
+  }
 }
 
 @keyframes blink {
