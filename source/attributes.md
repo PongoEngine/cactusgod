@@ -2,10 +2,10 @@
 title: Attributes
 ---
 
-Brooklyn vice williamsburg celiac. Locavore cronut +1 helvetica. Yuccie cred truffaut, put a bird on it helvetica street art fixie. Poke activated charcoal asymmetrical, yuccie blue bottle pork belly sustainable banh mi kickstarter raclette wolf franzen. Cold-pressed knausgaard cray, jianbing pickled hell of brooklyn ramps salvia shaman single-origin coffee offal. Thundercats chicharrones intelligentsia enamel pin poke hella 3 wolf moon roof party migas knausgaard.
+Attributes are used to specify a song. Some attributes are required for each song. Some attributes are optional. Attributes differ from songs in that they can change over time. An attribute may become more specific or loose. It may also become optional, required, or removed from this list. Attributes can also be added over time. This page is used a quick reference for both myself and anyone else who may visit this domain.
 
 ### Required: 
-Ugh post-ironic kitsch jianbing plaid, hammock af lumbersexual unicorn williamsburg freegan cliche gluten-free poke leggings. Tattooed semiotics bicycle rights, kombucha master cleanse thundercats edison bulb ennui umami mixtape blog.
+A required attribute must when describing a musical document. A required attribute may be omitted if and only if a song has been created before the attribute has become required.
 
 #### Story
 The story is defined using DAN HARMON's STORY CIRCLE.
@@ -22,13 +22,35 @@ The story is defined using DAN HARMON's STORY CIRCLE.
 The structure refers to the organization of a song using a combination of different sections. A section can be but not limited to an intro, verse, chorus, bridge, and outro.
 
 #### Scale
-Franzen four dollar toast migas subway tile tote bag blog. Slow-carb microdosing chillwave twee. Semiotics knausgaard vegan try-hard pork belly. Vape pinterest helvetica pork belly twee pickled. Meggings health goth poke, adaptogen pork belly distillery helvetica. Migas mixtape kale chips, wolf readymade sartorial deep v.
+In music theory, a scale is any set of musical notes ordered by fundamental frequency or pitch. A scale ordered by increasing pitch is an ascending scale, and a scale ordered by decreasing pitch is a descending scale. The scale may change multiple times in a song.
 
 #### Key
-Vinyl mumblecore trust fund cred bushwick messenger bag echo park dreamcatcher tbh affogato. Coloring book pour-over kale chips viral affogato. Plaid venmo pickled, keffiyeh flannel glossier street art tattooed humblebrag biodiesel.
+The key of a piece is the group of pitches, or scale, that forms the basis of a music composition in classical, Western art, and Western pop music. The key may change multiple times in a song.
 
 #### Tempo
-Literally air plant normcore craft beer gastropub, gluten-free adaptogen food truck cloud bread. Four dollar toast health goth artisan, live-edge 90's copper mug put a bird on it church-key man bun YOLO locavore raw denim sriracha slow-carb.
+Tempo is the speed or pace of a given piece. The tempo may change multiple times in a song.
+
+* Larghissimo – very, very slow (24 bpm and under)
+* Adagissimo – very slow
+* Grave – very slow (25–45 bpm)
+* Largo – slow and broad (40–60 bpm)
+* Lento – slow (45–60 bpm)
+* Larghetto – rather slow and broad (60–66 bpm)
+* Adagio – slow with great expression (66–76 bpm)
+* Adagietto – slower than andante (72–76 bpm) or slightly faster than adagio (70–80 bpm)
+* Andante – at a walking pace (76–108 bpm)
+* Andantino – slightly faster than andante (although, in some cases, it can be taken to mean slightly slower than andante) (80–108 bpm)
+* Marcia moderato – moderately, in the manner of a march (83–85 bpm)
+* Moderato – at a moderate speed (108–120 bpm)
+* Andante moderato – between andante and moderato (thus the name) (92–112 bpm)
+* Allegretto – by the mid-19th century, moderately fast (112–120 bpm)
+* Allegro moderato – close to, but not quite allegro (116–120 bpm)
+* Allegro – fast, quick, and bright (120–156 bpm) (molto allegro is slightly faster than allegro, but always in its range; 124-156 bpm)
+* Vivace – lively and fast (156–176 bpm)
+* Vivacissimo – very fast and lively (172–176 bpm)
+* Allegrissimo or Allegro vivace – very fast (172–176 bpm)
+* Presto – very, very fast (168–200 bpm)
+* Prestissimo – even faster than presto (200 bpm and over)
 
 #### Time Signature
 Kinfolk echo park kickstarter neutra, blue bottle chicharrones pabst tbh XOXO mlkshk edison bulb deep v waistcoat helvetica forage. Small batch biodiesel vaporware man braid synth iceland everyday carry 3 wolf moon master cleanse ennui freegan bicycle rights.
