@@ -53,7 +53,7 @@ Tempo is the speed or pace of a given piece. The tempo may change multiple times
 * Prestissimo – even faster than presto (200 bpm and over)
 
 #### Time Signature
-Kinfolk echo park kickstarter neutra, blue bottle chicharrones pabst tbh XOXO mlkshk edison bulb deep v waistcoat helvetica forage. Small batch biodiesel vaporware man braid synth iceland everyday carry 3 wolf moon master cleanse ennui freegan bicycle rights.
+The time signature is a notational convention used in Western musical notation to specify how many beats (pulses) are contained in each measure (bar), and which note value is equivalent to a beat.
 
 ### Optional: 
 An optional attribute does not need to be included in a musical document.
