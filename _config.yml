@@ -126,3 +126,9 @@ sitemap:
   rel: false
   tags: true
   categories: true
+
+autoprefixer:
+  exclude:
+    - '*.min.css'
+  browsers:
+    - 'last 2 versions'
