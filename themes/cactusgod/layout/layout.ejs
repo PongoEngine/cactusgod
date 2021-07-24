@@ -26,7 +26,7 @@
       <meta property="og:image" content="<%= config.cover %>"/>
     <% } %>
 
-    <%- favicon_tag('favicon.png') %>
+    <%- favicon_tag('/img/favicon.ico') %>
     <% if (config.feed) { %>
       <%- feed_tag() %>
     <% } else if (theme.rss) { %>
@@ -40,7 +40,6 @@
       rel="stylesheet"
     />
     <%- css('css/blog.css') %>
-    <link rel="icon" href="/favicon.ico" />
   </head>
   <body>
     <div class="container">
