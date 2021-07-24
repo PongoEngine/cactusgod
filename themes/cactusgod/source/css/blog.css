@@ -73,7 +73,7 @@ h2 {
 h3 {
   line-height: 6rem;
   font-size: 3.90625rem;
-  border-left: 1rem solid #f8f8f025;
+  border-left: 0.5rem solid #f8f8f025;
   padding-left: 1rem;
 }
 
@@ -94,13 +94,14 @@ h6 {
 
 footer,
 nav,
+ol,
 ul,
 p {
   margin-bottom: 3rem;
   line-height: 3rem;
   font-size: 1.6rem;
 }
-ul {
+ul, ol {
   padding-left: 3rem;
 }
 ul.blog-nav {
