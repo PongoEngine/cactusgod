@@ -6,7 +6,7 @@
         <%- item.title %>&nbsp;
       </a>
     <% } else { %>
-      <%- item.title %>
+      <%- item.title %><% if (!item.completed){ %> - <span class="italic">In Progress</span><% } %>
     <% } %>
   </h2>
   <% if (!index){ %>

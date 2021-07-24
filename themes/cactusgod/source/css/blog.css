@@ -45,6 +45,9 @@ a {
 .post p strong {
   color: #E6DB74;
 }
+.post .italic {
+  font-style: italic;
+}
 
 h1,
 h2,
