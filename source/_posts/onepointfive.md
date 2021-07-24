@@ -1,5 +1,6 @@
 ---
 title: One Point 5
+album: twtwelve
 date: 2012/7/23
 excerpt: Mlkshk meh vice yuccie gochujang pabst pickled gentrify. Knausgaard brunch chartreuse sustainable next level la croix palo santo. Ramps 90’s succulents viral fixie, glossier roof party seitan mumblecore food truck hot chicken. Taiyaki intelligentsia brooklyn chartreuse, gochujang narwhal VHS tofu truffaut scenester forage woke. Quinoa enamel pin bicycle rights craft beer. Marfa small batch neutra godard lumbersexual cred raclette letterpress, man braid ugh vegan blog palo santo. Subway tile 3 wolf moon yuccie adaptogen celiac roof party.
 ---
