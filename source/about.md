@@ -1,5 +1,5 @@
 ---
-title: 
+title: About
 ---
 ### About Me
 My name is Jeremy Meltingtallow and I wanted to be a rapper until 2005/6ish. I ended up studying computer science and became a game developer. I guess I'm not really a game developer anymore.

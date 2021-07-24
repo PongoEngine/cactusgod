@@ -1,7 +1,9 @@
 <div class="post">
   <!-- Title -->
   <h2 class="post-title">
-    <%- item.title %>
+    <% if (item.title != 'About'){ %>
+      <%- item.title %>
+    <% } %>
   </h2>
 
   <!-- Content -->
