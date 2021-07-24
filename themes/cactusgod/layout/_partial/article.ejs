@@ -9,9 +9,11 @@
       <%- item.title %>
     <% } %>
   </h2>
-  <p class="post-date">
-    <%= item.date.format(config.date_format) %>
-  </p>
+  <% if (!index){ %>
+    <p class="post-date">
+      <%= item.date.format(config.date_format) %>
+    </p>
+  <% } %>
   <% if (item.excerpt && index){ %>
     <p><%- item.excerpt %></p>
   <% } else { %>
