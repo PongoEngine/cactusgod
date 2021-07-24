@@ -12,6 +12,7 @@ Ten minutes roll to tweleve. Today feels like a distant morning. Whatever. She p
 
 Lorainne looks at her watch. She's still late.
 
+
 ### Structure
 Verse / Chorus / Verse / Chorus / Bridge / Chorus
 
