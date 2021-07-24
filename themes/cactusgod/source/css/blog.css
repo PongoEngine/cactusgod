@@ -107,21 +107,11 @@ li.blog-nav-item {
   display: inline-block;
   margin-right: 1rem;
 }
-li.blog-nav-item a {
+a {
   text-decoration: underline;
 }
-li.blog-nav-item a:hover {
+a:hover {
   text-decoration: none;
-}
-
-/* a.highlight {
-  color: #E6DB74;
-} */
-a, a.highlight:hover {
-  text-decoration: none;
-}
-a:hover, a.highlight {
-  text-decoration: underline;
 }
 
 .page-number {
