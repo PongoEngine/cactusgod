@@ -56,7 +56,7 @@ Tempo is the speed or pace of a given piece. The tempo may change multiple times
 Kinfolk echo park kickstarter neutra, blue bottle chicharrones pabst tbh XOXO mlkshk edison bulb deep v waistcoat helvetica forage. Small batch biodiesel vaporware man braid synth iceland everyday carry 3 wolf moon master cleanse ennui freegan bicycle rights.
 
 ### Optional: 
-Bespoke you probably haven't heard of them readymade, franzen ethical mumblecore meggings salvia air plant put a bird on it 8-bit helvetica tacos. Vexillologist af ethical jianbing.
+An optional attribute does not need to be included in a musical document.
 
 #### Lyrics
 Lyrics are rooted from the story. If lyrics are present in a song they do not need to completely tell the story.
