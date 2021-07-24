@@ -62,5 +62,18 @@ An optional attribute does not need to be included in a musical document.
 Lyrics are rooted from the story. If lyrics are present in a song they do not need to completely tell the story.
 
 #### Dynamics
-Plaid cardigan wolf iceland XOXO helvetica. Synth heirloom twee, taiyaki pok pok coloring book iceland 8-bit disrupt bushwick kombucha 90's.
+Dynamics are one of the expressive elements of music. Used effectively, dynamics help musicians sustain variety and interest in a musical performance, and communicate a particular emotional state or feeling.
+* p or piano, meaning "quiet".
+* f or forte, meaning "loud or strong".
+* mp, standing for mezzo-piano, meaning "moderately quiet".
+* mf, standing for mezzo-forte, meaning "moderately loud".
+* più p, standing for più piano and meaning "more quiet".
+* più f, standing for più forte and meaning "more loud".
+* pp, standing for pianissimo and meaning "very quiet".
+* ff, standing for fortissimo and meaning "very loud".
+* ppp ("triple piano"), standing for pianississimo and meaning "very very quiet".
+* fff ("triple forte"), standing for fortississimo and meaning "very very loud".
+* crescendo (abbreviated cresc.) translates as "increasing" (literally "growing")
+* decrescendo (abbreviated to decresc.) translates as "decreasing".
+* diminuendo (abbreviated dim.) translates as "diminishing".
 
