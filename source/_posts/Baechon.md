@@ -19,6 +19,7 @@ Verse / Chorus / Verse / Chorus / Bridge / Chorus
 ### Global
 **Scale / Key** - C# Minor
 **Tempo** - Andante moderato
+**Time Signature** - 7/8
 
 ### Verse1
 
