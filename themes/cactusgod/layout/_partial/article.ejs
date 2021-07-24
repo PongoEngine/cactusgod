@@ -1,9 +1,13 @@
 <div class="post">
   <!-- Title -->
   <h2 class="post-title">
-    <a href="<%- config.root %><%- item.path %>">
+    <% if (index){ %>
+      <a class="highlight" href="<%- config.root %><%- item.path %>">
+        <%- item.title %>&nbsp;
+      </a>
+    <% } else { %>
       <%- item.title %>
-    </a>
+    <% } %>
   </h2>
   <p class="post-date">
     <%= item.date.format(config.date_format) %>
