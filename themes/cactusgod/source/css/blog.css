@@ -105,53 +105,43 @@ h6 {
   line-height: 3rem;
   font-size: 2rem;
 }
-
+.tubs-container {
+  overflow-x: auto;
+}
 .tubs {
   font-size: 1.6rem;
-  /* font-family: monospace; */
-  /* border-bottom: 2px solid #E69F66; */
   border-top: 2px solid #E69F66;
   border-left: 1rem solid #E69F66;
-  display: inline-block;
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
   color: #E69F66;
-}
-.tubs .row {
-  /* margin-bottom: 1rem; */
-}
-.tubs .row:last-child {
-  margin-bottom: 0;
+  table-layout: fixed;
+  max-width: fit-content;
+  white-space: nowrap;
 }
 .tubs .cell {
   width: 20px;
+  min-width: 20px;
   height: 20px;
-  display: inline-block;
   border: 1px solid #75715E;
-  border-right: none;
-  border-bottom: none;
   text-align: center;
   user-select: none;
+  border-bottom: 0px;
+  border-right: 0px;
+  margin-bottom: -1px;
+}
+.tubs .title {
+  padding-left: 1rem;
   font-weight: 700;
 }
-.tubs .cell:last-child {
-  border-right: 1px solid #75715E;
-}
-
 .tubs .cell.down {
-  /* background-color: #141413; */
   border-left-color: #E69F66;
   border-left-width: 0.5rem;
 }
 .tubs .cell.empty {
   color: #75715E;
   font-weight: 400;
-}
-.tubs .spacer {
-  display: inline-block;
-  width: 1rem;
-  border-left: 1px solid #75715E;
 }
 
 footer,

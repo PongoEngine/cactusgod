@@ -1,10 +1,10 @@
 function getSepIndex(timeSig) {
-    if(!timeSig) {
+    if (!timeSig) {
         return undefined
     }
     const reg = /(\d+)\/(\d+)/gm;
     const matches = reg.exec(timeSig);
-    if(matches) {
+    if (matches) {
         return matches[1]
     }
     return undefined
@@ -20,33 +20,33 @@ function parseTubs(str, timeSig) {
             const line = str.split("").filter(char => {
                 return char !== "|"
             }).map((char, index) => {
-                if(char === " ") {
+                if (char === " ") {
                     hasSpace = true
-                    return "<span class='spacer'></span>"
+                    return "<td class='title'>"
                 }
-                if(hasSpace) {
+                if (hasSpace) {
                     return char
                 }
-                if(char.toLowerCase() === ".") {
+                if (char.toLowerCase() === ".") {
                     char = '•'
                 }
-                else if(char.toLowerCase() === "o") {
+                else if (char.toLowerCase() === "o") {
                     char = '⚬'
                 }
-                else if(char.toLowerCase() === "x") {
+                else if (char.toLowerCase() === "x") {
                     char = '✖'
                 }
                 const charClass = char === "-" ? "empty" : ""
                 const isDown = index % sepIndex === 0;
                 const downClass = isDown ? "down" : ""
                 const cellClass = ["cell", charClass, downClass].filter(str => str.length).join(" ");
-                return `<span class="${cellClass}">${char}</span>`
+                return `<td class="${cellClass}">${char}</td>`
             }).join("")
-            return `<div class="row">${line}</div>`
+            return `<tr class="row">${line}</td></tr>`
         }).join("")
-    return `<div class="tubs">${lines}</div>`
+    return `<div class="tubs-container"><table cellspacing="0" cellpadding="1" class="tubs"><tbody>${lines}</tbody></table></div>`
 }
 
 hexo.extend.tag.register("tubs", function (args, content) {
     return parseTubs(content, args);
-}, {ends: true});
+}, { ends: true });
