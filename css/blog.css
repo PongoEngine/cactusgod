@@ -115,10 +115,7 @@ h6 {
 }
 .tubs {
   font-size: 1.6rem;
-  border-top: 2px solid #E69F66;
-  border-left: 1rem solid #E69F66;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  border-left: 1rem solid #e6a06685;
   padding-left: 1rem;
   color: #E69F66;
   table-layout: fixed;
@@ -131,7 +128,8 @@ h6 {
   width: 20px;
   min-width: 20px;
   height: 20px;
-  border: 1px solid #75715E;
+  border-top: 1px solid #E69F66;
+  border-left: 1px solid #75715E;
   text-align: center;
   -webkit-user-select: none;
      -moz-user-select: none;
