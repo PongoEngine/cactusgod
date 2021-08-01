@@ -27,6 +27,15 @@ function parseTubs(str, timeSig) {
                 if(hasSpace) {
                     return char
                 }
+                if(char.toLowerCase() === ".") {
+                    char = '•'
+                }
+                else if(char.toLowerCase() === "o") {
+                    char = '⚬'
+                }
+                else if(char.toLowerCase() === "x") {
+                    char = '✖'
+                }
                 const charClass = char === "-" ? "empty" : ""
                 const isDown = index % sepIndex === 0;
                 const downClass = isDown ? "down" : ""

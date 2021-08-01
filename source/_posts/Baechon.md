@@ -24,7 +24,7 @@ Verse / Chorus / Verse / Chorus / Bridge / Chorus
 
 ### Verse1
 {% tubs 7/8 %}
-x-x--x-|----x--|-----x-|-x----- Bass
+x--xx--|-x--x--|o-.--x-|-x----- Bass
 --x--x-|---x--x|---x--x|--x---x Vocals
 -x-----|x------|x------|x------ HiHats
 -------|-------|-------|------- Snare
