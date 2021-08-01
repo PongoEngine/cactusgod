@@ -135,3 +135,6 @@ autoprefixer:
     - '*.min.css'
   browsers:
     - 'last 2 versions'
+
+server:
+  cache: false

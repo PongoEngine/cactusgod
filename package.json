@@ -5,8 +5,10 @@
   "scripts": {
     "build": "hexo generate",
     "clean": "hexo clean",
+    "tubs": "node ./tubs.js",
     "deploy": "hexo deploy",
-    "server": "hexo server"
+    "server": "hexo server",
+    "serve": "hexo clean; hexo server"
   },
   "hexo": {
     "version": "5.4.0"
