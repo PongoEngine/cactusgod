@@ -31,11 +31,41 @@ x--xx--|-x--x--|o-.--x-|-x----- Bass
 {% endtubs %}
 
 ### Chorus1
+{% tubs 7/8 %}
+x--xx--|-x--x--|o-.--x-|-x----- Bass
+--x--x-|---x--x|---x--x|--x---x Vocals
+-x-----|x------|x------|x------ HiHats
+-------|-------|-------|------- Snare
+{% endtubs %}
 
 ### Verse2
+{% tubs 7/8 %}
+x--xx--|-x--x--|o-.--x-|-x----- Bass
+--x--x-|---x--x|---x--x|--x---x Vocals
+-x-----|x------|x------|x------ HiHats
+-------|-------|-------|------- Snare
+{% endtubs %}
 
 ### Chorus2
+{% tubs 7/8 %}
+x--xx--|-x--x--|o-.--x-|-x----- Bass
+--x--x-|---x--x|---x--x|--x---x Vocals
+-x-----|x------|x------|x------ HiHats
+-------|-------|-------|------- Snare
+{% endtubs %}
 
 ### Bridge
+{% tubs 7/8 %}
+x--xx--|-x--x--|o-.--x-|-x----- Bass
+--x--x-|---x--x|---x--x|--x---x Vocals
+-x-----|x------|x------|x------ HiHats
+-------|-------|-------|------- Snare
+{% endtubs %}
 
 ### Chorus3
+{% tubs 7/8 %}
+x--xx--|-x--x--|o-.--x-|-x----- Bass
+--x--x-|---x--x|---x--x|--x---x Vocals
+-x-----|x------|x------|x------ HiHats
+-------|-------|-------|------- Snare
+{% endtubs %}

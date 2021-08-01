@@ -107,6 +107,7 @@ h6 {
 }
 .tubs-container {
   overflow-x: auto;
+  margin-bottom: 3rem;
 }
 .tubs {
   font-size: 1.6rem;
