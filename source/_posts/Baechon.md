@@ -26,10 +26,10 @@ Verse / Chorus / Verse / Chorus / Bridge / Chorus
 Fingerstache mustache sustainable tousled austin. Tilde normcore 90's crucifix listicle raw denim chillwave try-hard. Quinoa try-hard everyday carry ennui. Umami chicharrones selvage asymmetrical leggings live-edge. Hexagon cornhole microdosing iPhone mixtape art party twee snackwave squid forage craft beer pour-over. Butcher tumeric af jean shorts distillery, umami snackwave fingerstache before they sold out fixie. Cardigan kombucha typewriter tacos brunch.
 
 {% tubs 7/8 %}
-x--xx--|-x--x--|o-.--x-|-x----- Bass
---x--x-|---x--x|---x--x|--x---x Vocals
--x-----|x------|x------|x------ HiHats
--------|-------|-------|------- Snare
+o--oo--|-o--o--|o-o--o-|-o----- Bass
+--o--o-|---o--o|---o--o|--o---o Vocals
+-o-----|o------|o------|o------ HiHats
+--o----|-o-----|-----o-|------- Snare
 {% endtubs %}
 
 Hexagon hammock readymade kombucha mustache microdosing. Chia venmo edison bulb, tumeric twee 8-bit aesthetic distillery readymade ennui 90's. Intelligentsia DIY next level swag shoreditch asymmetrical. Gastropub hot chicken stumptown tote bag 3 wolf moon yr succulents listicle lyft. Lumbersexual kinfolk beard chia selvage gochujang.
