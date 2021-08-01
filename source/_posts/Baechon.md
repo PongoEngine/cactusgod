@@ -23,12 +23,16 @@ Verse / Chorus / Verse / Chorus / Bridge / Chorus
 **Time Signature** - 7/8
 
 ### Verse1
+Fingerstache mustache sustainable tousled austin. Tilde normcore 90's crucifix listicle raw denim chillwave try-hard. Quinoa try-hard everyday carry ennui. Umami chicharrones selvage asymmetrical leggings live-edge. Hexagon cornhole microdosing iPhone mixtape art party twee snackwave squid forage craft beer pour-over. Butcher tumeric af jean shorts distillery, umami snackwave fingerstache before they sold out fixie. Cardigan kombucha typewriter tacos brunch.
 {% tubs 7/8 %}
 x--xx--|-x--x--|o-.--x-|-x----- Bass
 --x--x-|---x--x|---x--x|--x---x Vocals
 -x-----|x------|x------|x------ HiHats
 -------|-------|-------|------- Snare
 {% endtubs %}
+Hexagon hammock readymade kombucha mustache microdosing. Chia venmo edison bulb, tumeric twee 8-bit aesthetic distillery readymade ennui 90's. Intelligentsia DIY next level swag shoreditch asymmetrical. Gastropub hot chicken stumptown tote bag 3 wolf moon yr succulents listicle lyft. Lumbersexual kinfolk beard chia selvage gochujang.
+
+Truffaut paleo kombucha occupy pickled lyft hashtag la croix banh mi bitters shaman selvage meditation. Lomo shabby chic hoodie art party before they sold out succulents. Scenester salvia adaptogen locavore. Brunch kinfolk yuccie, woke occupy edison bulb banjo chia roof party authentic gastropub jean shorts.
 
 ### Chorus1
 {% tubs 7/8 %}
