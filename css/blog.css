@@ -115,9 +115,9 @@ h6 {
 }
 .tubs {
   font-size: 1.6rem;
-  border-left: 1rem solid #e6a06685;
+  border-left: 0.5rem solid #e6db7450;
   padding-left: 1rem;
-  color: #E69F66;
+  color: #e6db74;
   table-layout: fixed;
   max-width: -webkit-fit-content;
   max-width: -moz-fit-content;
@@ -128,8 +128,8 @@ h6 {
   width: 20px;
   min-width: 20px;
   height: 20px;
-  border-top: 1px solid #E69F66;
-  border-left: 1px solid #75715E;
+  border-top: 1px solid #e6db74;
+  border-left: 1px solid #e6db7450;
   text-align: center;
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -143,7 +143,7 @@ h6 {
   padding-left: 1rem;
 }
 .tubs .cell.down {
-  border-left-color: #E69F66;
+  border-left-color: #e6db74;
   border-left-width: 0.5rem;
 }
 .tubs .cell.empty {
