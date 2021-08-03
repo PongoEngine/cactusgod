@@ -42,9 +42,14 @@
     <%- css('css/blog.css') %>
   </head>
   <body>
+    <div class="header-container">
+      <div class="container">
+      <%- partial('_partial/header') %> 
+      </div>
+    </div>  
     <div class="container">
-      <%- partial('_partial/header') %> <%- body %> <%-
-      partial('_partial/footer') %>
+      <%- body %> 
+      <%- partial('_partial/footer') %>
     </div>
   </body>
 </html>

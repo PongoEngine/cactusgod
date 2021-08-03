@@ -53,10 +53,9 @@ h2 {
 h3 {
   line-height: 6rem;
   font-size: 3.90625rem;
-  border-left: 0.5rem solid var(--main-yellow);
-  padding-left: 1rem;
-  border-top-left-radius: var(--border-radius);
+  border-bottom: 0.5rem solid var(--bright-yellow);
   border-bottom-left-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
 }
 
 h4 {
@@ -105,7 +104,7 @@ a {
   max-width: 1200px;
   width: calc(100% - 40px);
   margin: 0 auto;
-  padding: 20px;
+  padding: 0 20px;
 }
 
 .blinking-cursor {
@@ -150,8 +149,7 @@ a {
 }
 .tubs {
   font-size: 1.6rem;
-  /* border-left: 0.5rem solid var(--soft-blue); */
-  padding-left: 2rem;
+  padding-left: 1rem;
   color: var(--bright-yellow);
   table-layout: fixed;
   max-width: fit-content;
@@ -185,8 +183,8 @@ a {
   font-weight: 400;
 }
 
-
 ul.blog-nav {
+  margin-top: 0;
   padding-left: 0;
   list-style: none;
 }
@@ -194,11 +192,17 @@ li.blog-nav-item {
   display: inline-block;
   margin-right: 1rem;
 }
-a {
-  text-decoration: underline;
+ul.blog-nav a {
+  color: var(--main-bg-color);
 }
 a:hover {
   text-decoration: none;
+}
+.header-container {
+  padding-top: 1rem;
+  background: var(--bright-yellow);
+  color: var(--main-bg-color);
+  margin: 0;
 }
 
 .page-number {
@@ -211,6 +215,6 @@ a:hover {
     color: transparent;
   }
   50% {
-    color: var(--bright-yellow);
+    color: var(--main-bg-color);
   }
 }

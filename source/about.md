@@ -1,8 +1,7 @@
 ---
 title: About
 ---
-### Cactus God
-My name is Jeremy Meltingtallow and I wanted to be a rapper until 2005/6ish. I ended up studying computer science and became a game developer. I guess I'm not really a game developer anymore.
+My name is Jeremy and I wanted to be a rapper until 2005/6ish. I ended up studying computer science and became a game developer. I guess I'm not really a game developer anymore.
 
 After school is weird. I don't know what I am or who I want to be but **I would like to make music again**.
 
