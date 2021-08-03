@@ -8,7 +8,7 @@
   --main-orange: #F25C05;
   --main-red: #F20505;
 
-  --bright-yellow: #ebe6d7;
+  --bright-white: #fff;
   --soft-blue: #4d5f6e;
   --border-radius: 0.25rem;
 }
@@ -51,7 +51,7 @@ h2 {
 h3 {
   line-height: 6rem;
   font-size: 3.90625rem;
-  border-bottom: 0.5rem solid var(--bright-yellow);
+  border-bottom: 0.5rem solid var(--bright-white);
   border-bottom-left-radius: var(--border-radius);
   border-bottom-right-radius: var(--border-radius);
 }
@@ -93,10 +93,10 @@ body {
 }
 body,
 a {
-  color: var(--bright-yellow);
+  color: var(--bright-white);
 }
 ::selection {
-  background: var(--bright-yellow);
+  background: var(--bright-white);
 }
 
 .container {
@@ -107,7 +107,7 @@ a {
 }
 
 .blinking-cursor {
-  color: var(--bright-yellow);
+  color: var(--bright-white);
   animation: 1s blink step-end infinite;
 }
 
@@ -129,7 +129,7 @@ a {
 }
 .post {
   padding-top: 1em;
-  border-bottom: 1px solid var(--bright-yellow);
+  border-bottom: 1px solid var(--bright-white);
 }
 .post p {
   max-width: 800px;
@@ -143,7 +143,7 @@ a {
 .tubs {
   font-size: 1.6rem;
   padding-left: 1rem;
-  color: var(--bright-yellow);
+  color: var(--bright-white);
   table-layout: fixed;
   max-width: fit-content;
   white-space: nowrap;
@@ -182,20 +182,23 @@ li.blog-nav-item {
   margin-right: 1rem;
 }
 ul.blog-nav a {
-  color: var(--main-bg-color);
+  /* color: var(--main-bg-color); */
 }
 a:hover {
   text-decoration: none;
 }
 .header-container {
   padding-top: 1rem;
-  background-color: var(--main-red);
-  color: var(--main-bg-color);
+  /* background-color: var(--main-red); */
+  /* color: var(--main-bg-color); */
   margin: 0;
-  border-bottom: 1rem solid var(--main-gold);
+  border-bottom: 0.5rem solid var(--main-yellow);
 }
 header h1 {
   margin-bottom: 0;
+}
+.header-title {
+  /* text-shadow: -0rem -0.125rem 0 var(--main-yellow); */
 }
 
 .page-number {
