@@ -8,7 +8,7 @@
   --main-orange: #F25C05;
   --main-red: #F20505;
 
-  --bright-yellow: #e0d6b7;
+  --bright-yellow: #ebe6d7;
   --soft-blue: #4d5f6e;
   --border-radius: 0.25rem;
 }
@@ -140,7 +140,7 @@ a {
   max-width: 800px;
 }
 .post p strong {
-  color: var(--bright-yellow);
+  /* color: var(--main-yellow); */
 }
 .post .italic {
   font-style: italic;
@@ -205,9 +205,13 @@ a:hover {
 }
 .header-container {
   padding-top: 1rem;
-  background: var(--bright-yellow);
+  background: var(--main-red);
   color: var(--main-bg-color);
   margin: 0;
+  border-bottom: 1rem solid var(--main-gold);
+}
+header h1 {
+  margin-bottom: 0;
 }
 
 .page-number {
