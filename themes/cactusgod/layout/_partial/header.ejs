@@ -1,12 +1,17 @@
 <header>
-  <ul class="blog-nav">
-    <% for (var item in theme.menu){ %>
-    <li class="blog-nav-item">
-      <a href="<%- url_for(theme.menu[item]) %>"><%= item %></a>
-    </li>
-    <% } %>
-  </ul>
-  <h1>
-    <span class="header-title">Cactus God</span><span class="blinking-cursor">|</span>
-  </h1>
+  <div class="container">
+    <ul class="blog-nav">
+      <% for (var item in theme.menu){ %>
+      <li class="blog-nav-item">
+        <a href="<%- url_for(theme.menu[item]) %>"><%= item %></a>
+      </li>
+      <% } %>
+    </ul>
+  </div>
+  <div class="container">
+    <h1>
+      <span class="header-title">Cactus God</span><span class="blinking-cursor">|</span>
+    </h1>
+  </div>
+  <div class="header-line"></div>
 </header>
