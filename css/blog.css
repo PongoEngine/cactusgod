@@ -23,6 +23,12 @@ body {
   letter-spacing: 0em;
 }
 
+@media only screen and (max-width: 750px) {
+  html {
+    font-size: 9px;
+  }
+}
+
 h1,
 h2,
 h3,
@@ -138,10 +144,22 @@ a {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 120rem;
   margin: 0;
-  padding: 0 20px;
+  padding: 0 2rem;
   border-left: 20vw solid var(--main-gold-dark);
+}
+
+@media only screen and (max-width: 750px) {
+  .container {
+    padding: 0 1rem;
+    border-left: 10vw solid var(--main-gold-dark);
+  }
+}
+@media only screen and (max-width: 450px) {
+  .container {
+    border-left: 5vw solid var(--main-gold-dark);
+  }
 }
 
 .blinking-cursor {
@@ -168,7 +186,7 @@ a {
   border-bottom: 1px solid var(--bright-white);
 }
 .post p {
-  max-width: 800px;
+  max-width: 80rem;
 }
 
 /** Tubs **/
