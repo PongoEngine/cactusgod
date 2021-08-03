@@ -31,10 +31,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Playfair Display";
+  font-family: 'IBM Plex Serif', serif;
   letter-spacing: 0em;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   margin-bottom: 3rem;
 }
 
@@ -134,12 +134,6 @@ a {
 .post p {
   max-width: 800px;
 }
-.post p strong {
-  /* color: var(--main-yellow); */
-}
-.post .italic {
-  font-style: italic;
-}
 
 /** Tubs **/
 .tubs-container {
@@ -195,7 +189,7 @@ a:hover {
 }
 .header-container {
   padding-top: 1rem;
-  background: var(--main-red);
+  background-color: var(--main-red);
   color: var(--main-bg-color);
   margin: 0;
   border-bottom: 1rem solid var(--main-gold);
