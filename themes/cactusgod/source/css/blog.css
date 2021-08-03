@@ -8,7 +8,7 @@
 
   --bright-yellow: #e0d6b7;
   --soft-blue: #4d5f6e;
-
+  --border-radius: 0.25rem;
 }
 
 html,
@@ -94,7 +94,9 @@ h1 {
 h2 {
   line-height: 6rem;
   font-size: 4.88281em;
-  border-bottom: 1px solid var(--bright-yellow);
+  border-bottom: 1rem solid var(--bright-yellow);
+  border-bottom-left-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
 }
 
 h3 {
@@ -102,6 +104,8 @@ h3 {
   font-size: 3.90625rem;
   border-left: 0.5rem solid var(--main-yellow);
   padding-left: 1rem;
+  border-top-left-radius: var(--border-radius);
+  border-bottom-left-radius: var(--border-radius);
 }
 
 h4 {
@@ -124,12 +128,14 @@ h6 {
 }
 .tubs {
   font-size: 1.6rem;
-  border-left: 0.5rem solid var(--main-yellow);
+  border-left: 0.5rem solid var(--main-blue);
   padding-left: 1rem;
   color: var(--bright-yellow);
   table-layout: fixed;
   max-width: fit-content;
   white-space: nowrap;
+  border-top-left-radius: var(--border-radius);
+  border-bottom-left-radius: var(--border-radius);
 }
 .tubs .cell {
   width: 20px;
@@ -149,6 +155,9 @@ h6 {
 .tubs .cell.down {
   border-left-color: var(--soft-blue);
   border-left-width: 0.5rem;
+  /* border-radius: 4px; */
+  border-top-left-radius: var(--border-radius);
+  border-bottom-left-radius: var(--border-radius);
 }
 .tubs .cell.empty {
   color: var(--soft-blue);
