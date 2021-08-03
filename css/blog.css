@@ -1,7 +1,6 @@
 /** Variables **/
 :root {
-  --main-bg-color: #161718;
-  --secondary-bg-color: #181613;
+  --main-bg-color: #202225;
   --main-blue: #308AD9;
   --main-yellow: #F2B705;
   --main-gold: #F28705;
@@ -89,8 +88,6 @@ ol {
 body {
   margin: 0;
   background-color: var(--main-bg-color);
-  background-image: -webkit-gradient(linear, left bottom, left top, from(var(--main-bg-color)), to(var(--secondary-bg-color)));
-  background-image: linear-gradient(0deg, var(--main-bg-color), var(--secondary-bg-color));
 }
 body,
 a {
