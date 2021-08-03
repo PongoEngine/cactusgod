@@ -245,7 +245,7 @@ header h1 {
     color: transparent;
   }
   50% {
-    color: var(--main-bg-color);
+    color: var(--bright-white);
   }
 }
 
@@ -255,6 +255,6 @@ header h1 {
     color: transparent;
   }
   50% {
-    color: var(--main-bg-color);
+    color: var(--bright-white);
   }
 }
