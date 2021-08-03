@@ -4,6 +4,7 @@
   --main-blue: #308AD9;
   --main-yellow: #F2B705;
   --main-gold: #F28705;
+  --main-gold-dark: #22262b;
   --main-orange: #F25C05;
   --main-red: #F20505;
 
@@ -11,8 +12,6 @@
   --soft-blue: #4d5f6e;
   --border-radius: 0.25rem;
 }
-
-
 
 /** Base Typography **/
 html,
@@ -45,22 +44,22 @@ h1 {
 
 h2 {
   line-height: 6rem;
-  border-left: 3rem solid var(--main-red);
-  padding-left: 1.5rem;
+  border-left: 0.5rem solid var(--main-red);
+  padding-left: 1rem;
   font-size: 4.88281em;
 }
 
 h3 {
   line-height: 6rem;
-  border-left: 3rem solid var(--main-orange);
-  padding-left: 1.5rem;
+  border-left: 0.5rem solid var(--main-orange);
+  padding-left: 1rem;
   font-size: 3.90625rem;
 }
 
 h4 {
   line-height: 6rem;
-  border-left: 3rem solid var(--main-yellow);
-  padding-left: 1.5rem;
+  border-left: 0.5rem solid var(--main-yellow);
+  padding-left: 1rem;
   font-size: 3.125rem;
 }
 
@@ -88,6 +87,10 @@ ul,
 ol {
   padding-left: 3rem;
 }
+footer {
+  margin-bottom: 0;
+  padding-bottom: 0.5rem;
+}
 
 /** Base Structure **/
 body {
@@ -104,9 +107,9 @@ a {
 
 .container {
   max-width: 1200px;
-  width: calc(100% - 40px);
-  margin: 0 auto;
+  margin: 0;
   padding: 0 20px;
+  border-left: 20vw solid var(--main-gold-dark);
 }
 
 .blinking-cursor {
@@ -172,6 +175,7 @@ a {
 }
 
 ul.blog-nav {
+  padding-top: 1rem;
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
@@ -188,9 +192,6 @@ a:hover {
   width: 100%;
   height: 0.25rem;
   background-color: var(--main-yellow);
-}
-header {
-  padding-top: 1rem;
 }
 header h1 {
   margin-bottom: 0;
