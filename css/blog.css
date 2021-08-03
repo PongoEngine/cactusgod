@@ -1,6 +1,7 @@
 /** Variables **/
 :root {
   --main-bg-color: #161718;
+  --secondary-bg-color: #181613;
   --main-blue: #308AD9;
   --main-yellow: #F2B705;
   --main-gold: #F28705;
@@ -45,9 +46,6 @@ h1 {
 h2 {
   line-height: 6rem;
   font-size: 4.88281em;
-  border-bottom: 1rem solid var(--bright-yellow);
-  border-bottom-left-radius: var(--border-radius);
-  border-bottom-right-radius: var(--border-radius);
 }
 
 h3 {
@@ -91,6 +89,8 @@ ol {
 body {
   margin: 0;
   background-color: var(--main-bg-color);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(var(--main-bg-color)), to(var(--secondary-bg-color)));
+  background-image: linear-gradient(0deg, var(--main-bg-color), var(--secondary-bg-color));
 }
 body,
 a {
@@ -160,8 +160,6 @@ a {
   max-width: -moz-fit-content;
   max-width: fit-content;
   white-space: nowrap;
-  border-top-left-radius: var(--border-radius);
-  border-bottom-left-radius: var(--border-radius);
 }
 .tubs .cell {
   width: 20px;
@@ -184,8 +182,6 @@ a {
 .tubs .cell.down {
   border-left-color: var(--soft-blue);
   border-left-width: 0.5rem;
-  border-top-left-radius: var(--border-radius);
-  border-bottom-left-radius: var(--border-radius);
 }
 .tubs .cell.empty {
   color: var(--soft-blue);
