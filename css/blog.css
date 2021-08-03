@@ -35,6 +35,16 @@ h6 {
   font-weight: 400;
   margin-bottom: 1.5rem;
   margin-top: 6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 h1 {
@@ -44,23 +54,42 @@ h1 {
 
 h2 {
   line-height: 6rem;
-  border-left: 0.5rem solid var(--main-red);
-  padding-left: 1rem;
-  font-size: 4.88281em;
+  font-size: 4.88281rem;
+}
+
+h2::before {
+  content: "";
+  width: 4.1rem;
+  height: 4.1rem;
+  margin-right: 1rem;
+  background-color: var(--main-red);
 }
 
 h3 {
   line-height: 6rem;
-  border-left: 0.5rem solid var(--main-orange);
-  padding-left: 1rem;
   font-size: 3.90625rem;
+}
+
+
+h3::before {
+  content: "";
+  width: 3.7rem;
+  height: 3.7rem;
+  margin-right: 1rem;
+  background-color: var(--main-orange);
 }
 
 h4 {
   line-height: 6rem;
-  border-left: 0.5rem solid var(--main-yellow);
-  padding-left: 1rem;
   font-size: 3.125rem;
+}
+
+h4::before {
+  content: "";
+  width: 3rem;
+  height: 3rem;
+  margin-right: 1rem;
+  background-color: var(--main-yellow);
 }
 
 h5 {
