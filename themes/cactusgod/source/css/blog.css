@@ -34,7 +34,8 @@ h6 {
   letter-spacing: 0em;
   font-style: normal;
   font-weight: 400;
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
+  margin-top: 6rem;
 }
 
 h1 {
@@ -44,19 +45,22 @@ h1 {
 
 h2 {
   line-height: 6rem;
+  border-left: 3rem solid var(--main-red);
+  padding-left: 1.5rem;
   font-size: 4.88281em;
 }
 
 h3 {
   line-height: 6rem;
+  border-left: 3rem solid var(--main-orange);
+  padding-left: 1.5rem;
   font-size: 3.90625rem;
-  border-bottom: 0.25rem solid var(--bright-white);
-  border-bottom-left-radius: var(--border-radius);
-  border-bottom-right-radius: var(--border-radius);
 }
 
 h4 {
   line-height: 6rem;
+  border-left: 3rem solid var(--main-yellow);
+  padding-left: 1.5rem;
   font-size: 3.125rem;
 }
 
@@ -78,6 +82,7 @@ p {
   margin-bottom: 3rem;
   line-height: 3rem;
   font-size: 1.6rem;
+  margin-top: 0;
 }
 ul,
 ol {
@@ -110,9 +115,6 @@ a {
 }
 
 /** Post **/
-.post-title {
-  margin-bottom: 0rem;
-}
 .post-title a {
   text-decoration: none;
 }
@@ -140,7 +142,6 @@ a {
 }
 .tubs {
   font-size: 1.6rem;
-  padding-left: 1rem;
   color: var(--bright-white);
   table-layout: fixed;
   max-width: fit-content;
