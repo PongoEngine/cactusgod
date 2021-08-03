@@ -32,17 +32,17 @@ o--oo--|-o--o--|o-o--o-|-o----- Bass
 {% endtubs %}
 Hexagon hammock readymade kombucha mustache microdosing. Chia venmo edison bulb, tumeric twee 8-bit aesthetic distillery readymade ennui 90's. Intelligentsia DIY next level swag shoreditch asymmetrical. Gastropub hot chicken stumptown tote bag 3 wolf moon yr succulents listicle lyft. Lumbersexual kinfolk beard chia selvage gochujang.
 {% tubs 7/8 %}
-x--xx--|-x--x--|o-.--x-|-x----- Bass
---x--x-|---x--x|---x--x|--x---x Vocals
--x-----|x------|x------|x------ HiHats
--------|-------|-------|------- Snare
+o--oo--|-o--o--|o-o--o-|-o----- Bass
+--o--o-|---o--o|---o--o|--o---o Vocals
+-o-----|o------|o------|o------ HiHats
+--o----|-o-----|-----o-|------- Snare
 {% endtubs %}
 Truffaut paleo kombucha occupy pickled lyft hashtag la croix banh mi bitters shaman selvage meditation. Lomo shabby chic hoodie art party before they sold out succulents. Scenester salvia adaptogen locavore. Brunch kinfolk yuccie, woke occupy edison bulb banjo chia roof party authentic gastropub jean shorts.
 {% tubs 7/8 %}
-x--xx--|-x--x--|o-.--x-|-x----- Bass
---x--x-|---x--x|---x--x|--x---x Vocals
--x-----|x------|x------|x------ HiHats
--------|-------|-------|------- Snare
+o--oo--|-o--o--|o-o--o-|-o----- Bass
+--o--o-|---o--o|---o--o|--o---o Vocals
+-o-----|o------|o------|o------ HiHats
+--o----|-o-----|-----o-|------- Snare
 {% endtubs %}
 Hexagon cornhole microdosing iPhone mixtape art party twee snackwave squid forage craft beer pour-over. Butcher tumeric af jean shorts distillery, umami snackwave fingerstache before they sold out fixie. Cardigan kombucha typewriter tacos brunch.
 
@@ -54,24 +54,24 @@ Hexagon cornhole microdosing iPhone mixtape art party twee snackwave squid forag
 
 ### Chorus2
 {% tubs 7/8 %}
-x--xx--|-x--x--|o-.--x-|-x----- Bass
---x--x-|---x--x|---x--x|--x---x Vocals
--x-----|x------|x------|x------ HiHats
--------|-------|-------|------- Snare
+o--oo--|-o--o--|o-o--o-|-o----- Bass
+--o--o-|---o--o|---o--o|--o---o Vocals
+-o-----|o------|o------|o------ HiHats
+--o----|-o-----|-----o-|------- Snare
 {% endtubs %}
 
 ### Bridge
 {% tubs 7/8 %}
-x--xx--|-x--x--|o-.--x-|-x----- Bass
---x--x-|---x--x|---x--x|--x---x Vocals
--x-----|x------|x------|x------ HiHats
--------|-------|-------|------- Snare
+o--oo--|-o--o--|o-o--o-|-o----- Bass
+--o--o-|---o--o|---o--o|--o---o Vocals
+-o-----|o------|o------|o------ HiHats
+--o----|-o-----|-----o-|------- Snare
 {% endtubs %}
 
 ### Chorus3
 {% tubs 7/8 %}
-x--xx--|-x--x--|o-.--x-|-x----- Bass
---x--x-|---x--x|---x--x|--x---x Vocals
--x-----|x------|x------|x------ HiHats
--------|-------|-------|------- Snare
+o--oo--|-o--o--|o-o--o-|-o----- Bass
+--o--o-|---o--o|---o--o|--o---o Vocals
+-o-----|o------|o------|o------ HiHats
+--o----|-o-----|-----o-|------- Snare
 {% endtubs %}
