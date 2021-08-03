@@ -155,9 +155,9 @@ a {
   white-space: nowrap;
 }
 .tubs .cell {
-  width: 20px;
-  min-width: 20px;
-  height: 20px;
+  width: 1.5rem;
+  min-width: 1.5rem;
+  height: 1.5rem;
   border-top: 1px solid var(--soft-blue);
   border-left: 1px solid var(--soft-blue);
   text-align: center;
