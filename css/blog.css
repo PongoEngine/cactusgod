@@ -32,7 +32,7 @@ body {
 
 @media only screen and (max-width: 750px) {
   html {
-    font-size: 9px;
+    /* font-size: 9px; */
   }
 }
 
@@ -137,6 +137,8 @@ footer {
 body {
   margin: 0;
   background-color: var(--main-bg-color);
+  /* background-image: url('/img/bg.svg'); */
+  /* background-size: cover; */
 }
 body,
 a {
@@ -214,19 +216,24 @@ a {
 /** Tubs **/
 .tubs-container {
   margin-bottom: 3rem;
-  width:60rem;
+  width: 60rem;
   overflow: auto;
 }
 .tubs {
   font-size: 1.6rem;
   color: var(--bright-white);
   border: 1px solid var(--main-orange);
+  background-image: url("/img/pattern.svg");
+  padding-bottom: 2rem;
+}
+.tubs .row {
+  background-color: var(--main-bg-color);
 }
 .tubs .cell {
   width: 1.5rem;
   min-width: 1.5rem;
   height: 1.5rem;
-  border-left: 1px solid var(--main-orange);
+  border-bottom: 1px solid var(--main-orange);
   text-align: center;
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -234,13 +241,18 @@ a {
           user-select: none;
 }
 .tubs .title {
-  display: inline-block;
-  padding-left: 1rem;
+  height: 2.4rem;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 0 1rem;
   border-left: 1px solid var(--main-orange);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .tubs .cell.down {
-  border-left-color: var(--main-orange);
-  border-left-width: 0.5rem;
+  border-left: 0.5rem solid var(--main-orange);
 }
 .tubs .cell.empty {
   color: var(--main-blue);
