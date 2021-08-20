@@ -98,6 +98,10 @@ function parseTubs(str, timeSig) {
       <defs>
         <pattern id="pattern" x="0" y="0" width="${patternWidth}" height="${patternHeight}" patternUnits="userSpaceOnUse">
           <image xlink:href="/img/pattern.svg" x="0" y="0" width="${patternWidth}" height="${patternHeight}"></image>
+          <animateTransform attributeType="xml"
+            attributeName="patternTransform"
+            type="translate" from="0" to="${-patternWidth}" begin="0"
+            dur="2s" repeatCount="indefinite"/>
         </pattern>
       </defs>
       <rect width="${width}" height="${height}" x="0" y="0" fill="#202225" />
