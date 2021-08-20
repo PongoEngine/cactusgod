@@ -55,7 +55,7 @@ function parseTubs(str, timeSig) {
           const cmds = [];
           if (isDown) {
             cmds.push(
-              `<rect width="5" height="${cellDim}" x="${xPos}" y="0" fill="#f25c05" />`
+              `<rect width="2" height="${cellDim}" x="${xPos}" y="0" fill="#f25c05" />`
             );
             xPos += cellDim - textOffset;
           }
