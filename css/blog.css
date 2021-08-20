@@ -107,8 +107,6 @@ footer {
 body {
   margin: 0;
   background-color: var(--main-bg-color);
-  /* background-image: url('/img/bg.svg'); */
-  /* background-size: cover; */
 }
 body,
 a {
@@ -173,6 +171,12 @@ a {
 }
 .post p {
   max-width: 80rem;
+}
+
+.dynamics {
+  width: 100%;
+  max-width: 80rem;
+  margin-bottom: 3rem;
 }
 
 .tubs {
