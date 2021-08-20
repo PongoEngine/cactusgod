@@ -27,7 +27,8 @@ function parseTubs(str, timeSig) {
       height += cellDim;
       let rowTitle = "";
       let hasEquals = false;
-      let xPos = 0;
+      let xPos = 14;
+      let isStart = true;
       const row = str
         .split("")
         .filter((char) => {
@@ -53,15 +54,20 @@ function parseTubs(str, timeSig) {
           const textColor = isEmpty ? "#308ad9" : "#fff";
           const isDown = charIndex % sepIndex === 0;
           const cmds = [];
-          if (isDown) {
-            cmds.push(
-              `<rect width="0.5" height="${cellDim - 1}" x="${xPos}" y="0" fill="#f25c05" />`
-            );
-            xPos += cellDim - textOffset;
-          }
           cmds.push(
             `<text fill="${textColor}" text-anchor="middle" x="${xPos}" y="${textY}">${char}</text>`
           );
+          if (isDown) {
+            if (!isStart) {
+              cmds.push(
+                `<rect width="0.5" height="${cellDim - 1}" x="${
+                  xPos + 9
+                }" y="0" fill="#f28705" />`
+              );
+              xPos += 4;
+            }
+            isStart = false;
+          }
           xPos += cellDim - textOffset;
           if (width < xPos) {
             width = xPos;
@@ -110,9 +116,15 @@ function parseTubs(str, timeSig) {
   }" fill="#f25c05" />
       ${lines}
       <rect fill="url(#pattern)" width="${width}" height="${baseHeight}" x="0" y="${height}" />
-      <rect fill="#f25c05" width="${width}" height="0.5" x="0" y="${height + baseHeight - 0.5}" />
-      <rect fill="#f25c05" width="0.5" height="${baseHeight}" x="0" y="${height}" />
-      <rect fill="#f25c05" width="0.5" height="${height + baseHeight}" x="${width-1}" y="0" />
+      <rect fill="#f25c05" width="${width}" height="0.5" x="0" y="${
+    height + baseHeight - 0.5
+  }" />
+      <rect fill="#f25c05" width="0.5" height="${
+        height + baseHeight
+      }" x="0" y="0" />
+      <rect fill="#f25c05" width="0.5" height="${height + baseHeight}" x="${
+    width - 1
+  }" y="0" />
       <rect fill="#f25c05" width="${width}" height="0.5" x="0" y="0" />
     </svg>`;
 }
