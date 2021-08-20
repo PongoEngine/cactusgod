@@ -166,7 +166,7 @@ a {
 .tubs {
   font-size: 1.6rem;
   color: var(--bright-white);
-  border: 1px solid var(--main-orange);
+  /* border: 1px solid var(--main-orange); */
   max-width: 100%;
   user-select: none;
   margin-bottom: 3rem;

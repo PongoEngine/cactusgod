@@ -55,7 +55,7 @@ function parseTubs(str, timeSig) {
           const cmds = [];
           if (isDown) {
             cmds.push(
-              `<rect width="2" height="${cellDim}" x="${xPos}" y="0" fill="#f25c05" />`
+              `<rect width="0.5" height="${cellDim - 1}" x="${xPos}" y="0" fill="#f25c05" />`
             );
             xPos += cellDim - textOffset;
           }
@@ -78,8 +78,8 @@ function parseTubs(str, timeSig) {
           <text fill="#fff" x="${
             charWidth + xPos
           }" y="${textY}">${rowTitle}</text>
-          <rect width="1" height="${cellDim}" x="${width}" y="0" fill="#f25c05" />
-          <rect width="${width}" height="1" x="0" y="${
+          <rect width="0.5" height="${cellDim}" x="${width}" y="0" fill="#f25c05" />
+          <rect width="${width}" height="0.5" x="0" y="${
         cellDim - 1
       }" fill="#f25c05" />
         </g>
@@ -105,11 +105,15 @@ function parseTubs(str, timeSig) {
         </pattern>
       </defs>
       <rect width="${width}" height="${height}" x="0" y="0" fill="#202225" />
-      <rect width="${width}" height="1" x="0" y="${
+      <rect width="${width}" height="0.5" x="0" y="${
     height - 1
   }" fill="#f25c05" />
       ${lines}
       <rect fill="url(#pattern)" width="${width}" height="${baseHeight}" x="0" y="${height}" />
+      <rect fill="#f25c05" width="${width}" height="0.5" x="0" y="${height + baseHeight - 0.5}" />
+      <rect fill="#f25c05" width="0.5" height="${baseHeight}" x="0" y="${height}" />
+      <rect fill="#f25c05" width="0.5" height="${height + baseHeight}" x="${width-1}" y="0" />
+      <rect fill="#f25c05" width="${width}" height="0.5" x="0" y="0" />
     </svg>`;
 }
 hexo.extend.tag.register(
