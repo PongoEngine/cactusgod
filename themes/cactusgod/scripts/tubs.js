@@ -54,20 +54,20 @@ function parseTubs(str, timeSig) {
           const textColor = isEmpty ? "#308ad9" : "#fff";
           const isDown = charIndex % sepIndex === 0;
           const cmds = [];
-          cmds.push(
-            `<text fill="${textColor}" text-anchor="middle" x="${xPos}" y="${textY}">${char}</text>`
-          );
           if (isDown) {
             if (!isStart) {
               cmds.push(
                 `<rect width="0.5" height="${cellDim - 1}" x="${
-                  xPos + 9
+                  xPos - 6
                 }" y="0" fill="#f28705" />`
               );
               xPos += 4;
             }
             isStart = false;
           }
+          cmds.push(
+            `<text fill="${textColor}" text-anchor="middle" x="${xPos}" y="${textY}">${char}</text>`
+          );
           xPos += cellDim - textOffset;
           if (width < xPos) {
             width = xPos;
