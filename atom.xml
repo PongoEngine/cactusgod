@@ -6,7 +6,7 @@
   <link href="https://cactusgod.com/atom.xml" rel="self"/>
   
   <link href="https://cactusgod.com/"/>
-  <updated>2021-08-21T04:08:29.495Z</updated>
+  <updated>2021-08-21T04:18:09.829Z</updated>
   <id>https://cactusgod.com/</id>
   
   <author>
@@ -17,14 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>baechon</title>
-    <link href="https://cactusgod.com/twtwelve/Baechon/"/>
-    <id>https://cactusgod.com/twtwelve/Baechon/</id>
-    <published>2021-07-23T00:00:00.000Z</published>
-    <updated>2021-08-21T04:08:29.495Z</updated>
+    <title>mini</title>
+    <link href="https://cactusgod.com/twtwelve/mini/"/>
+    <id>https://cactusgod.com/twtwelve/mini/</id>
+    <published>2021-08-21T00:00:00.000Z</published>
+    <updated>2021-08-21T04:18:09.829Z</updated>
     
     
-    <summary type="html">Lorainne sits in the driver seat of her compact car setting up a playlist. Creating playists is one of a growing set that she uses to pass the time. Pass the time. Why does she need to pass time. When she’s driving alone she always has to pass the time. Routine - Grab Keys. Open door. Sit down. Close door. Put keys in the ignition. Twist keys. Turn down the radio. Grab phone. Scroll. Scroll. Scroll. This early Tuesday morning she running behind but feeling extra she opens her booklet of IOUs and borrows ten minutes.</summary>
+    <summary type="html">&lt;svg version=&quot;1.1&quot;
+    width=&quot;2200&quot; viewBox=&quot;0 0 2200 519.3470578890924&quot;
+    class=&quot;dynamics&quot;
+    xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;
+      &lt;defs&gt;
+        &lt;pattern id=&quot;pattern-2&quot; x=&quot;0&quot; y=&quot;0&quot; width=&quot;120&quot; height=&quot;20&quot; patternUnits=&quot;userSpaceOnUse&quot;&gt;
+          &lt;image xlink:href=&quot;/img/pattern.svg&quot; x=&quot;0&quot; y=&quot;0&quot; width=&quot;120&quot; height=&quot;20&quot;&gt;&lt;/image&gt;
+          &lt;animateTransform attributeType=&quot;xml&quot;
+            attributeName=&quot;patternTransform&quot;
+            type=&quot;translate&quot; from=&quot;0&quot; to=&quot;-120&quot; begin=&quot;0&quot;
+            dur=&quot;0.9090909090909091s&quot; repeatCount=&quot;indefinite&quot;/&gt;
+        &lt;/pattern&gt;
+      &lt;/defs&gt;
+      &lt;rect width=&quot;2200&quot; height=&quot;519.3470578890924&quot; x=&quot;0&quot; y=&quot;0&quot; fill=&quot;url(#pattern-2)&quot; /&gt;
+      &lt;polyline points=&quot;0,311.60823473345545 104.76190476190476,311.60823473345545 209.52380952380952,311.60823473345545 314.2857142857143,155.80411736672772 419.04761904761904,155.80411736672772 523.8095238095239,259.6735289445462 628.5714285714287,259.6735289445462 733.3333333333335,259.6735289445462 838.0952380952383,259.6735289445462 942.8571428571431,311.60823473345545 1047.619047619048,311.60823473345545 1152.3809523809527,311.60823473345545 1257.1428571428576,311.60823473345545 1361.9047619047624,311.60823473345545 1466.6666666666672,363.5429405223647 1571.428571428572,311.60823473345545 1676.1904761904768,363.5429405223647 1780.9523809523816,51.93470578890924 1885.7142857142865,51.93470578890924 1990.4761904761913,363.5429405223647 2095.238095238096,467.41235210018317 2200.0000000000005,415.47764631127393 &quot; fill=&quot;none&quot; stroke=&quot;#f25c05&quot; stroke-width=&quot;5&quot; /&gt;
+      &lt;polygon points=&quot;523.8095238095239,242.35302086885744 543.8095238095239,276.994037020235 503.80952380952385,276.994037020235&quot; fill=&quot;none&quot; stroke=&quot;#308ad9&quot; stroke-width=&quot;4&quot; /&gt;
+&lt;polygon points=&quot;942.8571428571431,294.28772665776665 962.8571428571431,328.92874280914424 922.8571428571431,328.92874280914424&quot; fill=&quot;none&quot; stroke=&quot;#308ad9&quot; stroke-width=&quot;4&quot; /&gt;
+&lt;polygon points=&quot;1676.1904761904768,346.2224324466759 1696.1904761904768,380.8634485980535 1656.1904761904768,380.8634485980535&quot; fill=&quot;none&quot; stroke=&quot;#308ad9&quot; stroke-width=&quot;4&quot; /&gt;
+&lt;polygon points=&quot;2095.238095238096,450.0918440244944 2115.238095238096,484.73286017587196 2075.238095238096,484.73286017587196&quot; fill=&quot;none&quot; stroke=&quot;#308ad9&quot; stroke-width=&quot;4&quot; /&gt;
+    &lt;/svg&gt;
+&lt;p&gt;Lorainne sits in the driver seat of her compact car setting up a playlist. Creating playists is one of a growing set that she uses to pass the time. Pass the time. Why does she need to pass time.</summary>
     
     
     
