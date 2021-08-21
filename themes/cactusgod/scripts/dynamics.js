@@ -1,8 +1,22 @@
 const goldenconj = 0.618033;
+const fs = require("fs");
+const path = require("path");
+const parser = require("xml2json");
+
+function getDim(value) {
+  const data = fs.readFileSync(path.join("source", value)).toString();
+  const json = JSON.parse(parser.toJson(data));
+  return {
+    width: parseFloat(json.svg.width),
+    height: parseFloat(json.svg.height),
+  };
+}
 
 function getData(str) {
   const obj = {
     values: "",
+    image1: { value: "", width: 0, height: 0 },
+    image2: { value: "", width: 0, height: 0 },
     labels: [],
     length: 0,
   };
@@ -23,6 +37,18 @@ function getData(str) {
           .split("|")
           .map((v) => v.trim())
           .filter((v) => v.length);
+        break;
+      case "image1":
+        obj.image1.value = value;
+        const image1Dims = getDim(value);
+        obj.image1.width = image1Dims.width;
+        obj.image1.height = image1Dims.height;
+        break;
+      case "image2":
+        obj.image2.value = value;
+        const image2Dims = getDim(value);
+        obj.image2.width = image2Dims.width;
+        obj.image2.height = image2Dims.height;
         break;
     }
   });
@@ -87,6 +113,17 @@ function parseDynamics(str) {
       return createPoly(p.x, p.y, 40, label);
     })
     .join("\n");
+  const img1scale = height / data.image2.height;
+  const img1Width = data.image2.width * img1scale * goldenconj * goldenconj;
+  const img1Height = height * goldenconj * goldenconj;
+  const img1X = width * goldenconj * goldenconj * goldenconj * goldenconj * goldenconj * goldenconj;
+  const img1Y = height * goldenconj * goldenconj * goldenconj * goldenconj * goldenconj;
+  
+  const img2scale = height / data.image1.height;
+  const img2Width = data.image1.width * img2scale * goldenconj * goldenconj;
+  const img2Height = height * goldenconj * goldenconj;
+  const img2X = width * goldenconj;
+  const img2Y = height - img2Height;
   return `
     <svg version="1.1"
     width="${width}" viewBox="0 0 ${width} ${height}"
@@ -102,6 +139,12 @@ function parseDynamics(str) {
         </pattern>
       </defs>
       <rect width="${width}" height="${height}" x="0" y="0" fill="url(#pattern-2)" />
+      <image xlink:href="${
+        data.image1.value
+      }" x="${img1X}" y="${img1Y}" width="${img1Width}" height="${img1Height}"></image>
+      <image xlink:href="${
+        data.image2.value
+      }" x="${img2X}" y="${img2Y}" width="${img2Width}" height="${img2Height}"></image>
       <polyline points="${points}" fill="none" stroke="#f25c05" stroke-width="5" />
       ${polys}
     </svg>`;
@@ -125,7 +168,9 @@ function createPoly(x, y, length, label) {
   if (label) {
     cmds.push(`
       <a href="#${label}">
-        <text fill="#f2b705" text-anchor="left" x="${x + 10}" y="${y - 10}">${label}</text>
+        <text fill="#f2b705" text-anchor="left" x="${x + 10}" y="${
+      y - 10
+    }">${label}</text>
       </a>
     `);
   }

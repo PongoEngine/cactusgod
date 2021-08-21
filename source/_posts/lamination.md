@@ -6,8 +6,10 @@ completed: true
 ---
 
 {% dynamics %}
-values:1-|1234|5---\|3--4|3---/|6---\|3-4-|5-6-/|81--
-labels:|Intro|Verse1|Bridge1|Bridge2|Verse2|Bridge1|Bridge2|Outro
+values:1-|1234|5---\|3--4|3--4/|6---\|3-4-5-6-/|81--
+labels:|Intro|Verse1|Bridge1|Bridge2|Verse2|Bridge3|Outro
+image1:/img/header/moon.svg
+image2:/img/header/water.svg
 {% enddynamics %}
 I'm sitting in a fog. My brain hurts. My stomach is ill. It's another day that I regret not drinking enough water. The half empty beer on my coffee table tries to take blame. Thank you Coors but I'm enlightened. It was my endless hobbies that kept me from venturing away from the computer and drinking the gin shaped glass of water.
 
@@ -23,7 +25,7 @@ signature: 4/4
 
 ### Intro
 
-The intro begins with a very repetitive disco pattern with building synths. rhythm1 is one of the synths that swells left and right. rhythm2 is another. Rhythm2 plays a basic tune to establish the melody. Noise Plays in the background.
+The intro begins with a very repetitive disco pattern with building synths. The bass drum hits with an instant thud sharpened by a short hat mixed in. Rhythm1 is one of the synths that swells left and right. rhythm2 is another. Rhythm2 plays a basic tune to establish the melody. Noise Plays in the background. The synths have almost fully taken over the audio space towards the end of the intro.
 {% tubs 8 %}
 o---o---|o---o---|o---o---|o---o---=BASSD
 --o---o-|--o---o-|--o---o-|--o---o-=RHTM1
@@ -40,7 +42,7 @@ o-------|--------|--------|--------=NOISE
 
 ### Verse1
 
-The first verse is accompanied with just the bass drum and rhythm2 synth which highlights the vocals. The instruments build much like they did in the intro with additional layers and percussion added as it progresses.
+Verse1 is accompanied with just the bass drum and rhythm2 synth which highlights the vocals. The instruments build much like they did in the intro with additional layers and percussion added as it progresses. The vocals have a real fuck you quality to them.
 {% tubs 8 %}
 --------|--------|--------|--------=VOX
 o---o---|o---o---|o---o---|o---o---=BASSD
@@ -63,6 +65,7 @@ o-o-o-o-|o-o-o-o-|o-o-o-o-|o-o-o-o-=RHTM2
 
 ### Bridge1
 
+Bridge1 is ghost like. Noise echos in the background. The only instruments playing are the bass drum, snare, and rhythm1 in its original state. The vocals are a softer but still carry that fuck you vibe. Rhythm1 builds much quicker as the song transitions to Bridge2.
 {% tubs 8 %}
 --------|--------|--------|--------=VOX
 o---o---|o---o---|o---o---|o---o---=BASSD
@@ -73,6 +76,7 @@ o-------|--------|--------|--------=NOISE
 
 ### Bridge2
 
+Bridge2 helps re-establish the connection to the melody. The vocals are much more soothed. They sound like ice cream whispering to a child. Rhythm2 is back to its original less distorted state. Rhythm2 quickly distorts as the song transitions to Verse2.
 {% tubs 8 %}
 --------|--------|--------|--------=VOX
 --o---o-|--o---o-|--o---o-|--o---o-=RHTM2
@@ -81,18 +85,7 @@ o-------|--------|--------|--------=NOISE
 
 ### Verse2
 
-The first verse is accompanied with just the bass drum and rhythm2 synth which highlights the vocals. The instruments build much like they did in the intro with additional layers and percussion added as it progresses.
-{% tubs 8 %}
---------|--------|--------|--------=VOX
-o---o---|o---o---|o---o---|o---o---=BASSD
-o-o-o-o-|o-o-o-o-|o-o-o-o-|o-o-o-o-=RHTM2
-{% endtubs %}
-{% tubs 8 %}
---------|--------|--------|--------=VOX
-o---o---|o---o---|o---o---|o---o---=BASSD
-----o---|----o---|----o---|----o---=SNRE
-o-o-o-o-|o-o-o-o-|o-o-o-o-|o-o-o-o-=RHTM2
-{% endtubs %}
+Verse2 is very similar to verse1 but it does not have all of the build up.
 {% tubs 8 %}
 --------|--------|--------|--------=VOX
 o---o---|o---o---|o---o---|o---o---=BASSD
@@ -102,7 +95,17 @@ o---o---|o---o---|o---o---|o---o---=BASSD
 o-o-o-o-|o-o-o-o-|o-o-o-o-|o-o-o-o-=RHTM2
 {% endtubs %}
 
+### Bridge3
+
+Bridge3 is very reminiscent to Bridge2. The melody is highlighted with Rhythm2. Bridge3 continues to build till it explodes into a single note for the outro.
+{% tubs 8 %}
+--------|--------|--------|--------=VOX
+--o---o-|--o---o-|--o---o-|--o---o-=RHTM2
+--------|--------|--------|----o---=SNRE
+{% endtubs %}
+
 ### Outro
+The outro is a single shot that fades out.
 {% tubs 8 %}
 --------|--------|--------|--------=VOX
 o-------|--------|--------|--------=NOISE
