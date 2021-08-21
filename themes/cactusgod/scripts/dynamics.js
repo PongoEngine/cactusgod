@@ -14,12 +14,19 @@ function parseDynamics(str) {
   let x = 0;
   let num = null;
   let pushPoint = false;
+  let isSharp = false;
+  let lastY = null;
   const pushedPoints = [];
   const points = str
     .split("")
     .map((char) => {
       switch (char) {
         case "-":
+          break;
+        case "/":
+        case "\\":
+          isSharp = true;
+          num = null;
           break;
         case "|":
           pushPoint = true;
@@ -32,13 +39,19 @@ function parseDynamics(str) {
       if (num) {
         const val = num / 10;
         const y = height - height * val;
-        const cmd = `${x},${y} `;
+        const cmds = [];
+        if (isSharp) {
+          cmds.push(`${x},${lastY} `);
+          isSharp = false;
+        }
+        cmds.push(`${x},${y} `);
+        lastY = y;
         if (pushPoint) {
           pushedPoints.push({ x, y });
           pushPoint = false;
         }
         x += xVal;
-        return cmd;
+        return cmds.join("");
       }
       return "";
     })

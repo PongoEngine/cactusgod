@@ -1,24 +1,12 @@
-function getSepIndex(timeSig) {
-  if (!timeSig) {
-    return undefined;
-  }
-  const reg = /(\d+)\/(\d+)/gm;
-  const matches = reg.exec(timeSig);
-  if (matches) {
-    return matches[1];
-  }
-  return undefined;
-}
-
 function parseTubs(str, timeSig) {
-  const charWidth = 9;
+  const charWidth = 11;
   const cellDim = 20;
   const textOffset = 5;
   const textY = cellDim - textOffset;
   let width = 0;
   let maxText = 0;
   let height = 0;
-  const sepIndex = getSepIndex(timeSig);
+  const sepIndex = parseInt(timeSig);
   const lines = str
     .split("\n")
     .map((str) => str.trim())
@@ -82,7 +70,7 @@ function parseTubs(str, timeSig) {
         <g transform="translate(0,${rowIndex * cellDim})">
           ${row}
           <text fill="#fff" x="${
-            charWidth + xPos
+            charWidth / 2 + xPos
           }" y="${textY}">${rowTitle}</text>
           <rect width="0.5" height="${cellDim}" x="${width}" y="0" fill="#f25c05" />
           <rect width="${width}" height="0.5" x="0" y="${
@@ -97,7 +85,7 @@ function parseTubs(str, timeSig) {
   const patternWidth = 120;
   const patternHeight = 20;
   return `
-    <svg version="1.1"
+    <div><svg version="1.1"
     width="${width}" viewBox="0 0 ${width} ${height + baseHeight}"
     class="tubs"
     xmlns="http://www.w3.org/2000/svg">
@@ -126,7 +114,7 @@ function parseTubs(str, timeSig) {
     width - 1
   }" y="0" />
       <rect fill="#f25c05" width="${width}" height="0.5" x="0" y="0" />
-    </svg>`;
+    </svg></div>`;
 }
 hexo.extend.tag.register(
   "tubs",
