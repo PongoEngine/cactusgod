@@ -1,5 +1,5 @@
 ---
-title: mini
+title: lamination
 album: twtwelve
 date: 2021/8/21
 completed: true
@@ -8,10 +8,10 @@ prompt: Bacon Sandwiches always reminded her
 {% dynamics %}
 4--7-|5---|4----34|3993|12
 {% enddynamics %}
-<!-- more -->
-Lorainne sits in the driver seat of her compact car setting up a playlist. Creating playists is one of a growing set that she uses to pass the time. Pass the time. Why does she need to pass time. When she's driving alone she always has to pass the time. Routine -- Grab Keys. Open door. Sit down. Close door. Put keys in the ignition. Twist keys. Turn down the radio. Grab phone. Scroll. Scroll. Scroll. This early Tuesday morning she running behind but feeling extra she opens her booklet of IOUs and borrows ten minutes.
+I'm sitting in a fog. My brain hurts. My stomach is ill. It's another day that I regret not drinking enough water. The half empty beer on my coffee table tries to take blame. Thank you Coors but I'm enlightened. It was my endless hobbies that kept me from venturing away from the computer and drinking that tall glass of water. 
 
-Ten minutes pass to tweleve. Today feels like a distant morning. Whatever. She puts down her phone, puts the car in drive, and buckles her seat. Lorainne looks at her watch. Still late.
+This table is too tall to be comfortable and my chair is slowly dislocating my right knee cap. The gloss from my half shaven face takes control over dark mode. How is this possible? How can my monitor ignore this sticky lamination I've adheared to my high speed connection. I should take a shower.
+<!-- more -->
 
 {% attrs %}
 scale: C# Minor
