@@ -171,7 +171,6 @@ a {
 .tubs {
   font-size: 1.6rem;
   color: var(--bright-white);
-  /* border: 1px solid var(--main-orange); */
   max-width: 100%;
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -190,7 +189,7 @@ p.arrangement-container::after {
   content: '';
   display: block;
   width: 100%;
-  height: 2rem;
+  height: 8rem;
   background-image: url('/img/pattern2.svg');
 }
 
