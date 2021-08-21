@@ -120,8 +120,8 @@ function parseDynamics(str) {
   const img1Y = height * goldenconj * goldenconj * goldenconj * goldenconj * goldenconj;
   
   const img2scale = height / data.image1.height;
-  const img2Width = data.image1.width * img2scale * goldenconj * goldenconj;
-  const img2Height = height * goldenconj * goldenconj;
+  const img2Width = data.image1.width * img2scale * goldenconj * goldenconj * goldenconj;
+  const img2Height = height * goldenconj * goldenconj * goldenconj;
   const img2X = width * goldenconj;
   const img2Y = height - img2Height;
   return `
