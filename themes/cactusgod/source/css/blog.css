@@ -144,7 +144,7 @@ a {
 }
 .post {
   padding-top: 1em;
-  border-bottom: 1px solid var(--bright-white);
+  border-bottom: 1px solid var(--main-yellow);
 }
 .post p {
   max-width: 80rem;
