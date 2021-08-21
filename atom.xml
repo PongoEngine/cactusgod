@@ -6,7 +6,7 @@
   <link href="https://cactusgod.com/atom.xml" rel="self"/>
   
   <link href="https://cactusgod.com/"/>
-  <updated>2021-08-21T07:13:52.641Z</updated>
+  <updated>2021-08-21T07:17:43.940Z</updated>
   <id>https://cactusgod.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://cactusgod.com/twtwelve/lamination/"/>
     <id>https://cactusgod.com/twtwelve/lamination/</id>
     <published>2021-08-21T00:00:00.000Z</published>
-    <updated>2021-08-21T07:13:52.641Z</updated>
+    <updated>2021-08-21T07:17:43.940Z</updated>
     
     
     <summary type="html">&lt;svg version=&quot;1.1&quot;
@@ -101,8 +101,8 @@
       stroke-width=&quot;4&quot;
     /&gt;
 
-      &lt;a href=&quot;#Bridge3&quot;&gt;
-        &lt;text fill=&quot;#f2b705&quot; text-anchor=&quot;left&quot; x=&quot;2276.6666666666665&quot; y=&quot;551.8390898982&quot;&gt;Bridge3&lt;/text&gt;
+      &lt;a href=&quot;#Bridge1&quot;&gt;
+        &lt;text fill=&quot;#f2b705&quot; text-anchor=&quot;left&quot; x=&quot;2276.6666666666665&quot; y=&quot;551.8390898982&quot;&gt;Bridge1&lt;/text&gt;
       &lt;/a&gt;
     
 &lt;polygon
@@ -112,8 +112,8 @@
       stroke-width=&quot;4&quot;
     /&gt;
 
-      &lt;a href=&quot;#Bridge4&quot;&gt;
-        &lt;text fill=&quot;#f2b705&quot; text-anchor=&quot;left&quot; x=&quot;2688.7878787878785&quot; y=&quot;391.3136356415714&quot;&gt;Bridge4&lt;/text&gt;
+      &lt;a href=&quot;#Bridge2&quot;&gt;
+        &lt;text fill=&quot;#f2b705&quot; text-anchor=&quot;left&quot; x=&quot;2688.7878787878785&quot; y=&quot;391.3136356415714&quot;&gt;Bridge2&lt;/text&gt;
       &lt;/a&gt;
     
 &lt;polygon
