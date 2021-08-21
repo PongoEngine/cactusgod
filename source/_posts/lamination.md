@@ -7,7 +7,7 @@ completed: true
 
 {% dynamics %}
 values:1-|1234|5---\|3--4|3---/|6---\|3-4-|5-6-/|81--
-labels:|Intro|Verse|Bridge1|Bridge2|Verse|Bridge3|Bridge4|Outro
+labels:|Intro|Verse|Bridge1|Bridge2|Verse|Bridge1|Bridge2|Outro
 {% enddynamics %}
 I'm sitting in a fog. My brain hurts. My stomach is ill. It's another day that I regret not drinking enough water. The half empty beer on my coffee table tries to take blame. Thank you Coors but I'm enlightened. It was my endless hobbies that kept me from venturing away from the computer and drinking the gin shaped glass of water.
 
@@ -17,7 +17,6 @@ This table is too tall to be comfortable and my chair is slowly dislocating my r
 
 {% attrs %}
 scale: C# Minor
-arrangement: Verse / Chorus / Verse / Chorus / Bridge / Chorus
 tempo: 120
 signature: 4/4
 {% endattrs %}
@@ -80,8 +79,8 @@ o-------|--------|--------|--------=NOISE
 --------|--------|--------|----o---=SNRE
 {% endtubs %}
 
-### Bridge3
-
-### Bridge4
-
 ### Outro
+{% tubs 8 %}
+--------|--------|--------|--------=VOX
+o-------|--------|--------|--------=NOISE
+{% endtubs %}

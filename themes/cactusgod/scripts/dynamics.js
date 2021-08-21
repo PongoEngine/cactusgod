@@ -108,7 +108,6 @@ function parseDynamics(str) {
 }
 
 function createPoly(x, y, length, label) {
-  console.log(label);
   const p1x = 0 + x;
   const p1y = -length * (Math.sqrt(3) / 4) + y;
   const p2x = length / 2 + x;
