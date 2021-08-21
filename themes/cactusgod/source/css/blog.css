@@ -200,6 +200,7 @@ a:hover {
 }
 header h1 {
   margin-bottom: 0;
+  user-select: none;
 }
 
 .page-number {
