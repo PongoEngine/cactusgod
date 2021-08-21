@@ -6,7 +6,7 @@
   <link href="https://cactusgod.com/atom.xml" rel="self"/>
   
   <link href="https://cactusgod.com/"/>
-  <updated>2021-08-21T06:36:47.185Z</updated>
+  <updated>2021-08-21T07:09:59.312Z</updated>
   <id>https://cactusgod.com/</id>
   
   <author>
@@ -21,11 +21,11 @@
     <link href="https://cactusgod.com/twtwelve/lamination/"/>
     <id>https://cactusgod.com/twtwelve/lamination/</id>
     <published>2021-08-21T00:00:00.000Z</published>
-    <updated>2021-08-21T06:36:47.185Z</updated>
+    <updated>2021-08-21T07:09:59.312Z</updated>
     
     
     <summary type="html">&lt;svg version=&quot;1.1&quot;
-    width=&quot;3000&quot; viewBox=&quot;0 0 3000 708.200533485126&quot;
+    width=&quot;3400&quot; viewBox=&quot;0 0 3400 802.6272712831428&quot;
     class=&quot;dynamics&quot;
     xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;
       &lt;defs&gt;
@@ -34,19 +34,99 @@
           &lt;animateTransform attributeType=&quot;xml&quot;
             attributeName=&quot;patternTransform&quot;
             type=&quot;translate&quot; from=&quot;0&quot; to=&quot;-120&quot; begin=&quot;0&quot;
-            dur=&quot;0.6666666666666666s&quot; repeatCount=&quot;indefinite&quot;/&gt;
+            dur=&quot;0.5882352941176471s&quot; repeatCount=&quot;indefinite&quot;/&gt;
         &lt;/pattern&gt;
       &lt;/defs&gt;
-      &lt;rect width=&quot;3000&quot; height=&quot;708.200533485126&quot; x=&quot;0&quot; y=&quot;0&quot; fill=&quot;url(#pattern-2)&quot; /&gt;
-      &lt;polyline points=&quot;0,637.3804801366134 103.44827586206897,566.5604267881008 206.89655172413794,495.7403734395882 310.3448275862069,424.9203200910756 413.7931034482759,354.100266742563 517.2413793103449,354.100266742563 620.6896551724138,354.100266742563 724.1379310344828,354.100266742563 827.5862068965517,354.100266742563 827.5862068965517,495.7403734395882 931.0344827586207,495.7403734395882 1034.4827586206898,495.7403734395882 1137.9310344827588,424.9203200910756 1241.379310344828,495.7403734395882 1344.827586206897,495.7403734395882 1448.275862068966,495.7403734395882 1551.724137931035,495.7403734395882 1655.1724137931042,495.7403734395882 1655.1724137931042,283.2802133940504 1758.6206896551732,283.2802133940504 1862.0689655172423,283.2802133940504 1965.5172413793114,283.2802133940504 2068.9655172413804,283.2802133940504 2068.9655172413804,495.7403734395882 2172.4137931034493,495.7403734395882 2275.862068965518,424.9203200910756 2379.310344827587,424.9203200910756 2482.758620689656,354.100266742563 2586.2068965517246,354.100266742563 2689.6551724137935,283.2802133940504 2793.1034482758623,283.2802133940504 2896.551724137931,283.2802133940504 2896.551724137931,141.6401066970252 3000,637.3804801366134 &quot; fill=&quot;none&quot; stroke=&quot;#f25c05&quot; stroke-width=&quot;5&quot; /&gt;
-      &lt;polygon points=&quot;0,620.0599720609247 20,654.7009882123021 -20,654.7009882123021&quot; fill=&quot;none&quot; stroke=&quot;#308ad9&quot; stroke-width=&quot;4&quot; /&gt;
-&lt;polygon points=&quot;413.7931034482759,336.7797586668742 433.7931034482759,371.4207748182518 393.7931034482759,371.4207748182518&quot; fill=&quot;none&quot; stroke=&quot;#308ad9&quot; stroke-width=&quot;4&quot; /&gt;
-&lt;polygon points=&quot;827.5862068965517,478.4198653638994 847.5862068965517,513.060881515277 807.5862068965517,513.060881515277&quot; fill=&quot;none&quot; stroke=&quot;#308ad9&quot; stroke-width=&quot;4&quot; /&gt;
-&lt;polygon points=&quot;1241.379310344828,478.4198653638994 1261.379310344828,513.060881515277 1221.379310344828,513.060881515277&quot; fill=&quot;none&quot; stroke=&quot;#308ad9&quot; stroke-width=&quot;4&quot; /&gt;
-&lt;polygon points=&quot;1655.1724137931042,265.9597053183616 1675.1724137931042,300.6007214697392 1635.1724137931042,300.6007214697392&quot; fill=&quot;none&quot; stroke=&quot;#308ad9&quot; stroke-width=&quot;4&quot; /&gt;
-&lt;polygon points=&quot;2068.9655172413804,478.4198653638994 2088.9655172413804,513.060881515277 2048.9655172413804,513.060881515277&quot; fill=&quot;none&quot; stroke=&quot;#308ad9&quot; stroke-width=&quot;4&quot; /&gt;
-&lt;polygon points=&quot;2482.758620689656,336.7797586668742 2502.758620689656,371.4207748182518 2462.758620689656,371.4207748182518&quot; fill=&quot;none&quot; stroke=&quot;#308ad9&quot; stroke-width=&quot;4&quot; /&gt;
-&lt;polygon points=&quot;2896.551724137931,124.31959862133644 2916.551724137931,158.96061477271397 2876.551724137931,158.96061477271397&quot; fill=&quot;none&quot; stroke=&quot;#308ad9&quot; stroke-width=&quot;4&quot; /&gt;
+      &lt;rect width=&quot;3400&quot; height=&quot;802.6272712831428&quot; x=&quot;0&quot; y=&quot;0&quot; fill=&quot;url(#pattern-2)&quot; /&gt;
+      &lt;polyline points=&quot;0,722.3645441548285 103.03030303030303,722.3645441548285 206.06060606060606,722.3645441548285 309.0909090909091,642.1018170265143 412.1212121212121,561.8390898982 515.1515151515151,481.5763627698857 618.1818181818181,401.3136356415714 721.2121212121211,401.3136356415714 824.2424242424241,401.3136356415714 927.2727272727271,401.3136356415714 1030.3030303030303,401.3136356415714 1030.3030303030303,561.8390898982 1133.3333333333333,561.8390898982 1236.3636363636363,561.8390898982 1339.3939393939393,481.5763627698857 1442.4242424242423,561.8390898982 1545.4545454545453,561.8390898982 1648.4848484848483,561.8390898982 1751.5151515151513,561.8390898982 1854.5454545454543,561.8390898982 1854.5454545454543,321.0509085132571 1957.5757575757573,321.0509085132571 2060.6060606060605,321.0509085132571 2163.6363636363635,321.0509085132571 2266.6666666666665,321.0509085132571 2266.6666666666665,561.8390898982 2369.6969696969695,561.8390898982 2472.7272727272725,481.5763627698857 2575.7575757575755,481.5763627698857 2678.7878787878785,401.3136356415714 2781.8181818181815,401.3136356415714 2884.8484848484845,321.0509085132571 2987.8787878787875,321.0509085132571 3090.9090909090905,321.0509085132571 3090.9090909090905,160.52545425662856 3193.9393939393935,722.3645441548285 3296.9696969696965,722.3645441548285 3399.9999999999995,722.3645441548285 &quot; fill=&quot;none&quot; stroke=&quot;#f25c05&quot; stroke-width=&quot;5&quot; /&gt;
+      &lt;polygon
+      points=&quot;206.06060606060606,705.0440360791398 226.06060606060606,739.6850522305173 186.06060606060606,739.6850522305173&quot;
+      fill=&quot;none&quot;
+      stroke=&quot;#f2b705&quot;
+      stroke-width=&quot;4&quot;
+    /&gt;
+
+      &lt;a href=&quot;#Intro&quot;&gt;
+        &lt;text fill=&quot;#f2b705&quot; text-anchor=&quot;left&quot; x=&quot;216.06060606060606&quot; y=&quot;712.3645441548285&quot;&gt;Intro&lt;/text&gt;
+      &lt;/a&gt;
+    
+&lt;polygon
+      points=&quot;618.1818181818181,383.9931275658826 638.1818181818181,418.6341437172602 598.1818181818181,418.6341437172602&quot;
+      fill=&quot;none&quot;
+      stroke=&quot;#f2b705&quot;
+      stroke-width=&quot;4&quot;
+    /&gt;
+
+      &lt;a href=&quot;#Verse&quot;&gt;
+        &lt;text fill=&quot;#f2b705&quot; text-anchor=&quot;left&quot; x=&quot;628.1818181818181&quot; y=&quot;391.3136356415714&quot;&gt;Verse&lt;/text&gt;
+      &lt;/a&gt;
+    
+&lt;polygon
+      points=&quot;1030.3030303030303,544.5185818225112 1050.3030303030303,579.1595979738887 1010.3030303030303,579.1595979738887&quot;
+      fill=&quot;none&quot;
+      stroke=&quot;#f2b705&quot;
+      stroke-width=&quot;4&quot;
+    /&gt;
+
+      &lt;a href=&quot;#Bridge1&quot;&gt;
+        &lt;text fill=&quot;#f2b705&quot; text-anchor=&quot;left&quot; x=&quot;1040.3030303030303&quot; y=&quot;551.8390898982&quot;&gt;Bridge1&lt;/text&gt;
+      &lt;/a&gt;
+    
+&lt;polygon
+      points=&quot;1442.4242424242423,544.5185818225112 1462.4242424242423,579.1595979738887 1422.4242424242423,579.1595979738887&quot;
+      fill=&quot;none&quot;
+      stroke=&quot;#f2b705&quot;
+      stroke-width=&quot;4&quot;
+    /&gt;
+
+      &lt;a href=&quot;#Bridge2&quot;&gt;
+        &lt;text fill=&quot;#f2b705&quot; text-anchor=&quot;left&quot; x=&quot;1452.4242424242423&quot; y=&quot;551.8390898982&quot;&gt;Bridge2&lt;/text&gt;
+      &lt;/a&gt;
+    
+&lt;polygon
+      points=&quot;1854.5454545454543,303.73040043756833 1874.5454545454543,338.3714165889459 1834.5454545454543,338.3714165889459&quot;
+      fill=&quot;none&quot;
+      stroke=&quot;#f2b705&quot;
+      stroke-width=&quot;4&quot;
+    /&gt;
+
+      &lt;a href=&quot;#Verse&quot;&gt;
+        &lt;text fill=&quot;#f2b705&quot; text-anchor=&quot;left&quot; x=&quot;1864.5454545454543&quot; y=&quot;311.0509085132571&quot;&gt;Verse&lt;/text&gt;
+      &lt;/a&gt;
+    
+&lt;polygon
+      points=&quot;2266.6666666666665,544.5185818225112 2286.6666666666665,579.1595979738887 2246.6666666666665,579.1595979738887&quot;
+      fill=&quot;none&quot;
+      stroke=&quot;#f2b705&quot;
+      stroke-width=&quot;4&quot;
+    /&gt;
+
+      &lt;a href=&quot;#Bridge3&quot;&gt;
+        &lt;text fill=&quot;#f2b705&quot; text-anchor=&quot;left&quot; x=&quot;2276.6666666666665&quot; y=&quot;551.8390898982&quot;&gt;Bridge3&lt;/text&gt;
+      &lt;/a&gt;
+    
+&lt;polygon
+      points=&quot;2678.7878787878785,383.9931275658826 2698.7878787878785,418.6341437172602 2658.7878787878785,418.6341437172602&quot;
+      fill=&quot;none&quot;
+      stroke=&quot;#f2b705&quot;
+      stroke-width=&quot;4&quot;
+    /&gt;
+
+      &lt;a href=&quot;#Bridge4&quot;&gt;
+        &lt;text fill=&quot;#f2b705&quot; text-anchor=&quot;left&quot; x=&quot;2688.7878787878785&quot; y=&quot;391.3136356415714&quot;&gt;Bridge4&lt;/text&gt;
+      &lt;/a&gt;
+    
+&lt;polygon
+      points=&quot;3090.9090909090905,143.2049461809398 3110.9090909090905,177.84596233231733 3070.9090909090905,177.84596233231733&quot;
+      fill=&quot;none&quot;
+      stroke=&quot;#f2b705&quot;
+      stroke-width=&quot;4&quot;
+    /&gt;
+
+      &lt;a href=&quot;#Outro&quot;&gt;
+        &lt;text fill=&quot;#f2b705&quot; text-anchor=&quot;left&quot; x=&quot;3100.9090909090905&quot; y=&quot;150.52545425662856&quot;&gt;Outro&lt;/text&gt;
+      &lt;/a&gt;
+    
     &lt;/svg&gt;
 &lt;p&gt;I’m sitting in a fog. My brain hurts. My stomach is ill. It’s another day that I regret not drinking enough water. The half empty beer on my coffee table tries to take blame. Thank you Coors but I’m enlightened. It was my endless hobbies that kept me from venturing away from the computer and drinking the gin shaped glass of water.&lt;/p&gt;
 &lt;p&gt;This table is too tall to be comfortable and my chair is slowly dislocating my right knee cap. The gloss from my half shaven face takes control over dark mode. How is this possible? How can my monitor ignore this sticky lamination I’ve adheared to my high speed connection. I should take a shower.&lt;/p&gt;</summary>
