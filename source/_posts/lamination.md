@@ -8,7 +8,7 @@ prompt: Bacon Sandwiches always reminded her
 {% dynamics %}
 4--7-|5---|4----34|3993|12
 {% enddynamics %}
-I'm sitting in a fog. My brain hurts. My stomach is ill. It's another day that I regret not drinking enough water. The half empty beer on my coffee table tries to take blame. Thank you Coors but I'm enlightened. It was my endless hobbies that kept me from venturing away from the computer and drinking that gin glass of water. 
+I'm sitting in a fog. My brain hurts. My stomach is ill. It's another day that I regret not drinking enough water. The half empty beer on my coffee table tries to take blame. Thank you Coors but I'm enlightened. It was my endless hobbies that kept me from venturing away from the computer and drinking the gin glass of water. 
 
 This table is too tall to be comfortable and my chair is slowly dislocating my right knee cap. The gloss from my half shaven face takes control over dark mode. How is this possible? How can my monitor ignore this sticky lamination I've adheared to my high speed connection. I should take a shower.
 <!-- more -->
