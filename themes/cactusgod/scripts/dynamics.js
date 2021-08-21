@@ -9,7 +9,7 @@ function parseDynamics(str) {
   const patternWidth = 120;
   const patternHeight = 20;
   const width = length * 100;
-  const height = width * goldenconj * goldenconj;
+  const height = width * goldenconj * goldenconj * goldenconj;
   const xVal = width / (length - 1);
   let x = 0;
   let num = null;
