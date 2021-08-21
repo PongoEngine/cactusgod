@@ -1,23 +1,48 @@
-// const colors = ["#f25c05", "#f20505", "#f28705", "#f2b705"];
 const goldenconj = 0.618033;
 
+function getData(str) {
+  const obj = {
+    values: "",
+    labels: [],
+    length: 0,
+  };
+  str.split("\n").forEach((item) => {
+    const keyVal = item.split(":");
+    const key = keyVal[0].toLowerCase().trim();
+    const value = keyVal[1].trim();
+    switch (key) {
+      case "values":
+        obj.values = value;
+        obj.length = value
+          .split("")
+          .filter((char) => char === "-" || parseInt(char))
+          .join("").length;
+        break;
+      case "labels":
+        obj.labels = value
+          .split("|")
+          .map((v) => v.trim())
+          .filter((v) => v.length);
+        break;
+    }
+  });
+  return obj;
+}
+
 function parseDynamics(str) {
-  const length = str
-    .split("")
-    .filter((char) => char === "-" || parseInt(char))
-    .join("").length;
+  const data = getData(str);
   const patternWidth = 120;
   const patternHeight = 20;
-  const width = length * 100;
+  const width = data.length * 100;
   const height = width * goldenconj * goldenconj * goldenconj;
-  const xVal = width / (length - 1);
+  const xVal = width / (data.length - 1);
   let x = 0;
   let num = null;
   let pushPoint = false;
   let isSharp = false;
   let lastY = null;
   const pushedPoints = [];
-  const points = str
+  const points = data.values
     .split("")
     .map((char) => {
       switch (char) {
@@ -57,8 +82,9 @@ function parseDynamics(str) {
     })
     .join("");
   const polys = pushedPoints
-    .map((p) => {
-      return createPoly(p.x, p.y, 40);
+    .map((p, i) => {
+      const label = data.labels[i];
+      return createPoly(p.x, p.y, 40, label);
     })
     .join("\n");
   return `
@@ -72,7 +98,7 @@ function parseDynamics(str) {
           <animateTransform attributeType="xml"
             attributeName="patternTransform"
             type="translate" from="0" to="${-patternWidth}" begin="0"
-            dur="${20 / length}s" repeatCount="indefinite"/>
+            dur="${20 / data.length}s" repeatCount="indefinite"/>
         </pattern>
       </defs>
       <rect width="${width}" height="${height}" x="0" y="0" fill="url(#pattern-2)" />
@@ -81,15 +107,30 @@ function parseDynamics(str) {
     </svg>`;
 }
 
-function createPoly(x, y, length) {
+function createPoly(x, y, length, label) {
+  console.log(label);
   const p1x = 0 + x;
   const p1y = -length * (Math.sqrt(3) / 4) + y;
   const p2x = length / 2 + x;
   const p2y = length * (Math.sqrt(3) / 4) + y;
   const p3x = -(length / 2) + x;
   const p3y = length * (Math.sqrt(3) / 4) + y;
-
-  return `<polygon points="${p1x},${p1y} ${p2x},${p2y} ${p3x},${p3y}" fill="none" stroke="#308ad9" stroke-width="4" />`;
+  const cmds = [
+    `<polygon
+      points="${p1x},${p1y} ${p2x},${p2y} ${p3x},${p3y}"
+      fill="none"
+      stroke="#f2b705"
+      stroke-width="4"
+    />`,
+  ];
+  if (label) {
+    cmds.push(`
+      <a href="#${label}">
+        <text fill="#f2b705" text-anchor="left" x="${x + 10}" y="${y - 10}">${label}</text>
+      </a>
+    `);
+  }
+  return cmds.join("\n");
 }
 
 hexo.extend.tag.register(
