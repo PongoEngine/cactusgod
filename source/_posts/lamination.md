@@ -6,14 +6,12 @@ completed: true
 ---
 
 {% dynamics %}
-values:1-|1234|5---\|3--4|3--4/|6---\|3-4-5-6-/|81--
-labels:|Intro|Verse1|Bridge1|Bridge2|Verse2|Bridge3|Outro
+values:1-|4---\|5---\|4-5-|6---/|4-5-\|4-5-/|6-6-/|41-
+labels:|Intro|Verse1|Bridge1|Chorus1|Verse2|Bridge2|Chorus2|Outro
 image1:/img/header/moon.svg
 image2:/img/header/water.svg
 {% enddynamics %}
-I'm sitting in a fog. My brain hurts. My stomach is ill. It's another day that I regret not drinking enough water. The half empty beer on my coffee table tries to take blame. Thank you Coors but I'm enlightened. It was my endless hobbies that kept me from venturing away from the computer and drinking the gin shaped glass of water.
-
-This table is too tall to be comfortable and my chair is slowly dislocating my right knee cap. The gloss from my half shaven face takes control over dark mode. How is this possible? How can my monitor ignore this sticky lamination I've adheared to my high speed connection. I should take a shower.
+I've been in the backyard carrying the oven.
 
 <!-- more -->
 
