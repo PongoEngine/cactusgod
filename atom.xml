@@ -6,7 +6,7 @@
   <link href="https://cactusgod.com/atom.xml" rel="self"/>
   
   <link href="https://cactusgod.com/"/>
-  <updated>2021-09-14T14:43:02.867Z</updated>
+  <updated>2021-09-14T15:01:34.642Z</updated>
   <id>https://cactusgod.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://cactusgod.com/twtwelve/lamination/"/>
     <id>https://cactusgod.com/twtwelve/lamination/</id>
     <published>2021-08-21T00:00:00.000Z</published>
-    <updated>2021-09-14T14:43:02.867Z</updated>
+    <updated>2021-09-14T15:01:34.642Z</updated>
     
     
     <summary type="html">&lt;svg version=&quot;1.1&quot;
@@ -31,10 +31,14 @@
       &lt;defs&gt;
         &lt;pattern id=&quot;pattern-2&quot; x=&quot;0&quot; y=&quot;0&quot; width=&quot;120&quot; height=&quot;20&quot; patternUnits=&quot;userSpaceOnUse&quot;&gt;
           &lt;image xlink:href=&quot;/img/pattern.svg&quot; x=&quot;0&quot; y=&quot;0&quot; width=&quot;120&quot; height=&quot;20&quot;&gt;&lt;/image&gt;
-          &lt;animateTransform attributeType=&quot;xml&quot;
+          &lt;animateTransform
             attributeName=&quot;patternTransform&quot;
-            type=&quot;translate&quot; from=&quot;0&quot; to=&quot;-120&quot; begin=&quot;0&quot;
-            dur=&quot;0.6060606060606061s&quot; repeatCount=&quot;indefinite&quot;/&gt;
+            attributeType=&quot;XML&quot;
+            type=&quot;translate&quot; 
+            dur=&quot;0.6060606060606061s&quot;
+            from=&quot;0&quot; 
+            to=&quot;-120&quot; 
+            repeatCount=&quot;indefinite&quot; /&gt;
         &lt;/pattern&gt;
       &lt;/defs&gt;
       &lt;rect transform-origin=&quot;50% 50%&quot; transform=&quot;rotate(45)&quot; width=&quot;3300&quot; height=&quot;630.2419019968501&quot; x=&quot;0&quot; y=&quot;1260.4838039937001&quot; fill=&quot;#202225&quot; /&gt;
