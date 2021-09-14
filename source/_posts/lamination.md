@@ -9,11 +9,11 @@ completed: true
 values:1-|4---\|5---\|4-5-|6---/|4-5-\|4-5-/|6-6-/|41-
 labels:|Intro|Verse1|Bridge1|Chorus1|Verse2|Bridge2|Chorus2|Outro
 image1:/img/header/moon.svg
-image2:/img/header/water.svg
+image2:/img/header/cactus.svg
+tagline:I get too caught up in the moment.
 {% enddynamics %}
-I've been in the backyard carrying the oven.
-
 <!-- more -->
+I've been in the backyard carrying the oven.
 
 {% attrs %}
 scale: C# Minor

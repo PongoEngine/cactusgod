@@ -1,4 +1,7 @@
 const goldenconj = 0.618033;
+function getGC(times) {
+  return Math.pow(goldenconj, times);
+}
 const fs = require("fs");
 const path = require("path");
 const parser = require("xml2json");
@@ -17,6 +20,7 @@ function getData(str) {
     values: "",
     image1: { value: "", width: 0, height: 0 },
     image2: { value: "", width: 0, height: 0 },
+    tagline: "",
     labels: [],
     length: 0,
   };
@@ -50,6 +54,9 @@ function getData(str) {
         obj.image2.width = image2Dims.width;
         obj.image2.height = image2Dims.height;
         break;
+      case "tagline":
+        obj.tagline = value.toUpperCase();
+        break;
     }
   });
   return obj;
@@ -60,7 +67,7 @@ function parseDynamics(str) {
   const patternWidth = 120;
   const patternHeight = 20;
   const width = data.length * 100;
-  const height = width * goldenconj * goldenconj * goldenconj;
+  const height = width * getGC(3);
   const xVal = width / (data.length - 1);
   let x = 0;
   let num = null;
@@ -114,19 +121,22 @@ function parseDynamics(str) {
     })
     .join("\n");
   const img1scale = height / data.image2.height;
-  const img1Width = data.image2.width * img1scale * goldenconj * goldenconj;
-  const img1Height = height * goldenconj * goldenconj;
-  const img1X = width * goldenconj * goldenconj * goldenconj * goldenconj * goldenconj * goldenconj;
-  const img1Y = height * goldenconj * goldenconj * goldenconj * goldenconj * goldenconj;
-  
+  const img1Width = data.image2.width * img1scale * getGC(2);
+  const img1Height = height * getGC(2);
+  const img1X = width * getGC(6);
+  const img1Y = height * getGC(5);
+
   const img2scale = height / data.image1.height;
-  const img2Width = data.image1.width * img2scale * goldenconj * goldenconj * goldenconj;
-  const img2Height = height * goldenconj * goldenconj * goldenconj;
-  const img2X = width * goldenconj;
+  const img2Width = data.image1.width * img2scale * getGC(3);
+  const img2Height = height * getGC(3);
+  const img2X = width * getGC(1);
   const img2Y = height - img2Height;
+  const msgHeight = height * getGC(4);
+  const letterSpacing = msgHeight * getGC(6);
+  const fullHeight = height + msgHeight;
   return `
     <svg version="1.1"
-    width="${width}" viewBox="0 0 ${width} ${height}"
+    width="${width}" viewBox="0 0 ${width} ${fullHeight}"
     class="dynamics"
     xmlns="http://www.w3.org/2000/svg">
       <defs>
@@ -138,7 +148,9 @@ function parseDynamics(str) {
             dur="${20 / data.length}s" repeatCount="indefinite"/>
         </pattern>
       </defs>
+      <rect width="${width}" height="${height}" x="0" y="0" fill="#22262b" />
       <rect width="${width}" height="${height}" x="0" y="0" fill="url(#pattern-2)" />
+      <text font-weight="700" letter-spacing="-${letterSpacing}" font-size="${msgHeight * 1.25}" fill="#202225" alignment-baseline="hanging" text-anchor="middle" x="${width/2}" y="${height / 2}">${data.tagline}</text>
       <image xlink:href="${
         data.image1.value
       }" x="${img1X}" y="${img1Y}" width="${img1Width}" height="${img1Height}"></image>
@@ -147,6 +159,7 @@ function parseDynamics(str) {
       }" x="${img2X}" y="${img2Y}" width="${img2Width}" height="${img2Height}"></image>
       <polyline points="${points}" fill="none" stroke="#f25c05" stroke-width="5" />
       ${polys}
+      <rect width="${width}" height="${msgHeight}" x="0" y="${height}" fill="#202225" />
     </svg>`;
 }
 

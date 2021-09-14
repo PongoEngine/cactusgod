@@ -143,11 +143,11 @@ a {
   margin-top: 0;
 }
 .post {
-  padding-top: 1em;
-  border-bottom: 1px solid var(--main-yellow);
-}
-.post p {
+  padding: 1rem 1rem 0 1rem;
   max-width: 80rem;
+  border-bottom: 1px solid var(--main-yellow);
+  background-color: var(--main-gold-dark);
+  box-sizing: border-box;
 }
 
 .dynamics {
@@ -155,6 +155,7 @@ a {
   width: 100%;
   max-width: 80rem;
   margin-bottom: 3rem;
+  position: relative;
 }
 
 .tubs {
@@ -167,16 +168,17 @@ a {
 
 p.arrangement-container {
   border: 1px solid var(--main-blue);
-  background-color: var(--main-gold-dark);
+  /* background-color: var(--main-gold-dark); */
+  /* background-color: var(--main-bg-color); */
   max-width: 20rem;
   padding: 0 1rem;
 }
 p.arrangement-container::after {
-  content: '';
+  content: "";
   display: block;
   width: 100%;
   height: 2rem;
-  background-image: url('/img/pattern2.svg');
+  background-image: url("/img/pattern2.svg");
 }
 
 ul.blog-nav {
