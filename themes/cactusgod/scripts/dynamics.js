@@ -18,8 +18,8 @@ function getDim(value) {
 function getData(str) {
   const obj = {
     values: "",
-    image1: { value: "", width: 0, height: 0 },
-    image2: { value: "", width: 0, height: 0 },
+    image: { value: "", width: 0, height: 0 },
+    // image2: { value: "", width: 0, height: 0 },
     tagline: "",
     labels: [],
     length: 0,
@@ -42,17 +42,11 @@ function getData(str) {
           .map((v) => v.trim())
           .filter((v) => v.length);
         break;
-      case "image1":
-        obj.image1.value = value;
-        const image1Dims = getDim(value);
-        obj.image1.width = image1Dims.width;
-        obj.image1.height = image1Dims.height;
-        break;
-      case "image2":
-        obj.image2.value = value;
-        const image2Dims = getDim(value);
-        obj.image2.width = image2Dims.width;
-        obj.image2.height = image2Dims.height;
+      case "image":
+        obj.image.value = value;
+        const imageDims = getDim(value);
+        obj.image.width = imageDims.width;
+        obj.image.height = imageDims.height;
         break;
       case "tagline":
         obj.tagline = value.toUpperCase();
@@ -120,17 +114,12 @@ function parseDynamics(str) {
       return createPoly(p.x, p.y, 40, label);
     })
     .join("\n");
-  const img1scale = height / data.image2.height;
-  const img1Width = data.image2.width * img1scale * getGC(2);
-  const img1Height = height * getGC(2);
+  const imgscale = height / data.image.height;
+  const imgWidth = data.image.width * imgscale * getGC(3);
+  const imgHeight = height * getGC(3);
   const img1X = width * getGC(6);
   const img1Y = height * getGC(5);
 
-  const img2scale = height / data.image1.height;
-  const img2Width = data.image1.width * img2scale * getGC(3);
-  const img2Height = height * getGC(3);
-  const img2X = width * getGC(1);
-  const img2Y = height - img2Height;
   const msgHeight = height * getGC(4);
   const letterSpacing = msgHeight * getGC(6);
   const rotation = 45;
@@ -151,13 +140,11 @@ function parseDynamics(str) {
       <rect width="${width}" height="${height}" x="0" y="0" fill="#22262b" />
       <rect transform-origin="50% 50%" transform="rotate(${rotation})" width="${width}" height="${height/2}" x="0" y="${height}" fill="#202225" />
       <rect width="${width}" height="${height}" x="0" y="0" fill="url(#pattern-2)" />
+      <rect width="${width}" height="${height}" x="${msgHeight}" y="${msgHeight}" fill="url(#pattern-2)" />
       <text font-weight="700" letter-spacing="-${letterSpacing}" font-size="${msgHeight * 1.25}" fill="#202225" alignment-baseline="hanging" text-anchor="middle" x="${width/2}" y="${height / 2}">${data.tagline}</text>
       <image xlink:href="${
-        data.image1.value
-      }" x="${img1X}" y="${img1Y}" width="${img1Width}" height="${img1Height}"></image>
-      <image xlink:href="${
-        data.image2.value
-      }" x="${img2X}" y="${img2Y}" width="${img2Width}" height="${img2Height}"></image>
+        data.image.value
+      }" x="${img1X}" y="${img1Y}" width="${imgWidth}" height="${imgHeight}"></image>
       <polyline points="${points}" fill="none" stroke="#f25c05" stroke-width="5" />
       ${polys}
     </svg>`;

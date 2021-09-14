@@ -8,8 +8,7 @@ completed: true
 {% dynamics %}
 values:1-|4---\|5---\|4-5-|6---/|4-5-\|4-5-/|6-6-/|41-
 labels:|Intro|Verse1|Bridge1|Chorus1|Verse2|Bridge2|Chorus2|Outro
-image1:/img/header/moon.svg
-image2:/img/header/cactus.svg
+image:/img/header/moon.svg
 tagline:I get too caught up in the moment.
 {% enddynamics %}
 <!-- more -->
