@@ -61,7 +61,7 @@ function parseDynamics(str) {
   const patternWidth = 120;
   const patternHeight = 20;
   const width = data.length * 100;
-  const height = width * getGC(3);
+  const height = width * getGC(2);
   const xVal = width / (data.length - 1);
   let x = 0;
   let num = null;
