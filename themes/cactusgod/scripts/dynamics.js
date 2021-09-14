@@ -131,10 +131,14 @@ function parseDynamics(str) {
       <defs>
         <pattern id="pattern-2" x="0" y="0" width="${patternWidth}" height="${patternHeight}" patternUnits="userSpaceOnUse">
           <image xlink:href="/img/pattern.svg" x="0" y="0" width="${patternWidth}" height="${patternHeight}"></image>
-          <animateTransform attributeType="xml"
+          <animateTransform
             attributeName="patternTransform"
-            type="translate" from="0" to="${-patternWidth}" begin="0"
-            dur="${20 / data.length}s" repeatCount="indefinite"/>
+            attributeType="XML"
+            type="translate" 
+            dur="${20 / data.length}s"
+            from="0" 
+            to="${-patternWidth}" 
+            repeatCount="indefinite" />
         </pattern>
       </defs>
       <rect transform-origin="50% 50%" transform="rotate(${rotation})" width="${width}" height="${height/2}" x="0" y="${height}" fill="#202225" />
