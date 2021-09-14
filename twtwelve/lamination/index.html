@@ -851,23 +851,13 @@
       let renderer, scene, camera;
       const objects = [];
 
-      let xpos = 10;
-      let ypos = 0;
-      const clamp = (num, min, max) => Math.min(Math.max(num, min), max);
-      function findScreenCoords(mouseEvent) {
-        if (mouseEvent) {
-          //FireFox
-          xpos = mouseEvent.screenX;
-          ypos = mouseEvent.screenY;
-        } else {
-          //IE
-          xpos = window.event.screenX;
-          ypos = window.event.screenY;
-        }
-        xpos = clamp(xpos / window.innerWidth - 0.5, -0.5, 0.5) * 2;
-        ypos = clamp(ypos / window.innerHeight - 0.5, -0.5, 0.5) * 2;
+      function getScrollPercent() {
+        var h = document.documentElement,
+          b = document.body,
+          st = "scrollTop",
+          sh = "scrollHeight";
+        return (h[st] || b[st]) / ((h[sh] || b[sh]) - h.clientHeight);
       }
-      document.body.onmousemove = findScreenCoords;
 
       const WIDTH = window.innerWidth,
         HEIGHT = window.innerHeight;
@@ -883,30 +873,9 @@
         scene.background = new THREE.Color(0x202225);
         scene.fog = new THREE.Fog(0x111111, 150, 200);
 
-        const subdivisions = 6;
-        const recursion = 1;
-
-        const points = GeometryUtils.hilbert3D(
-          new THREE.Vector3(0, 0, 0),
-          25.0,
-          recursion,
-          0,
-          1,
-          2,
-          3,
-          4,
-          5,
-          6,
-          7
-        );
-        const spline = new THREE.CatmullRomCurve3(points);
-
-        const samples = spline.getPoints(points.length * subdivisions);
-        const geometrySpline = new THREE.BufferGeometry().setFromPoints(
-          samples
-        );
-
-        const geometryBox = box(50, 50, 50);
+        const smaller = WIDTH < HEIGHT ? WIDTH : HEIGHT
+        const size = smaller * 0.125;
+        const geometryBox = box(size, size, size);
 
         const lineSegments = new THREE.LineSegments(
           geometryBox,
@@ -1051,10 +1020,8 @@
         scene.traverse(function (object) {
           if (object.isLine) {
             const scaledIndex = scale * index++;
-            object.rotation.x = 0.25 * time;
-            object.rotation.y = 0.25 * time;
-            object.position.x = xpos * 20;
-            object.position.y = -ypos * 20;
+            object.rotation.x = 0.1 * time;
+            object.rotation.y = getScrollPercent() * Math.PI * 2;
           }
         });
 
