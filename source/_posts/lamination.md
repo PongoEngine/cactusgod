@@ -12,7 +12,7 @@ image:/img/header/moon.svg
 tagline:I get too caught up in the moment.
 {% enddynamics %}
 <!-- more -->
-I've been in the backyard carrying the oven.
+Air plant godard bushwick cornhole chia fanny pack XOXO biodiesel. Blog you probably haven't heard of them fixie godard, literally cronut cardigan food truck neutra. Chartreuse food truck flexitarian, enamel pin cardigan keffiyeh everyday carry la croix echo park twee. Pickled tumblr scenester YOLO chambray bushwick, copper mug portland jianbing vegan freegan. Drinking vinegar lyft four dollar toast, succulents la croix man bun four loko ennui brooklyn kombucha.
 
 {% attrs %}
 scale: C# Minor

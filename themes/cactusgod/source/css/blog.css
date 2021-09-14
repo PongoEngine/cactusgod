@@ -102,10 +102,17 @@ footer {
 body {
   margin: 0;
   background-color: var(--main-bg-color);
+  cursor: url("/img/cursor.svg") 15 15, auto;
+}
+body:active {
+  cursor: url("/img/cursorFilled.svg") 15 15, auto;
 }
 body,
 a {
   color: var(--bright-white);
+}
+a {
+  cursor: url("/img/cursor.svg") 15 15, auto;
 }
 ::selection {
   background: var(--bright-white);
@@ -154,8 +161,8 @@ a {
   font-size: 6rem;
   width: 100%;
   max-width: 80rem;
-  margin-bottom: 3rem;
   position: relative;
+  margin-bottom: 1rem;
 }
 
 .tubs {
@@ -168,8 +175,7 @@ a {
 
 p.arrangement-container {
   border: 1px solid var(--main-blue);
-  /* background-color: var(--main-gold-dark); */
-  /* background-color: var(--main-bg-color); */
+  background-color: var(--main-gold-dark);
   max-width: 20rem;
   padding: 0 1rem;
 }
