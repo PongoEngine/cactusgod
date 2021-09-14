@@ -133,10 +133,10 @@ function parseDynamics(str) {
   const img2Y = height - img2Height;
   const msgHeight = height * getGC(4);
   const letterSpacing = msgHeight * getGC(6);
-  const fullHeight = height + msgHeight;
+  const rotation = 45;
   return `
     <svg version="1.1"
-    width="${width}" viewBox="0 0 ${width} ${fullHeight}"
+    width="${width}" viewBox="0 0 ${width} ${height}"
     class="dynamics"
     xmlns="http://www.w3.org/2000/svg">
       <defs>
@@ -149,6 +149,7 @@ function parseDynamics(str) {
         </pattern>
       </defs>
       <rect width="${width}" height="${height}" x="0" y="0" fill="#22262b" />
+      <rect transform-origin="50% 50%" transform="rotate(${rotation})" width="${width}" height="${height/2}" x="0" y="${height}" fill="#202225" />
       <rect width="${width}" height="${height}" x="0" y="0" fill="url(#pattern-2)" />
       <text font-weight="700" letter-spacing="-${letterSpacing}" font-size="${msgHeight * 1.25}" fill="#202225" alignment-baseline="hanging" text-anchor="middle" x="${width/2}" y="${height / 2}">${data.tagline}</text>
       <image xlink:href="${
@@ -159,7 +160,6 @@ function parseDynamics(str) {
       }" x="${img2X}" y="${img2Y}" width="${img2Width}" height="${img2Height}"></image>
       <polyline points="${points}" fill="none" stroke="#f25c05" stroke-width="5" />
       ${polys}
-      <rect width="${width}" height="${msgHeight}" x="0" y="${height}" fill="#202225" />
     </svg>`;
 }
 
