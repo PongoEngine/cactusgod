@@ -6,7 +6,7 @@
   <link href="https://cactusgod.com/atom.xml" rel="self"/>
   
   <link href="https://cactusgod.com/"/>
-  <updated>2021-08-29T23:15:08.091Z</updated>
+  <updated>2021-09-14T06:12:09.829Z</updated>
   <id>https://cactusgod.com/</id>
   
   <author>
@@ -21,11 +21,11 @@
     <link href="https://cactusgod.com/twtwelve/lamination/"/>
     <id>https://cactusgod.com/twtwelve/lamination/</id>
     <published>2021-08-21T00:00:00.000Z</published>
-    <updated>2021-08-29T23:15:08.091Z</updated>
+    <updated>2021-09-14T06:12:09.829Z</updated>
     
     
     <summary type="html">&lt;svg version=&quot;1.1&quot;
-    width=&quot;3300&quot; viewBox=&quot;0 0 3300 779.0205868336387&quot;
+    width=&quot;3300&quot; viewBox=&quot;0 0 3300 892.6774313738304&quot;
     class=&quot;dynamics&quot;
     xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;
       &lt;defs&gt;
@@ -37,100 +37,102 @@
             dur=&quot;0.6060606060606061s&quot; repeatCount=&quot;indefinite&quot;/&gt;
         &lt;/pattern&gt;
       &lt;/defs&gt;
-      &lt;rect width=&quot;3300&quot; height=&quot;779.0205868336387&quot; x=&quot;0&quot; y=&quot;0&quot; fill=&quot;url(#pattern-2)&quot; /&gt;
-      &lt;image xlink:href=&quot;/img/header/moon.svg&quot; x=&quot;183.90093173049294&quot; y=&quot;70.24368060170833&quot; width=&quot;238.55145121350222&quot; height=&quot;297.55843414589987&quot;&gt;&lt;/image&gt;
-      &lt;image xlink:href=&quot;/img/header/water.svg&quot; x=&quot;2039.5089000000003&quot; y=&quot;595.1196551031458&quot; width=&quot;183.90093173049294&quot; height=&quot;183.90093173049294&quot;&gt;&lt;/image&gt;
-      &lt;polyline points=&quot;0,701.1185281502749 103.125,701.1185281502749 206.25,467.4123521001832 309.375,467.4123521001832 412.5,467.4123521001832 515.625,467.4123521001832 618.75,467.4123521001832 618.75,389.51029341681937 721.875,389.51029341681937 825,389.51029341681937 928.125,389.51029341681937 1031.25,389.51029341681937 1031.25,467.4123521001832 1134.375,467.4123521001832 1237.5,389.51029341681937 1340.625,389.51029341681937 1443.75,311.6082347334555 1546.875,311.6082347334555 1650,311.6082347334555 1753.125,311.6082347334555 1856.25,311.6082347334555 1856.25,467.4123521001832 1959.375,467.4123521001832 2062.5,389.51029341681937 2165.625,389.51029341681937 2268.75,389.51029341681937 2268.75,467.4123521001832 2371.875,467.4123521001832 2475,389.51029341681937 2578.125,389.51029341681937 2681.25,389.51029341681937 2681.25,311.6082347334555 2784.375,311.6082347334555 2887.5,311.6082347334555 2990.625,311.6082347334555 3093.75,311.6082347334555 3093.75,467.4123521001832 3196.875,701.1185281502749 3300,701.1185281502749 &quot; fill=&quot;none&quot; stroke=&quot;#f25c05&quot; stroke-width=&quot;5&quot; /&gt;
+      &lt;rect width=&quot;3300&quot; height=&quot;779.0205868336386&quot; x=&quot;0&quot; y=&quot;0&quot; fill=&quot;#22262b&quot; /&gt;
+      &lt;rect width=&quot;3300&quot; height=&quot;779.0205868336386&quot; x=&quot;0&quot; y=&quot;0&quot; fill=&quot;url(#pattern-2)&quot; /&gt;
+      &lt;text font-weight=&quot;700&quot; letter-spacing=&quot;-6.3338180631785&quot; font-size=&quot;142.07105567523968&quot; fill=&quot;#202225&quot; alignment-baseline=&quot;hanging&quot; text-anchor=&quot;middle&quot; x=&quot;1650&quot; y=&quot;389.5102934168193&quot;&gt;I GET TOO CAUGHT UP IN THE MOMENT.&lt;/text&gt;
+      &lt;image xlink:href=&quot;/img/header/moon.svg&quot; x=&quot;183.90093173049294&quot; y=&quot;70.24368060170833&quot; width=&quot;238.5514512135022&quot; height=&quot;297.5584341458998&quot;&gt;&lt;/image&gt;
+      &lt;image xlink:href=&quot;/img/header/cactus.svg&quot; x=&quot;2039.5089000000003&quot; y=&quot;595.1196551031456&quot; width=&quot;183.90093173049294&quot; height=&quot;183.90093173049294&quot;&gt;&lt;/image&gt;
+      &lt;polyline points=&quot;0,701.1185281502748 103.125,701.1185281502748 206.25,467.41235210018317 309.375,467.41235210018317 412.5,467.41235210018317 515.625,467.41235210018317 618.75,467.41235210018317 618.75,389.5102934168193 721.875,389.5102934168193 825,389.5102934168193 928.125,389.5102934168193 1031.25,389.5102934168193 1031.25,467.41235210018317 1134.375,467.41235210018317 1237.5,389.5102934168193 1340.625,389.5102934168193 1443.75,311.60823473345545 1546.875,311.60823473345545 1650,311.60823473345545 1753.125,311.60823473345545 1856.25,311.60823473345545 1856.25,467.41235210018317 1959.375,467.41235210018317 2062.5,389.5102934168193 2165.625,389.5102934168193 2268.75,389.5102934168193 2268.75,467.41235210018317 2371.875,467.41235210018317 2475,389.5102934168193 2578.125,389.5102934168193 2681.25,389.5102934168193 2681.25,311.60823473345545 2784.375,311.60823473345545 2887.5,311.60823473345545 2990.625,311.60823473345545 3093.75,311.60823473345545 3093.75,467.41235210018317 3196.875,701.1185281502748 3300,701.1185281502748 &quot; fill=&quot;none&quot; stroke=&quot;#f25c05&quot; stroke-width=&quot;5&quot; /&gt;
       &lt;polygon
-      points=&quot;206.25,450.09184402449443 226.25,484.732860175872 186.25,484.732860175872&quot;
+      points=&quot;206.25,450.0918440244944 226.25,484.73286017587196 186.25,484.73286017587196&quot;
       fill=&quot;none&quot;
       stroke=&quot;#f2b705&quot;
       stroke-width=&quot;4&quot;
     /&gt;
 
       &lt;a href=&quot;#Intro&quot;&gt;
-        &lt;text fill=&quot;#f2b705&quot; text-anchor=&quot;left&quot; x=&quot;216.25&quot; y=&quot;457.4123521001832&quot;&gt;Intro&lt;/text&gt;
+        &lt;text fill=&quot;#f2b705&quot; text-anchor=&quot;left&quot; x=&quot;216.25&quot; y=&quot;457.41235210018317&quot;&gt;Intro&lt;/text&gt;
       &lt;/a&gt;
     
 &lt;polygon
-      points=&quot;618.75,372.1897853411306 638.75,406.83080149250816 598.75,406.83080149250816&quot;
+      points=&quot;618.75,372.1897853411305 638.75,406.8308014925081 598.75,406.8308014925081&quot;
       fill=&quot;none&quot;
       stroke=&quot;#f2b705&quot;
       stroke-width=&quot;4&quot;
     /&gt;
 
       &lt;a href=&quot;#Verse1&quot;&gt;
-        &lt;text fill=&quot;#f2b705&quot; text-anchor=&quot;left&quot; x=&quot;628.75&quot; y=&quot;379.51029341681937&quot;&gt;Verse1&lt;/text&gt;
+        &lt;text fill=&quot;#f2b705&quot; text-anchor=&quot;left&quot; x=&quot;628.75&quot; y=&quot;379.5102934168193&quot;&gt;Verse1&lt;/text&gt;
       &lt;/a&gt;
     
 &lt;polygon
-      points=&quot;1031.25,450.09184402449443 1051.25,484.732860175872 1011.25,484.732860175872&quot;
+      points=&quot;1031.25,450.0918440244944 1051.25,484.73286017587196 1011.25,484.73286017587196&quot;
       fill=&quot;none&quot;
       stroke=&quot;#f2b705&quot;
       stroke-width=&quot;4&quot;
     /&gt;
 
       &lt;a href=&quot;#Bridge1&quot;&gt;
-        &lt;text fill=&quot;#f2b705&quot; text-anchor=&quot;left&quot; x=&quot;1041.25&quot; y=&quot;457.4123521001832&quot;&gt;Bridge1&lt;/text&gt;
+        &lt;text fill=&quot;#f2b705&quot; text-anchor=&quot;left&quot; x=&quot;1041.25&quot; y=&quot;457.41235210018317&quot;&gt;Bridge1&lt;/text&gt;
       &lt;/a&gt;
     
 &lt;polygon
-      points=&quot;1443.75,294.2877266577667 1463.75,328.9287428091443 1423.75,328.9287428091443&quot;
+      points=&quot;1443.75,294.28772665776665 1463.75,328.92874280914424 1423.75,328.92874280914424&quot;
       fill=&quot;none&quot;
       stroke=&quot;#f2b705&quot;
       stroke-width=&quot;4&quot;
     /&gt;
 
       &lt;a href=&quot;#Chorus1&quot;&gt;
-        &lt;text fill=&quot;#f2b705&quot; text-anchor=&quot;left&quot; x=&quot;1453.75&quot; y=&quot;301.6082347334555&quot;&gt;Chorus1&lt;/text&gt;
+        &lt;text fill=&quot;#f2b705&quot; text-anchor=&quot;left&quot; x=&quot;1453.75&quot; y=&quot;301.60823473345545&quot;&gt;Chorus1&lt;/text&gt;
       &lt;/a&gt;
     
 &lt;polygon
-      points=&quot;1856.25,450.09184402449443 1876.25,484.732860175872 1836.25,484.732860175872&quot;
+      points=&quot;1856.25,450.0918440244944 1876.25,484.73286017587196 1836.25,484.73286017587196&quot;
       fill=&quot;none&quot;
       stroke=&quot;#f2b705&quot;
       stroke-width=&quot;4&quot;
     /&gt;
 
       &lt;a href=&quot;#Verse2&quot;&gt;
-        &lt;text fill=&quot;#f2b705&quot; text-anchor=&quot;left&quot; x=&quot;1866.25&quot; y=&quot;457.4123521001832&quot;&gt;Verse2&lt;/text&gt;
+        &lt;text fill=&quot;#f2b705&quot; text-anchor=&quot;left&quot; x=&quot;1866.25&quot; y=&quot;457.41235210018317&quot;&gt;Verse2&lt;/text&gt;
       &lt;/a&gt;
     
 &lt;polygon
-      points=&quot;2268.75,450.09184402449443 2288.75,484.732860175872 2248.75,484.732860175872&quot;
+      points=&quot;2268.75,450.0918440244944 2288.75,484.73286017587196 2248.75,484.73286017587196&quot;
       fill=&quot;none&quot;
       stroke=&quot;#f2b705&quot;
       stroke-width=&quot;4&quot;
     /&gt;
 
       &lt;a href=&quot;#Bridge2&quot;&gt;
-        &lt;text fill=&quot;#f2b705&quot; text-anchor=&quot;left&quot; x=&quot;2278.75&quot; y=&quot;457.4123521001832&quot;&gt;Bridge2&lt;/text&gt;
+        &lt;text fill=&quot;#f2b705&quot; text-anchor=&quot;left&quot; x=&quot;2278.75&quot; y=&quot;457.41235210018317&quot;&gt;Bridge2&lt;/text&gt;
       &lt;/a&gt;
     
 &lt;polygon
-      points=&quot;2681.25,294.2877266577667 2701.25,328.9287428091443 2661.25,328.9287428091443&quot;
+      points=&quot;2681.25,294.28772665776665 2701.25,328.92874280914424 2661.25,328.92874280914424&quot;
       fill=&quot;none&quot;
       stroke=&quot;#f2b705&quot;
       stroke-width=&quot;4&quot;
     /&gt;
 
       &lt;a href=&quot;#Chorus2&quot;&gt;
-        &lt;text fill=&quot;#f2b705&quot; text-anchor=&quot;left&quot; x=&quot;2691.25&quot; y=&quot;301.6082347334555&quot;&gt;Chorus2&lt;/text&gt;
+        &lt;text fill=&quot;#f2b705&quot; text-anchor=&quot;left&quot; x=&quot;2691.25&quot; y=&quot;301.60823473345545&quot;&gt;Chorus2&lt;/text&gt;
       &lt;/a&gt;
     
 &lt;polygon
-      points=&quot;3093.75,450.09184402449443 3113.75,484.732860175872 3073.75,484.732860175872&quot;
+      points=&quot;3093.75,450.0918440244944 3113.75,484.73286017587196 3073.75,484.73286017587196&quot;
       fill=&quot;none&quot;
       stroke=&quot;#f2b705&quot;
       stroke-width=&quot;4&quot;
     /&gt;
 
       &lt;a href=&quot;#Outro&quot;&gt;
-        &lt;text fill=&quot;#f2b705&quot; text-anchor=&quot;left&quot; x=&quot;3103.75&quot; y=&quot;457.4123521001832&quot;&gt;Outro&lt;/text&gt;
+        &lt;text fill=&quot;#f2b705&quot; text-anchor=&quot;left&quot; x=&quot;3103.75&quot; y=&quot;457.41235210018317&quot;&gt;Outro&lt;/text&gt;
       &lt;/a&gt;
     
-    &lt;/svg&gt;
-&lt;p&gt;I’ve been in the backyard carrying the oven.&lt;/p&gt;</summary>
+      &lt;rect width=&quot;3300&quot; height=&quot;113.65684454019174&quot; x=&quot;0&quot; y=&quot;779.0205868336386&quot; fill=&quot;#202225&quot; /&gt;
+    &lt;/svg&gt;</summary>
     
     
     
