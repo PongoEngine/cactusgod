@@ -6,7 +6,7 @@
   <link href="https://cactusgod.com/atom.xml" rel="self"/>
   
   <link href="https://cactusgod.com/"/>
-  <updated>2021-09-14T06:12:09.829Z</updated>
+  <updated>2021-09-14T06:32:21.718Z</updated>
   <id>https://cactusgod.com/</id>
   
   <author>
@@ -21,11 +21,11 @@
     <link href="https://cactusgod.com/twtwelve/lamination/"/>
     <id>https://cactusgod.com/twtwelve/lamination/</id>
     <published>2021-08-21T00:00:00.000Z</published>
-    <updated>2021-09-14T06:12:09.829Z</updated>
+    <updated>2021-09-14T06:32:21.718Z</updated>
     
     
     <summary type="html">&lt;svg version=&quot;1.1&quot;
-    width=&quot;3300&quot; viewBox=&quot;0 0 3300 892.6774313738304&quot;
+    width=&quot;3300&quot; viewBox=&quot;0 0 3300 779.0205868336386&quot;
     class=&quot;dynamics&quot;
     xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;
       &lt;defs&gt;
@@ -38,6 +38,7 @@
         &lt;/pattern&gt;
       &lt;/defs&gt;
       &lt;rect width=&quot;3300&quot; height=&quot;779.0205868336386&quot; x=&quot;0&quot; y=&quot;0&quot; fill=&quot;#22262b&quot; /&gt;
+      &lt;rect transform-origin=&quot;50% 50%&quot; transform=&quot;rotate(45)&quot; width=&quot;3300&quot; height=&quot;389.5102934168193&quot; x=&quot;0&quot; y=&quot;779.0205868336386&quot; fill=&quot;#202225&quot; /&gt;
       &lt;rect width=&quot;3300&quot; height=&quot;779.0205868336386&quot; x=&quot;0&quot; y=&quot;0&quot; fill=&quot;url(#pattern-2)&quot; /&gt;
       &lt;text font-weight=&quot;700&quot; letter-spacing=&quot;-6.3338180631785&quot; font-size=&quot;142.07105567523968&quot; fill=&quot;#202225&quot; alignment-baseline=&quot;hanging&quot; text-anchor=&quot;middle&quot; x=&quot;1650&quot; y=&quot;389.5102934168193&quot;&gt;I GET TOO CAUGHT UP IN THE MOMENT.&lt;/text&gt;
       &lt;image xlink:href=&quot;/img/header/moon.svg&quot; x=&quot;183.90093173049294&quot; y=&quot;70.24368060170833&quot; width=&quot;238.5514512135022&quot; height=&quot;297.5584341458998&quot;&gt;&lt;/image&gt;
@@ -131,7 +132,6 @@
         &lt;text fill=&quot;#f2b705&quot; text-anchor=&quot;left&quot; x=&quot;3103.75&quot; y=&quot;457.41235210018317&quot;&gt;Outro&lt;/text&gt;
       &lt;/a&gt;
     
-      &lt;rect width=&quot;3300&quot; height=&quot;113.65684454019174&quot; x=&quot;0&quot; y=&quot;779.0205868336386&quot; fill=&quot;#202225&quot; /&gt;
     &lt;/svg&gt;</summary>
     
     
