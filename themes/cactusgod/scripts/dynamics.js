@@ -137,7 +137,6 @@ function parseDynamics(str) {
             dur="${20 / data.length}s" repeatCount="indefinite"/>
         </pattern>
       </defs>
-      <rect width="${width}" height="${height}" x="0" y="0" fill="#22262b" />
       <rect transform-origin="50% 50%" transform="rotate(${rotation})" width="${width}" height="${height/2}" x="0" y="${height}" fill="#202225" />
       <rect width="${width}" height="${height}" x="0" y="0" fill="url(#pattern-2)" />
       <rect width="${width}" height="${height}" x="${msgHeight}" y="${msgHeight}" fill="url(#pattern-2)" />
