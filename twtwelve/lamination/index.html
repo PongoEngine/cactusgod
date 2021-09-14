@@ -28,7 +28,7 @@
 
   <meta name="generator" content="Hexo 5.4.0"></head>
   <body>
-    <!-- <div id="app"></div> -->
+    <div id="three"></div>
     <div class="container">
       <header>
   <ul class="blog-nav">
@@ -75,7 +75,6 @@
             dur="0.6060606060606061s" repeatCount="indefinite"/>
         </pattern>
       </defs>
-      <rect width="3300" height="1260.4838039937001" x="0" y="0" fill="#22262b" />
       <rect transform-origin="50% 50%" transform="rotate(45)" width="3300" height="630.2419019968501" x="0" y="1260.4838039937001" fill="#202225" />
       <rect width="3300" height="1260.4838039937001" x="0" y="0" fill="url(#pattern-2)" />
       <rect width="3300" height="1260.4838039937001" x="183.9009317304929" y="183.9009317304929" fill="url(#pattern-2)" />
@@ -845,5 +844,222 @@
 </footer>
     </div>
     <!-- <script src="/js/index.js"></script> -->
+    <script type="module">
+      import * as THREE from "/js/three.module.js";
+      import * as GeometryUtils from "/js/GeometryUtils.js";
+
+      let renderer, scene, camera;
+      const objects = [];
+
+      let xpos = 10;
+      let ypos = 0;
+      const clamp = (num, min, max) => Math.min(Math.max(num, min), max);
+      function findScreenCoords(mouseEvent) {
+        if (mouseEvent) {
+          //FireFox
+          xpos = mouseEvent.screenX;
+          ypos = mouseEvent.screenY;
+        } else {
+          //IE
+          xpos = window.event.screenX;
+          ypos = window.event.screenY;
+        }
+        xpos = clamp(xpos / window.innerWidth - 0.5, -0.5, 0.5) * 2;
+        ypos = clamp(ypos / window.innerHeight - 0.5, -0.5, 0.5) * 2;
+      }
+      document.body.onmousemove = findScreenCoords;
+
+      const WIDTH = window.innerWidth,
+        HEIGHT = window.innerHeight;
+
+      init();
+      animate();
+
+      function init() {
+        camera = new THREE.PerspectiveCamera(60, WIDTH / HEIGHT, 1, 200);
+        camera.position.z = 150;
+
+        scene = new THREE.Scene();
+        scene.background = new THREE.Color(0x202225);
+        scene.fog = new THREE.Fog(0x111111, 150, 200);
+
+        const subdivisions = 6;
+        const recursion = 1;
+
+        const points = GeometryUtils.hilbert3D(
+          new THREE.Vector3(0, 0, 0),
+          25.0,
+          recursion,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        );
+        const spline = new THREE.CatmullRomCurve3(points);
+
+        const samples = spline.getPoints(points.length * subdivisions);
+        const geometrySpline = new THREE.BufferGeometry().setFromPoints(
+          samples
+        );
+
+        const geometryBox = box(50, 50, 50);
+
+        const lineSegments = new THREE.LineSegments(
+          geometryBox,
+          new THREE.LineBasicMaterial({
+            color: 0x308ad9,
+            linewidth: 1,
+          })
+        );
+        lineSegments.computeLineDistances();
+
+        objects.push(lineSegments);
+        scene.add(lineSegments);
+
+        renderer = new THREE.WebGLRenderer({ antialias: true });
+        renderer.setPixelRatio(window.devicePixelRatio);
+        renderer.setSize(WIDTH, HEIGHT);
+
+        const three = document.getElementById("three");
+        three.appendChild(renderer.domElement);
+
+        window.addEventListener("resize", onWindowResize);
+      }
+
+      function box(width, height, depth) {
+        (width = width * 0.5), (height = height * 0.5), (depth = depth * 0.5);
+
+        const geometry = new THREE.BufferGeometry();
+        const position = [];
+
+        position.push(
+          -width,
+          -height,
+          -depth,
+          -width,
+          height,
+          -depth,
+
+          -width,
+          height,
+          -depth,
+          width,
+          height,
+          -depth,
+
+          width,
+          height,
+          -depth,
+          width,
+          -height,
+          -depth,
+
+          width,
+          -height,
+          -depth,
+          -width,
+          -height,
+          -depth,
+
+          -width,
+          -height,
+          depth,
+          -width,
+          height,
+          depth,
+
+          -width,
+          height,
+          depth,
+          width,
+          height,
+          depth,
+
+          width,
+          height,
+          depth,
+          width,
+          -height,
+          depth,
+
+          width,
+          -height,
+          depth,
+          -width,
+          -height,
+          depth,
+
+          -width,
+          -height,
+          -depth,
+          -width,
+          -height,
+          depth,
+
+          -width,
+          height,
+          -depth,
+          -width,
+          height,
+          depth,
+
+          width,
+          height,
+          -depth,
+          width,
+          height,
+          depth,
+
+          width,
+          -height,
+          -depth,
+          width,
+          -height,
+          depth
+        );
+
+        geometry.setAttribute(
+          "position",
+          new THREE.Float32BufferAttribute(position, 3)
+        );
+
+        return geometry;
+      }
+
+      function onWindowResize() {
+        camera.aspect = window.innerWidth / window.innerHeight;
+        camera.updateProjectionMatrix();
+
+        renderer.setSize(window.innerWidth, window.innerHeight);
+      }
+
+      function animate() {
+        requestAnimationFrame(animate);
+
+        render();
+      }
+
+      function render() {
+        const time = Date.now() * 0.001;
+
+        const scale = 1.25;
+        let index = 0;
+        scene.traverse(function (object) {
+          if (object.isLine) {
+            const scaledIndex = scale * index++;
+            object.rotation.x = 0.25 * time;
+            object.rotation.y = 0.25 * time;
+            object.position.x = xpos * 20;
+            object.position.y = -ypos * 20;
+          }
+        });
+
+        renderer.render(scene, camera);
+      }
+    </script>
   </body>
 </html>

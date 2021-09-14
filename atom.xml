@@ -6,7 +6,7 @@
   <link href="https://cactusgod.com/atom.xml" rel="self"/>
   
   <link href="https://cactusgod.com/"/>
-  <updated>2021-09-14T07:18:05.971Z</updated>
+  <updated>2021-09-14T07:50:56.349Z</updated>
   <id>https://cactusgod.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://cactusgod.com/twtwelve/lamination/"/>
     <id>https://cactusgod.com/twtwelve/lamination/</id>
     <published>2021-08-21T00:00:00.000Z</published>
-    <updated>2021-09-14T07:18:05.971Z</updated>
+    <updated>2021-09-14T07:50:56.349Z</updated>
     
     
     <summary type="html">&lt;svg version=&quot;1.1&quot;
@@ -37,7 +37,6 @@
             dur=&quot;0.6060606060606061s&quot; repeatCount=&quot;indefinite&quot;/&gt;
         &lt;/pattern&gt;
       &lt;/defs&gt;
-      &lt;rect width=&quot;3300&quot; height=&quot;1260.4838039937001&quot; x=&quot;0&quot; y=&quot;0&quot; fill=&quot;#22262b&quot; /&gt;
       &lt;rect transform-origin=&quot;50% 50%&quot; transform=&quot;rotate(45)&quot; width=&quot;3300&quot; height=&quot;630.2419019968501&quot; x=&quot;0&quot; y=&quot;1260.4838039937001&quot; fill=&quot;#202225&quot; /&gt;
       &lt;rect width=&quot;3300&quot; height=&quot;1260.4838039937001&quot; x=&quot;0&quot; y=&quot;0&quot; fill=&quot;url(#pattern-2)&quot; /&gt;
       &lt;rect width=&quot;3300&quot; height=&quot;1260.4838039937001&quot; x=&quot;183.9009317304929&quot; y=&quot;183.9009317304929&quot; fill=&quot;url(#pattern-2)&quot; /&gt;
