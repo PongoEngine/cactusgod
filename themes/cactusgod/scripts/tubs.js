@@ -39,7 +39,7 @@ function parseTubs(str, timeSig) {
             char = "✖";
           }
           const isEmpty = char === "-" ? true : false;
-          const textColor = isEmpty ? "#308ad9" : "#fff";
+          const textColor = isEmpty ? "rgb(157, 131, 93)" : "#222";
           const isDown = charIndex % sepIndex === 0;
           const cmds = [];
           if (isDown) {
@@ -47,7 +47,7 @@ function parseTubs(str, timeSig) {
               cmds.push(
                 `<rect width="0.5" height="${cellDim - 1}" x="${
                   xPos - 6
-                }" y="0" fill="#f28705" />`
+                }" y="0" fill="rgb(110, 88, 69)" />`
               );
               xPos += 4;
             }
@@ -69,13 +69,13 @@ function parseTubs(str, timeSig) {
       return `
         <g transform="translate(0,${rowIndex * cellDim})">
           ${row}
-          <text fill="#fff" x="${
+          <text fill="#222" x="${
             charWidth / 2 + xPos
           }" y="${textY}">${rowTitle}</text>
-          <rect width="0.5" height="${cellDim}" x="${width}" y="0" fill="#f25c05" />
+          <rect width="0.5" height="${cellDim}" x="${width}" y="0" fill="rgb(210, 49, 52)" />
           <rect width="${width}" height="0.5" x="0" y="${
         cellDim - 1
-      }" fill="#f25c05" />
+      }" fill="rgb(210, 49, 52)" />
         </g>
       `;
     })
@@ -98,22 +98,22 @@ function parseTubs(str, timeSig) {
             dur="2s" repeatCount="indefinite"/>
         </pattern>
       </defs>
-      <rect width="${width}" height="${height}" x="0" y="0" fill="#202225" />
+      <rect width="${width}" height="${height}" x="0" y="0" fill="#fff" />
       <rect width="${width}" height="0.5" x="0" y="${
     height - 1
-  }" fill="#f25c05" />
+  }" fill="rgb(210, 49, 52)" />
       ${lines}
       <rect fill="url(#pattern)" width="${width}" height="${baseHeight}" x="0" y="${height}" />
-      <rect fill="#f25c05" width="${width}" height="0.5" x="0" y="${
+      <rect fill="rgb(210, 49, 52)" width="${width}" height="0.5" x="0" y="${
     height + baseHeight - 0.5
   }" />
-      <rect fill="#f25c05" width="0.5" height="${
+      <rect fill="rgb(210, 49, 52)" width="0.5" height="${
         height + baseHeight
       }" x="0" y="0" />
-      <rect fill="#f25c05" width="0.5" height="${height + baseHeight}" x="${
+      <rect fill="rgb(210, 49, 52)" width="0.5" height="${height + baseHeight}" x="${
     width - 1
   }" y="0" />
-      <rect fill="#f25c05" width="${width}" height="0.5" x="0" y="0" />
+      <rect fill="rgb(210, 49, 52)" width="${width}" height="0.5" x="0" y="0" />
     </svg></div>`;
 }
 hexo.extend.tag.register(

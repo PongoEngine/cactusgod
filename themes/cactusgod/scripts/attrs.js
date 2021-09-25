@@ -19,7 +19,6 @@ function parseAttrs(str) {
     }
   });
   return `
-    <h3 id="Definition"><a href="#Definition" class="headerlink" title="Definition"></a>Definition</h3>
     <p class="arrangement-container">
       Scale / Key - ${sts.scale}
       <br>

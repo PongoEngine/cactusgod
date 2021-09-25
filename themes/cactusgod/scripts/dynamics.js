@@ -127,7 +127,8 @@ function parseDynamics(str) {
     <svg version="1.1"
     width="${width}" viewBox="0 0 ${width} ${height}"
     class="dynamics"
-    xmlns="http://www.w3.org/2000/svg">
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
       <defs>
         <pattern id="pattern-2" x="0" y="0" width="${patternWidth}" height="${patternHeight}" patternUnits="userSpaceOnUse">
           <image xlink:href="/img/pattern.svg" x="0" y="0" width="${patternWidth}" height="${patternHeight}"></image>
@@ -141,14 +142,20 @@ function parseDynamics(str) {
             repeatCount="indefinite" />
         </pattern>
       </defs>
-      <rect transform-origin="50% 50%" transform="rotate(${rotation})" width="${width}" height="${height/2}" x="0" y="${height}" fill="#202225" />
+      <rect transform-origin="50% 50%" transform="rotate(${rotation})" width="${width}" height="${
+    height / 2
+  }" x="0" y="${height}" fill="rgb(210, 49, 52)" />
       <rect width="${width}" height="${height}" x="0" y="0" fill="url(#pattern-2)" />
       <rect width="${width}" height="${height}" x="${msgHeight}" y="${msgHeight}" fill="url(#pattern-2)" />
-      <text font-weight="700" letter-spacing="-${letterSpacing}" font-size="${msgHeight * 1.25}" fill="#202225" alignment-baseline="hanging" text-anchor="middle" x="${width/2}" y="${height / 2}">${data.tagline}</text>
+      <text class="no-user-select" font-weight="700" letter-spacing="-${letterSpacing}" font-size="${
+    msgHeight * 1.25
+  }" fill="#fff" alignment-baseline="hanging" text-anchor="middle" x="${
+    width / 2
+  }" y="${height / 2}">${data.tagline}</text>
       <image xlink:href="${
         data.image.value
       }" x="${img1X}" y="${img1Y}" width="${imgWidth}" height="${imgHeight}"></image>
-      <polyline points="${points}" fill="none" stroke="#f25c05" stroke-width="5" />
+      <polyline points="${points}" fill="none" stroke="rgb(210, 49, 52)" stroke-width="5" />
       ${polys}
     </svg>`;
 }
@@ -164,14 +171,14 @@ function createPoly(x, y, length, label) {
     `<polygon
       points="${p1x},${p1y} ${p2x},${p2y} ${p3x},${p3y}"
       fill="none"
-      stroke="#f2b705"
+      stroke="#222"
       stroke-width="4"
     />`,
   ];
   if (label) {
     cmds.push(`
       <a href="#${label}">
-        <text fill="#f2b705" text-anchor="left" x="${x + 10}" y="${
+        <text fill="#222" text-anchor="left" x="${x + 10}" y="${
       y - 10
     }">${label}</text>
       </a>
