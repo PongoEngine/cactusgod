@@ -6,7 +6,7 @@
   <link href="https://cactusgod.com/atom.xml" rel="self"/>
   
   <link href="https://cactusgod.com/"/>
-  <updated>2021-09-14T15:01:34.642Z</updated>
+  <updated>2021-09-25T17:27:20.943Z</updated>
   <id>https://cactusgod.com/</id>
   
   <author>
@@ -21,13 +21,14 @@
     <link href="https://cactusgod.com/twtwelve/lamination/"/>
     <id>https://cactusgod.com/twtwelve/lamination/</id>
     <published>2021-08-21T00:00:00.000Z</published>
-    <updated>2021-09-14T15:01:34.642Z</updated>
+    <updated>2021-09-25T17:27:20.943Z</updated>
     
     
     <summary type="html">&lt;svg version=&quot;1.1&quot;
-    width=&quot;3300&quot; viewBox=&quot;0 0 3300 1260.4838039937001&quot;
+    width=&quot;1600&quot; viewBox=&quot;0 0 1600 611.1436625424001&quot;
     class=&quot;dynamics&quot;
-    xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;
+    xmlns=&quot;http://www.w3.org/2000/svg&quot;
+    xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot;&gt;
       &lt;defs&gt;
         &lt;pattern id=&quot;pattern-2&quot; x=&quot;0&quot; y=&quot;0&quot; width=&quot;120&quot; height=&quot;20&quot; patternUnits=&quot;userSpaceOnUse&quot;&gt;
           &lt;image xlink:href=&quot;/img/pattern.svg&quot; x=&quot;0&quot; y=&quot;0&quot; width=&quot;120&quot; height=&quot;20&quot;&gt;&lt;/image&gt;
@@ -35,107 +36,76 @@
             attributeName=&quot;patternTransform&quot;
             attributeType=&quot;XML&quot;
             type=&quot;translate&quot; 
-            dur=&quot;0.6060606060606061s&quot;
+            dur=&quot;1.25s&quot;
             from=&quot;0&quot; 
             to=&quot;-120&quot; 
             repeatCount=&quot;indefinite&quot; /&gt;
         &lt;/pattern&gt;
       &lt;/defs&gt;
-      &lt;rect transform-origin=&quot;50% 50%&quot; transform=&quot;rotate(45)&quot; width=&quot;3300&quot; height=&quot;630.2419019968501&quot; x=&quot;0&quot; y=&quot;1260.4838039937001&quot; fill=&quot;#202225&quot; /&gt;
-      &lt;rect width=&quot;3300&quot; height=&quot;1260.4838039937001&quot; x=&quot;0&quot; y=&quot;0&quot; fill=&quot;url(#pattern-2)&quot; /&gt;
-      &lt;rect width=&quot;3300&quot; height=&quot;1260.4838039937001&quot; x=&quot;183.9009317304929&quot; y=&quot;183.9009317304929&quot; fill=&quot;url(#pattern-2)&quot; /&gt;
-      &lt;text font-weight=&quot;700&quot; letter-spacing=&quot;-10.248349300407096&quot; font-size=&quot;229.87616466311613&quot; fill=&quot;#202225&quot; alignment-baseline=&quot;hanging&quot; text-anchor=&quot;middle&quot; x=&quot;1650&quot; y=&quot;630.2419019968501&quot;&gt;I GET TOO CAUGHT UP IN THE MOMENT.&lt;/text&gt;
-      &lt;image xlink:href=&quot;/img/header/moon.svg&quot; x=&quot;183.90093173049294&quot; y=&quot;113.65684454019173&quot; width=&quot;297.5584341458998&quot; height=&quot;297.5584341458998&quot;&gt;&lt;/image&gt;
-      &lt;polyline points=&quot;0,1134.4354235943301 103.125,1134.4354235943301 206.25,756.29028239622 309.375,756.29028239622 412.5,756.29028239622 515.625,756.29028239622 618.75,756.29028239622 618.75,630.2419019968501 721.875,630.2419019968501 825,630.2419019968501 928.125,630.2419019968501 1031.25,630.2419019968501 1031.25,756.29028239622 1134.375,756.29028239622 1237.5,630.2419019968501 1340.625,630.2419019968501 1443.75,504.19352159748007 1546.875,504.19352159748007 1650,504.19352159748007 1753.125,504.19352159748007 1856.25,504.19352159748007 1856.25,756.29028239622 1959.375,756.29028239622 2062.5,630.2419019968501 2165.625,630.2419019968501 2268.75,630.2419019968501 2268.75,756.29028239622 2371.875,756.29028239622 2475,630.2419019968501 2578.125,630.2419019968501 2681.25,630.2419019968501 2681.25,504.19352159748007 2784.375,504.19352159748007 2887.5,504.19352159748007 2990.625,504.19352159748007 3093.75,504.19352159748007 3093.75,756.29028239622 3196.875,1134.4354235943301 3300,1134.4354235943301 &quot; fill=&quot;none&quot; stroke=&quot;#f25c05&quot; stroke-width=&quot;5&quot; /&gt;
+      &lt;rect transform-origin=&quot;50% 50%&quot; transform=&quot;rotate(45)&quot; width=&quot;1600&quot; height=&quot;305.57183127120004&quot; x=&quot;0&quot; y=&quot;611.1436625424001&quot; fill=&quot;rgb(210, 49, 52)&quot; /&gt;
+      &lt;rect width=&quot;1600&quot; height=&quot;611.1436625424001&quot; x=&quot;0&quot; y=&quot;0&quot; fill=&quot;url(#pattern-2)&quot; /&gt;
+      &lt;rect width=&quot;1600&quot; height=&quot;611.1436625424001&quot; x=&quot;89.16408811175414&quot; y=&quot;89.16408811175414&quot; fill=&quot;url(#pattern-2)&quot; /&gt;
+      &lt;text class=&quot;no-user-select&quot; font-weight=&quot;700&quot; letter-spacing=&quot;-4.96889663050041&quot; font-size=&quot;111.45511013969268&quot; fill=&quot;#fff&quot; alignment-baseline=&quot;hanging&quot; text-anchor=&quot;middle&quot; x=&quot;800&quot; y=&quot;305.57183127120004&quot;&gt;I GET TOO CAUGHT UP IN THE MOMENT.&lt;/text&gt;
+      &lt;image xlink:href=&quot;/img/header/moon.svg&quot; x=&quot;89.16408811175415&quot; y=&quot;55.106348867971754&quot; width=&quot;144.2707559495272&quot; height=&quot;144.2707559495272&quot;&gt;&lt;/image&gt;
+      &lt;polyline points=&quot;0,550.02929628816 106.66666666666667,550.02929628816 213.33333333333334,366.68619752544004 320,366.68619752544004 426.6666666666667,366.68619752544004 533.3333333333334,366.68619752544004 640,366.68619752544004 640,305.57183127120004 746.6666666666666,305.57183127120004 853.3333333333333,305.57183127120004 959.9999999999999,305.57183127120004 1066.6666666666665,305.57183127120004 1066.6666666666665,366.68619752544004 1173.3333333333333,366.68619752544004 1280,305.57183127120004 1386.6666666666667,305.57183127120004 1493.3333333333335,244.45746501696004 1600.0000000000002,244.45746501696004 &quot; fill=&quot;none&quot; stroke=&quot;rgb(210, 49, 52)&quot; stroke-width=&quot;5&quot; /&gt;
       &lt;polygon
-      points=&quot;206.25,738.9697743205313 226.25,773.6107904719088 186.25,773.6107904719088&quot;
+      points=&quot;213.33333333333334,349.36568944975124 233.33333333333334,384.00670560112883 193.33333333333334,384.00670560112883&quot;
       fill=&quot;none&quot;
-      stroke=&quot;#f2b705&quot;
+      stroke=&quot;#222&quot;
       stroke-width=&quot;4&quot;
     /&gt;
 
       &lt;a href=&quot;#Intro&quot;&gt;
-        &lt;text fill=&quot;#f2b705&quot; text-anchor=&quot;left&quot; x=&quot;216.25&quot; y=&quot;746.29028239622&quot;&gt;Intro&lt;/text&gt;
+        &lt;text fill=&quot;#222&quot; text-anchor=&quot;left&quot; x=&quot;223.33333333333334&quot; y=&quot;356.68619752544004&quot;&gt;Intro&lt;/text&gt;
       &lt;/a&gt;
     
 &lt;polygon
-      points=&quot;618.75,612.9213939211613 638.75,647.5624100725388 598.75,647.5624100725388&quot;
+      points=&quot;640,288.25132319551125 660,322.89233934688883 620,322.89233934688883&quot;
       fill=&quot;none&quot;
-      stroke=&quot;#f2b705&quot;
+      stroke=&quot;#222&quot;
       stroke-width=&quot;4&quot;
     /&gt;
 
       &lt;a href=&quot;#Verse1&quot;&gt;
-        &lt;text fill=&quot;#f2b705&quot; text-anchor=&quot;left&quot; x=&quot;628.75&quot; y=&quot;620.2419019968501&quot;&gt;Verse1&lt;/text&gt;
+        &lt;text fill=&quot;#222&quot; text-anchor=&quot;left&quot; x=&quot;650&quot; y=&quot;295.57183127120004&quot;&gt;Verse1&lt;/text&gt;
       &lt;/a&gt;
     
 &lt;polygon
-      points=&quot;1031.25,738.9697743205313 1051.25,773.6107904719088 1011.25,773.6107904719088&quot;
+      points=&quot;1066.6666666666665,349.36568944975124 1086.6666666666665,384.00670560112883 1046.6666666666665,384.00670560112883&quot;
       fill=&quot;none&quot;
-      stroke=&quot;#f2b705&quot;
+      stroke=&quot;#222&quot;
       stroke-width=&quot;4&quot;
     /&gt;
 
       &lt;a href=&quot;#Bridge1&quot;&gt;
-        &lt;text fill=&quot;#f2b705&quot; text-anchor=&quot;left&quot; x=&quot;1041.25&quot; y=&quot;746.29028239622&quot;&gt;Bridge1&lt;/text&gt;
+        &lt;text fill=&quot;#222&quot; text-anchor=&quot;left&quot; x=&quot;1076.6666666666665&quot; y=&quot;356.68619752544004&quot;&gt;Bridge1&lt;/text&gt;
       &lt;/a&gt;
     
 &lt;polygon
-      points=&quot;1443.75,486.8730135217913 1463.75,521.5140296731688 1423.75,521.5140296731688&quot;
+      points=&quot;1493.3333333333335,227.13695694127128 1513.3333333333335,261.77797309264884 1473.3333333333335,261.77797309264884&quot;
       fill=&quot;none&quot;
-      stroke=&quot;#f2b705&quot;
+      stroke=&quot;#222&quot;
       stroke-width=&quot;4&quot;
     /&gt;
 
       &lt;a href=&quot;#Chorus1&quot;&gt;
-        &lt;text fill=&quot;#f2b705&quot; text-anchor=&quot;left&quot; x=&quot;1453.75&quot; y=&quot;494.19352159748007&quot;&gt;Chorus1&lt;/text&gt;
+        &lt;text fill=&quot;#222&quot; text-anchor=&quot;left&quot; x=&quot;1503.3333333333335&quot; y=&quot;234.45746501696004&quot;&gt;Chorus1&lt;/text&gt;
       &lt;/a&gt;
     
-&lt;polygon
-      points=&quot;1856.25,738.9697743205313 1876.25,773.6107904719088 1836.25,773.6107904719088&quot;
-      fill=&quot;none&quot;
-      stroke=&quot;#f2b705&quot;
-      stroke-width=&quot;4&quot;
-    /&gt;
+    &lt;/svg&gt;
 
-      &lt;a href=&quot;#Verse2&quot;&gt;
-        &lt;text fill=&quot;#f2b705&quot; text-anchor=&quot;left&quot; x=&quot;1866.25&quot; y=&quot;746.29028239622&quot;&gt;Verse2&lt;/text&gt;
-      &lt;/a&gt;
-    
-&lt;polygon
-      points=&quot;2268.75,738.9697743205313 2288.75,773.6107904719088 2248.75,773.6107904719088&quot;
-      fill=&quot;none&quot;
-      stroke=&quot;#f2b705&quot;
-      stroke-width=&quot;4&quot;
-    /&gt;
 
-      &lt;a href=&quot;#Bridge2&quot;&gt;
-        &lt;text fill=&quot;#f2b705&quot; text-anchor=&quot;left&quot; x=&quot;2278.75&quot; y=&quot;746.29028239622&quot;&gt;Bridge2&lt;/text&gt;
-      &lt;/a&gt;
-    
-&lt;polygon
-      points=&quot;2681.25,486.8730135217913 2701.25,521.5140296731688 2661.25,521.5140296731688&quot;
-      fill=&quot;none&quot;
-      stroke=&quot;#f2b705&quot;
-      stroke-width=&quot;4&quot;
-    /&gt;
+    &lt;p class=&quot;arrangement-container&quot;&gt;
+      Scale / Key - TBD
+      &lt;br&gt;
+      Tempo - 120
+      &lt;br&gt;
+      Time Signature - 4/4
+    &lt;/p&gt;
+  
 
-      &lt;a href=&quot;#Chorus2&quot;&gt;
-        &lt;text fill=&quot;#f2b705&quot; text-anchor=&quot;left&quot; x=&quot;2691.25&quot; y=&quot;494.19352159748007&quot;&gt;Chorus2&lt;/text&gt;
-      &lt;/a&gt;
-    
-&lt;polygon
-      points=&quot;3093.75,738.9697743205313 3113.75,773.6107904719088 3073.75,773.6107904719088&quot;
-      fill=&quot;none&quot;
-      stroke=&quot;#f2b705&quot;
-      stroke-width=&quot;4&quot;
-    /&gt;
-
-      &lt;a href=&quot;#Outro&quot;&gt;
-        &lt;text fill=&quot;#f2b705&quot; text-anchor=&quot;left&quot; x=&quot;3103.75&quot; y=&quot;746.29028239622&quot;&gt;Outro&lt;/text&gt;
-      &lt;/a&gt;
-    
-    &lt;/svg&gt;</summary>
+&lt;p&gt;Verse1 is accompanied with just the bass drum and rhythm2 synth which highlights the vocals. The instruments build much like they did in the intro with additional layers and percussion.&lt;/p&gt;
+&lt;p&gt;Bridge1 is ghost like. Noise echos in the background. The only instruments playing are the bass drum, snare, and rhythm1 in its original state. The vocals are a softer but still carry that fuck you vibe. Rhythm1 builds much quicker as the song transitions to Bridge2.&lt;/p&gt;</summary>
     
     
     

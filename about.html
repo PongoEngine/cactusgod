@@ -25,10 +25,16 @@
     />
     
 <link rel="stylesheet" href="/css/blog.css">
-
+ 
+    <style>
+      html, body {
+        background-color: #ff0000;
+      }
+    </style>
+    
   <meta name="generator" content="Hexo 5.4.0"></head>
   <body>
-    <div id="three"></div>
+    <img src="/img/cursor.svg" alt="" id="circle" />
     <div class="container">
       <header>
   <ul class="blog-nav">
@@ -64,5 +70,51 @@
     &#169; 2021 Cactus God | Jeremy
 </footer>
     </div>
+    <script>
+      const PIhalf = Math.PI / 2;
+      function clamp(value, min, max) {
+        return Math.min(Math.max(value, min), max);
+      }
+      function ease(t) {
+        return 1 + --t * t * t;
+      }
+      let leftPos = 0;
+      let topPos = 0;
+
+      const circle = document.getElementById("circle");
+      const MAX_DIST = 400;
+      let hasStarted = false;
+      document.addEventListener("mousemove", function (e) {
+        leftPos = e.pageX;
+        topPos = e.pageY;
+
+        if (!hasStarted) {
+          hasStarted = true;
+          circle.style.left = leftPos + "px";
+          circle.style.top = topPos + "px";
+        }
+      });
+
+      function handleMouse() {
+        if (hasStarted) {
+          // console.log(0);
+          const circleLeft = parseFloat(circle.style.left);
+          const circleTop = parseFloat(circle.style.top);
+          if (circleLeft && circleTop) {
+            const movX = leftPos - circleLeft;
+            const movY = topPos - circleTop;
+            const scaleLeft = clamp(Math.abs(movX), 0, MAX_DIST) / MAX_DIST;
+            const scaleTop = clamp(Math.abs(movY), 0, MAX_DIST) / MAX_DIST;
+            const newLeft = ease(scaleLeft) * movX + circleLeft;
+            const newTop = ease(scaleTop) * movY + circleTop;
+            circle.style.left = newLeft + "px";
+            circle.style.top = newTop + "px";
+          }
+        }
+        window.requestAnimationFrame(handleMouse);
+      }
+
+      window.requestAnimationFrame(handleMouse);
+    </script>
   </body>
 </html>
