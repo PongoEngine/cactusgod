@@ -6,7 +6,7 @@
   <link href="https://cactusgod.com/atom.xml" rel="self"/>
   
   <link href="https://cactusgod.com/"/>
-  <updated>2021-09-25T17:27:20.943Z</updated>
+  <updated>2021-09-30T20:17:01.088Z</updated>
   <id>https://cactusgod.com/</id>
   
   <author>
@@ -17,91 +17,246 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>lamination</title>
-    <link href="https://cactusgod.com/twtwelve/lamination/"/>
-    <id>https://cactusgod.com/twtwelve/lamination/</id>
-    <published>2021-08-21T00:00:00.000Z</published>
-    <updated>2021-09-25T17:27:20.943Z</updated>
+    <title>gold</title>
+    <link href="https://cactusgod.com/twtwelve/gold/"/>
+    <id>https://cactusgod.com/twtwelve/gold/</id>
+    <published>2021-08-22T00:00:00.000Z</published>
+    <updated>2021-09-30T20:17:01.088Z</updated>
     
     
     <summary type="html">&lt;svg version=&quot;1.1&quot;
-    width=&quot;1600&quot; viewBox=&quot;0 0 1600 611.1436625424001&quot;
+    width=&quot;2900&quot; viewBox=&quot;0 0 2900 1107.6978883581003&quot;
     class=&quot;dynamics&quot;
     xmlns=&quot;http://www.w3.org/2000/svg&quot;
     xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot;&gt;
       &lt;defs&gt;
         &lt;pattern id=&quot;pattern-2&quot; x=&quot;0&quot; y=&quot;0&quot; width=&quot;120&quot; height=&quot;20&quot; patternUnits=&quot;userSpaceOnUse&quot;&gt;
-          &lt;image xlink:href=&quot;/img/pattern.svg&quot; x=&quot;0&quot; y=&quot;0&quot; width=&quot;120&quot; height=&quot;20&quot;&gt;&lt;/image&gt;
+          &lt;path stroke-width=&quot;1.458971001038043&quot; class=&quot;dyn-pattern-path&quot; d=&#39;M-50.129 12.685C-33.346 12.358-16.786 4.918 0 5c16.787.082 43.213 10 60 10s43.213-9.918 60-10c16.786-.082 33.346 7.358 50.129 7.685&#39; stroke-width=&#39;0.5&#39; stroke=&#39;rgb(0, 0, 0)&#39; fill=&#39;none&#39; /&gt;
           &lt;animateTransform
             attributeName=&quot;patternTransform&quot;
             attributeType=&quot;XML&quot;
             type=&quot;translate&quot; 
-            dur=&quot;1.25s&quot;
+            dur=&quot;0.6896551724137931s&quot;
             from=&quot;0&quot; 
             to=&quot;-120&quot; 
             repeatCount=&quot;indefinite&quot; /&gt;
         &lt;/pattern&gt;
       &lt;/defs&gt;
-      &lt;rect transform-origin=&quot;50% 50%&quot; transform=&quot;rotate(45)&quot; width=&quot;1600&quot; height=&quot;305.57183127120004&quot; x=&quot;0&quot; y=&quot;611.1436625424001&quot; fill=&quot;rgb(210, 49, 52)&quot; /&gt;
-      &lt;rect width=&quot;1600&quot; height=&quot;611.1436625424001&quot; x=&quot;0&quot; y=&quot;0&quot; fill=&quot;url(#pattern-2)&quot; /&gt;
-      &lt;rect width=&quot;1600&quot; height=&quot;611.1436625424001&quot; x=&quot;89.16408811175414&quot; y=&quot;89.16408811175414&quot; fill=&quot;url(#pattern-2)&quot; /&gt;
-      &lt;text class=&quot;no-user-select&quot; font-weight=&quot;700&quot; letter-spacing=&quot;-4.96889663050041&quot; font-size=&quot;111.45511013969268&quot; fill=&quot;#fff&quot; alignment-baseline=&quot;hanging&quot; text-anchor=&quot;middle&quot; x=&quot;800&quot; y=&quot;305.57183127120004&quot;&gt;I GET TOO CAUGHT UP IN THE MOMENT.&lt;/text&gt;
-      &lt;image xlink:href=&quot;/img/header/moon.svg&quot; x=&quot;89.16408811175415&quot; y=&quot;55.106348867971754&quot; width=&quot;144.2707559495272&quot; height=&quot;144.2707559495272&quot;&gt;&lt;/image&gt;
-      &lt;polyline points=&quot;0,550.02929628816 106.66666666666667,550.02929628816 213.33333333333334,366.68619752544004 320,366.68619752544004 426.6666666666667,366.68619752544004 533.3333333333334,366.68619752544004 640,366.68619752544004 640,305.57183127120004 746.6666666666666,305.57183127120004 853.3333333333333,305.57183127120004 959.9999999999999,305.57183127120004 1066.6666666666665,305.57183127120004 1066.6666666666665,366.68619752544004 1173.3333333333333,366.68619752544004 1280,305.57183127120004 1386.6666666666667,305.57183127120004 1493.3333333333335,244.45746501696004 1600.0000000000002,244.45746501696004 &quot; fill=&quot;none&quot; stroke=&quot;rgb(210, 49, 52)&quot; stroke-width=&quot;5&quot; /&gt;
+      &lt;rect class=&quot;dyn-shine&quot; transform-origin=&quot;50% 50%&quot; transform=&quot;rotate(45)&quot; width=&quot;2900&quot; height=&quot;553.8489441790501&quot; x=&quot;0&quot; y=&quot;1107.6978883581003&quot; /&gt;
+      &lt;rect class=&quot;dyn-rect-back&quot; width=&quot;2900&quot; height=&quot;1107.6978883581003&quot; x=&quot;0&quot; y=&quot;0&quot; fill=&quot;url(#pattern-2)&quot; /&gt;
+      &lt;rect class=&quot;dyn-rect-front&quot; width=&quot;2900&quot; height=&quot;1107.6978883581003&quot; x=&quot;161.6099097025544&quot; y=&quot;161.6099097025544&quot; fill=&quot;url(#pattern-2)&quot; /&gt;
+      &lt;text class=&quot;dyn-text no-user-select&quot; font-weight=&quot;700&quot; letter-spacing=&quot;-9.006125142781995&quot; font-size=&quot;202.012387128193&quot; alignment-baseline=&quot;hanging&quot; text-anchor=&quot;middle&quot; x=&quot;1450&quot; y=&quot;553.8489441790501&quot;&gt;COME ON IN THE WATER IS FINE&lt;/text&gt;
       &lt;polygon
-      points=&quot;213.33333333333334,349.36568944975124 233.33333333333334,384.00670560112883 193.33333333333334,384.00670560112883&quot;
-      fill=&quot;none&quot;
-      stroke=&quot;#222&quot;
+      class=&quot;dyn-point-tri&quot;
+      points=&quot;207.14285714285714,647.2982249391714 227.14285714285714,681.9392410905489 187.14285714285714,681.9392410905489&quot;
       stroke-width=&quot;4&quot;
     /&gt;
 
-      &lt;a href=&quot;#Intro&quot;&gt;
-        &lt;text fill=&quot;#222&quot; text-anchor=&quot;left&quot; x=&quot;223.33333333333334&quot; y=&quot;356.68619752544004&quot;&gt;Intro&lt;/text&gt;
-      &lt;/a&gt;
+      &lt;text class=&quot;dyn-point-text&quot; text-anchor=&quot;left&quot; x=&quot;217.14285714285714&quot; y=&quot;654.6187330148601&quot;&gt;Intro&lt;/text&gt;
     
 &lt;polygon
-      points=&quot;640,288.25132319551125 660,322.89233934688883 620,322.89233934688883&quot;
-      fill=&quot;none&quot;
-      stroke=&quot;#222&quot;
+      class=&quot;dyn-point-tri&quot;
+      points=&quot;621.4285714285714,868.8378026107915 641.4285714285714,903.478818762169 601.4285714285714,903.478818762169&quot;
       stroke-width=&quot;4&quot;
     /&gt;
 
-      &lt;a href=&quot;#Verse1&quot;&gt;
-        &lt;text fill=&quot;#222&quot; text-anchor=&quot;left&quot; x=&quot;650&quot; y=&quot;295.57183127120004&quot;&gt;Verse1&lt;/text&gt;
-      &lt;/a&gt;
+      &lt;text class=&quot;dyn-point-text&quot; text-anchor=&quot;left&quot; x=&quot;631.4285714285714&quot; y=&quot;876.1583106864803&quot;&gt;Verse1&lt;/text&gt;
     
 &lt;polygon
-      points=&quot;1066.6666666666665,349.36568944975124 1086.6666666666665,384.00670560112883 1046.6666666666665,384.00670560112883&quot;
-      fill=&quot;none&quot;
-      stroke=&quot;#222&quot;
+      class=&quot;dyn-point-tri&quot;
+      points=&quot;1035.7142857142858,536.5284361033614 1055.7142857142858,571.1694522547389 1015.7142857142858,571.1694522547389&quot;
       stroke-width=&quot;4&quot;
     /&gt;
 
-      &lt;a href=&quot;#Bridge1&quot;&gt;
-        &lt;text fill=&quot;#222&quot; text-anchor=&quot;left&quot; x=&quot;1076.6666666666665&quot; y=&quot;356.68619752544004&quot;&gt;Bridge1&lt;/text&gt;
-      &lt;/a&gt;
+      &lt;text class=&quot;dyn-point-text&quot; text-anchor=&quot;left&quot; x=&quot;1045.7142857142858&quot; y=&quot;543.8489441790501&quot;&gt;Bridge1&lt;/text&gt;
     
 &lt;polygon
-      points=&quot;1493.3333333333335,227.13695694127128 1513.3333333333335,261.77797309264884 1473.3333333333335,261.77797309264884&quot;
-      fill=&quot;none&quot;
-      stroke=&quot;#222&quot;
+      class=&quot;dyn-point-tri&quot;
+      points=&quot;1450.0000000000005,647.2982249391714 1470.0000000000005,681.9392410905489 1430.0000000000005,681.9392410905489&quot;
       stroke-width=&quot;4&quot;
     /&gt;
 
-      &lt;a href=&quot;#Chorus1&quot;&gt;
-        &lt;text fill=&quot;#222&quot; text-anchor=&quot;left&quot; x=&quot;1503.3333333333335&quot; y=&quot;234.45746501696004&quot;&gt;Chorus1&lt;/text&gt;
-      &lt;/a&gt;
+      &lt;text class=&quot;dyn-point-text&quot; text-anchor=&quot;left&quot; x=&quot;1460.0000000000005&quot; y=&quot;654.6187330148601&quot;&gt;Chorus1&lt;/text&gt;
     
+&lt;polygon
+      class=&quot;dyn-point-tri&quot;
+      points=&quot;1864.2857142857151,425.75864726755134 1884.2857142857151,460.3996634189289 1844.2857142857151,460.3996634189289&quot;
+      stroke-width=&quot;4&quot;
+    /&gt;
+
+      &lt;text class=&quot;dyn-point-text&quot; text-anchor=&quot;left&quot; x=&quot;1874.2857142857151&quot; y=&quot;433.07915534324013&quot;&gt;Verse2&lt;/text&gt;
+    
+&lt;polygon
+      class=&quot;dyn-point-tri&quot;
+      points=&quot;2278.5714285714294,536.5284361033614 2298.5714285714294,571.1694522547389 2258.5714285714294,571.1694522547389&quot;
+      stroke-width=&quot;4&quot;
+    /&gt;
+
+      &lt;text class=&quot;dyn-point-text&quot; text-anchor=&quot;left&quot; x=&quot;2288.5714285714294&quot; y=&quot;543.8489441790501&quot;&gt;Bridge2&lt;/text&gt;
+    
+&lt;polygon
+      class=&quot;dyn-point-tri&quot;
+      points=&quot;2692.857142857143,647.2982249391714 2712.857142857143,681.9392410905489 2672.857142857143,681.9392410905489&quot;
+      stroke-width=&quot;4&quot;
+    /&gt;
+
+      &lt;text class=&quot;dyn-point-text&quot; text-anchor=&quot;left&quot; x=&quot;2702.857142857143&quot; y=&quot;654.6187330148601&quot;&gt;Outro&lt;/text&gt;
+    
+      &lt;polyline class=&quot;dyn-dynamics&quot; points=&quot;0,775.3885218506703 103.57142857142857,775.3885218506703 207.14285714285714,664.6187330148601 310.7142857142857,664.6187330148601 414.2857142857143,664.6187330148601 517.8571428571429,664.6187330148601 621.4285714285714,664.6187330148601 621.4285714285714,886.1583106864803 725,886.1583106864803 828.5714285714286,886.1583106864803 932.1428571428571,886.1583106864803 1035.7142857142858,553.8489441790501 1139.2857142857144,553.8489441790501 1242.8571428571431,553.8489441790501 1346.4285714285718,553.8489441790501 1450.0000000000005,553.8489441790501 1450.0000000000005,664.6187330148601 1553.5714285714291,664.6187330148601 1657.1428571428578,664.6187330148601 1760.7142857142865,664.6187330148601 1864.2857142857151,443.07915534324013 1967.8571428571438,443.07915534324013 2071.4285714285725,443.07915534324013 2175.000000000001,443.07915534324013 2278.5714285714294,553.8489441790501 2382.142857142858,553.8489441790501 2485.7142857142862,553.8489441790501 2589.2857142857147,553.8489441790501 2692.857142857143,553.8489441790501 2692.857142857143,664.6187330148601 2796.4285714285716,664.6187330148601 2900,664.6187330148601 &quot; stroke-width=&quot;5&quot; /&gt;
     &lt;/svg&gt;
 
 
-    &lt;p class=&quot;arrangement-container&quot;&gt;
-      Scale / Key - TBD
-      &lt;br&gt;
-      Tempo - 120
-      &lt;br&gt;
-      Time Signature - 4/4
-    &lt;/p&gt;
+    &lt;div class=&quot;arrangement&quot;&gt;
+      &lt;p&gt;
+        Scale / Key - TBD
+        &lt;br&gt;
+        Tempo - 120
+        &lt;br&gt;
+        Time Signature - 4/4
+      &lt;/p&gt;
+      &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;120&quot; height=&quot;16&quot; transform=&quot;scale(1)&quot; viewBox=&quot;0 0 120 16&quot;&gt;
+        &lt;pattern id=&quot;wavy&quot; x=&quot;0&quot; y=&quot;0&quot; width=&quot;40&quot; height=&quot;40&quot; patternUnits=&quot;userSpaceOnUse&quot;&gt;
+          &lt;path class=&quot;arrangement-wavy&quot; d=&quot;M45.69 13.342c-1.677.945-3.557 1.6-5.48 1.588-1.922-.012-3.795-.691-5.462-1.653-1.668-.962-3.156-2.202-4.637-3.435-1.48-1.232-2.97-2.47-4.641-3.427-1.67-.957-3.547-1.628-5.47-1.628-1.923 0-3.8.67-5.47 1.628-1.67.956-3.161 2.195-4.641 3.427-1.48 1.233-2.97 2.473-4.637 3.435-1.667.962-3.54 1.641-5.463 1.653-1.922.012-3.802-.643-5.478-1.588v13.316c1.676-.945 3.556-1.6 5.478-1.588 1.923.012 3.796.691 5.463 1.653 1.668.962 3.156 2.202 4.637 3.435 1.48 1.232 2.97 2.47 4.641 3.427 1.67.957 3.547 1.628 5.47 1.628 1.923 0 3.8-.67 5.47-1.628 1.67-.956 3.161-2.195 4.641-3.427 1.48-1.233 2.97-2.473 4.637-3.435 1.667-.962 3.54-1.641 5.463-1.653 1.922-.012 3.802.643 5.478 1.588z&quot; stroke-width=&quot;1&quot; stroke=&quot;rgb(0, 0, 0)&quot; fill=&quot;none&quot; /&gt;
+        &lt;/pattern&gt;
+        &lt;rect fill=&quot;url(#wavy)&quot; width=&quot;120&quot; height=&quot;16&quot; x=&quot;0&quot; y=&quot;0&quot; /&gt;
+      &lt;/svg&gt;
+    &lt;/div&gt;
+  
+
+&lt;p&gt;Verse1 is accompanied with just the bass drum and rhythm2 synth which highlights the vocals. The instruments build much like they did in the intro with additional layers and percussion.&lt;/p&gt;
+&lt;p&gt;Bridge1 is ghost like. Noise echos in the background. The only instruments playing are the bass drum, snare, and rhythm1 in its original state. The vocals are a softer but still carry that fuck you vibe. Rhythm1 builds much quicker as the song transitions to Bridge2.&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>lamination</title>
+    <link href="https://cactusgod.com/twtwelve/lamination/"/>
+    <id>https://cactusgod.com/twtwelve/lamination/</id>
+    <published>2021-08-21T00:00:00.000Z</published>
+    <updated>2021-09-30T20:17:01.088Z</updated>
+    
+    
+    <summary type="html">&lt;svg version=&quot;1.1&quot;
+    width=&quot;4000&quot; viewBox=&quot;0 0 4000 1527.8591563560003&quot;
+    class=&quot;dynamics&quot;
+    xmlns=&quot;http://www.w3.org/2000/svg&quot;
+    xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot;&gt;
+      &lt;defs&gt;
+        &lt;pattern id=&quot;pattern-2&quot; x=&quot;0&quot; y=&quot;0&quot; width=&quot;120&quot; height=&quot;20&quot; patternUnits=&quot;userSpaceOnUse&quot;&gt;
+          &lt;path stroke-width=&quot;1.458971001038043&quot; class=&quot;dyn-pattern-path&quot; d=&#39;M-50.129 12.685C-33.346 12.358-16.786 4.918 0 5c16.787.082 43.213 10 60 10s43.213-9.918 60-10c16.786-.082 33.346 7.358 50.129 7.685&#39; stroke-width=&#39;0.5&#39; stroke=&#39;rgb(0, 0, 0)&#39; fill=&#39;none&#39; /&gt;
+          &lt;animateTransform
+            attributeName=&quot;patternTransform&quot;
+            attributeType=&quot;XML&quot;
+            type=&quot;translate&quot; 
+            dur=&quot;0.5s&quot;
+            from=&quot;0&quot; 
+            to=&quot;-120&quot; 
+            repeatCount=&quot;indefinite&quot; /&gt;
+        &lt;/pattern&gt;
+      &lt;/defs&gt;
+      &lt;rect class=&quot;dyn-shine&quot; transform-origin=&quot;50% 50%&quot; transform=&quot;rotate(45)&quot; width=&quot;4000&quot; height=&quot;763.9295781780002&quot; x=&quot;0&quot; y=&quot;1527.8591563560003&quot; /&gt;
+      &lt;rect class=&quot;dyn-rect-back&quot; width=&quot;4000&quot; height=&quot;1527.8591563560003&quot; x=&quot;0&quot; y=&quot;0&quot; fill=&quot;url(#pattern-2)&quot; /&gt;
+      &lt;rect class=&quot;dyn-rect-front&quot; width=&quot;4000&quot; height=&quot;1527.8591563560003&quot; x=&quot;222.91022027938536&quot; y=&quot;222.91022027938536&quot; fill=&quot;url(#pattern-2)&quot; /&gt;
+      &lt;text class=&quot;dyn-text no-user-select&quot; font-weight=&quot;700&quot; letter-spacing=&quot;-12.422241576251027&quot; font-size=&quot;278.6377753492317&quot; alignment-baseline=&quot;hanging&quot; text-anchor=&quot;middle&quot; x=&quot;2000&quot; y=&quot;763.9295781780002&quot;&gt;I GET TOO CAUGHT UP IN THE MOMENT.&lt;/text&gt;
+      &lt;polygon
+      class=&quot;dyn-point-tri&quot;
+      points=&quot;205.12820512820514,899.3949857379114 225.12820512820514,934.0360018892889 185.12820512820514,934.0360018892889&quot;
+      stroke-width=&quot;4&quot;
+    /&gt;
+
+      &lt;text class=&quot;dyn-point-text&quot; text-anchor=&quot;left&quot; x=&quot;215.12820512820514&quot; y=&quot;906.7154938136001&quot;&gt;Intro&lt;/text&gt;
+    
+&lt;polygon
+      class=&quot;dyn-point-tri&quot;
+      points=&quot;615.3846153846154,1204.9668170091113 635.3846153846154,1239.607833160489 595.3846153846154,1239.607833160489&quot;
+      stroke-width=&quot;4&quot;
+    /&gt;
+
+      &lt;text class=&quot;dyn-point-text&quot; text-anchor=&quot;left&quot; x=&quot;625.3846153846154&quot; y=&quot;1212.2873250848002&quot;&gt;Verse1&lt;/text&gt;
+    
+&lt;polygon
+      class=&quot;dyn-point-tri&quot;
+      points=&quot;1025.6410256410256,746.6090701023114 1045.6410256410256,781.2500862536889 1005.6410256410256,781.2500862536889&quot;
+      stroke-width=&quot;4&quot;
+    /&gt;
+
+      &lt;text class=&quot;dyn-point-text&quot; text-anchor=&quot;left&quot; x=&quot;1035.6410256410256&quot; y=&quot;753.9295781780002&quot;&gt;Bridge1&lt;/text&gt;
+    
+&lt;polygon
+      class=&quot;dyn-point-tri&quot;
+      points=&quot;1435.8974358974358,899.3949857379114 1455.8974358974358,934.0360018892889 1415.8974358974358,934.0360018892889&quot;
+      stroke-width=&quot;4&quot;
+    /&gt;
+
+      &lt;text class=&quot;dyn-point-text&quot; text-anchor=&quot;left&quot; x=&quot;1445.8974358974358&quot; y=&quot;906.7154938136001&quot;&gt;Chorus1&lt;/text&gt;
+    
+&lt;polygon
+      class=&quot;dyn-point-tri&quot;
+      points=&quot;1846.153846153846,593.8231544667115 1866.153846153846,628.4641706180889 1826.153846153846,628.4641706180889&quot;
+      stroke-width=&quot;4&quot;
+    /&gt;
+
+      &lt;text class=&quot;dyn-point-text&quot; text-anchor=&quot;left&quot; x=&quot;1856.153846153846&quot; y=&quot;601.1436625424002&quot;&gt;Verse2&lt;/text&gt;
+    
+&lt;polygon
+      class=&quot;dyn-point-tri&quot;
+      points=&quot;2256.4102564102564,899.3949857379114 2276.4102564102564,934.0360018892889 2236.4102564102564,934.0360018892889&quot;
+      stroke-width=&quot;4&quot;
+    /&gt;
+
+      &lt;text class=&quot;dyn-point-text&quot; text-anchor=&quot;left&quot; x=&quot;2266.4102564102564&quot; y=&quot;906.7154938136001&quot;&gt;Bridge2&lt;/text&gt;
+    
+&lt;polygon
+      class=&quot;dyn-point-tri&quot;
+      points=&quot;2666.6666666666665,288.25132319551113 2686.6666666666665,322.8923393468887 2646.6666666666665,322.8923393468887&quot;
+      stroke-width=&quot;4&quot;
+    /&gt;
+
+      &lt;text class=&quot;dyn-point-text&quot; text-anchor=&quot;left&quot; x=&quot;2676.6666666666665&quot; y=&quot;295.5718312711999&quot;&gt;Chorus2&lt;/text&gt;
+    
+&lt;polygon
+      class=&quot;dyn-point-tri&quot;
+      points=&quot;3076.9230769230767,746.6090701023114 3096.9230769230767,781.2500862536889 3056.9230769230767,781.2500862536889&quot;
+      stroke-width=&quot;4&quot;
+    /&gt;
+
+      &lt;text class=&quot;dyn-point-text&quot; text-anchor=&quot;left&quot; x=&quot;3086.9230769230767&quot; y=&quot;753.9295781780002&quot;&gt;Outro&lt;/text&gt;
+    
+&lt;polygon
+      class=&quot;dyn-point-tri&quot;
+      points=&quot;3487.179487179487,1052.1809013735115 3507.179487179487,1086.8219175248892 3467.179487179487,1086.8219175248892&quot;
+      stroke-width=&quot;4&quot;
+    /&gt;
+
+      &lt;text class=&quot;dyn-point-text&quot; text-anchor=&quot;left&quot; x=&quot;3497.179487179487&quot; y=&quot;1059.5014094492003&quot;&gt;Outro&lt;/text&gt;
+    
+&lt;polygon
+      class=&quot;dyn-point-tri&quot;
+      points=&quot;3897.435897435897,899.3949857379114 3917.435897435897,934.0360018892889 3877.435897435897,934.0360018892889&quot;
+      stroke-width=&quot;4&quot;
+    /&gt;
+      &lt;polyline class=&quot;dyn-dynamics&quot; points=&quot;0,1069.5014094492003 102.56410256410257,1069.5014094492003 205.12820512820514,916.7154938136001 307.69230769230774,916.7154938136001 410.2564102564103,916.7154938136001 512.8205128205128,916.7154938136001 615.3846153846154,916.7154938136001 615.3846153846154,1222.2873250848002 717.9487179487179,1222.2873250848002 820.5128205128204,1222.2873250848002 923.076923076923,1222.2873250848002 1025.6410256410256,763.9295781780002 1128.2051282051282,763.9295781780002 1230.7692307692307,763.9295781780002 1333.3333333333333,763.9295781780002 1435.8974358974358,763.9295781780002 1435.8974358974358,916.7154938136001 1538.4615384615383,916.7154938136001 1641.0256410256409,916.7154938136001 1743.5897435897434,916.7154938136001 1846.153846153846,611.1436625424002 1948.7179487179485,611.1436625424002 2051.2820512820513,611.1436625424002 2153.846153846154,611.1436625424002 2256.4102564102564,916.7154938136001 2358.974358974359,916.7154938136001 2461.5384615384614,916.7154938136001 2564.102564102564,916.7154938136001 2666.6666666666665,305.5718312711999 2769.230769230769,305.5718312711999 2871.7948717948716,305.5718312711999 2974.358974358974,305.5718312711999 3076.9230769230767,305.5718312711999 3076.9230769230767,763.9295781780002 3179.487179487179,763.9295781780002 3282.0512820512818,763.9295781780002 3384.6153846153843,763.9295781780002 3487.179487179487,1069.5014094492003 3589.7435897435894,1069.5014094492003 3692.307692307692,1069.5014094492003 3794.8717948717945,1069.5014094492003 3897.435897435897,1069.5014094492003 3897.435897435897,916.7154938136001 3999.9999999999995,916.7154938136001 &quot; stroke-width=&quot;5&quot; /&gt;
+    &lt;/svg&gt;
+
+
+    &lt;div class=&quot;arrangement&quot;&gt;
+      &lt;p&gt;
+        Scale / Key - TBD
+        &lt;br&gt;
+        Tempo - 120
+        &lt;br&gt;
+        Time Signature - 4/4
+      &lt;/p&gt;
+      &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;120&quot; height=&quot;16&quot; transform=&quot;scale(1)&quot; viewBox=&quot;0 0 120 16&quot;&gt;
+        &lt;pattern id=&quot;wavy&quot; x=&quot;0&quot; y=&quot;0&quot; width=&quot;40&quot; height=&quot;40&quot; patternUnits=&quot;userSpaceOnUse&quot;&gt;
+          &lt;path class=&quot;arrangement-wavy&quot; d=&quot;M45.69 13.342c-1.677.945-3.557 1.6-5.48 1.588-1.922-.012-3.795-.691-5.462-1.653-1.668-.962-3.156-2.202-4.637-3.435-1.48-1.232-2.97-2.47-4.641-3.427-1.67-.957-3.547-1.628-5.47-1.628-1.923 0-3.8.67-5.47 1.628-1.67.956-3.161 2.195-4.641 3.427-1.48 1.233-2.97 2.473-4.637 3.435-1.667.962-3.54 1.641-5.463 1.653-1.922.012-3.802-.643-5.478-1.588v13.316c1.676-.945 3.556-1.6 5.478-1.588 1.923.012 3.796.691 5.463 1.653 1.668.962 3.156 2.202 4.637 3.435 1.48 1.232 2.97 2.47 4.641 3.427 1.67.957 3.547 1.628 5.47 1.628 1.923 0 3.8-.67 5.47-1.628 1.67-.956 3.161-2.195 4.641-3.427 1.48-1.233 2.97-2.473 4.637-3.435 1.667-.962 3.54-1.641 5.463-1.653 1.922-.012 3.802.643 5.478 1.588z&quot; stroke-width=&quot;1&quot; stroke=&quot;rgb(0, 0, 0)&quot; fill=&quot;none&quot; /&gt;
+        &lt;/pattern&gt;
+        &lt;rect fill=&quot;url(#wavy)&quot; width=&quot;120&quot; height=&quot;16&quot; x=&quot;0&quot; y=&quot;0&quot; /&gt;
+      &lt;/svg&gt;
+    &lt;/div&gt;
   
 
 &lt;p&gt;Verse1 is accompanied with just the bass drum and rhythm2 synth which highlights the vocals. The instruments build much like they did in the intro with additional layers and percussion.&lt;/p&gt;

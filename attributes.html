@@ -24,17 +24,89 @@
       rel="stylesheet"
     />
     
-<link rel="stylesheet" href="/css/blog.css">
- 
     <style>
-      html, body {
-        background-color: #ff0000;
+      body {
+        background-color: #ffbfd1;
+        color: #111;
+      }
+
+      header {
+        background-color: #ed0044;
+      }
+
+      a {
+        color: #222;
+        background-color: #ed0044;
+      }
+
+      a:hover {
+        color: #ff80a4;
+      }
+
+      .arrangement {
+        border: 1px solid #ff80a4;
+      }
+
+      .arrangement-wavy {
+        stroke: #ed0044;
+      }
+      
+      .tubs-backing {
+        fill: none;
+      }
+      
+      .tubs-line {
+        fill: #a6002f;
+      }
+
+      .tubs-pattern-path {
+        stroke: #ed0044;
+      }
+
+      .tubs-inst-name {
+        fill: #111;
+      }
+
+      .tubs-note.filled {
+        fill: #111;
+      }
+
+      .tubs-note.empty {
+        fill: #ed0044;
+      }
+
+      .dyn-pattern-path {
+        stroke: #ed0044;
+      }
+
+      .dyn-shine {
+        fill: #ff80a4;
+      }
+
+      .dyn-text {
+        fill: #ffbfd1;
+      }
+
+      .dyn-dynamics {
+        fill: none;
+        stroke: #ed0044;
+      }
+
+      .dyn-point-tri {
+        fill: none;
+        stroke: #ed0044;
+      }
+
+      .dyn-point-text {
+        fill: #111;
       }
     </style>
+  
     
+<link rel="stylesheet" href="/css/blog.css">
+
   <meta name="generator" content="Hexo 5.4.0"></head>
   <body>
-    <img src="/img/cursor.svg" alt="" id="circle" />
     <div class="container">
       <header>
   <ul class="blog-nav">
@@ -50,7 +122,7 @@
   </ul>
   <h1>
     <span class="header-title">Cactus God</span
-    ><span class="blinking-cursor">|</span>
+    >
   </h1>
   <div class="header-line"></div>
 </header>
@@ -127,51 +199,5 @@
     &#169; 2021 Cactus God | Jeremy
 </footer>
     </div>
-    <script>
-      const PIhalf = Math.PI / 2;
-      function clamp(value, min, max) {
-        return Math.min(Math.max(value, min), max);
-      }
-      function ease(t) {
-        return 1 + --t * t * t;
-      }
-      let leftPos = 0;
-      let topPos = 0;
-
-      const circle = document.getElementById("circle");
-      const MAX_DIST = 400;
-      let hasStarted = false;
-      document.addEventListener("mousemove", function (e) {
-        leftPos = e.pageX;
-        topPos = e.pageY;
-
-        if (!hasStarted) {
-          hasStarted = true;
-          circle.style.left = leftPos + "px";
-          circle.style.top = topPos + "px";
-        }
-      });
-
-      function handleMouse() {
-        if (hasStarted) {
-          // console.log(0);
-          const circleLeft = parseFloat(circle.style.left);
-          const circleTop = parseFloat(circle.style.top);
-          if (circleLeft && circleTop) {
-            const movX = leftPos - circleLeft;
-            const movY = topPos - circleTop;
-            const scaleLeft = clamp(Math.abs(movX), 0, MAX_DIST) / MAX_DIST;
-            const scaleTop = clamp(Math.abs(movY), 0, MAX_DIST) / MAX_DIST;
-            const newLeft = ease(scaleLeft) * movX + circleLeft;
-            const newTop = ease(scaleTop) * movY + circleTop;
-            circle.style.left = newLeft + "px";
-            circle.style.top = newTop + "px";
-          }
-        }
-        window.requestAnimationFrame(handleMouse);
-      }
-
-      window.requestAnimationFrame(handleMouse);
-    </script>
   </body>
 </html>
