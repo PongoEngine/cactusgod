@@ -19,7 +19,6 @@ function getData(str) {
   const obj = {
     values: "",
     image: { value: "", width: 0, height: 0 },
-    // image2: { value: "", width: 0, height: 0 },
     tagline: "",
     labels: [],
     length: 0,
@@ -114,12 +113,7 @@ function parseDynamics(str) {
       return createPoly(p.x, p.y, 40, label);
     })
     .join("\n");
-  const imgscale = height / data.image.height;
-  const imgWidth = data.image.width * imgscale * getGC(3);
-  const imgHeight = height * getGC(3);
-  const img1X = width * getGC(6);
-  const img1Y = height * getGC(5);
-
+  const stokeWidth = 10 * getGC(4);
   const msgHeight = height * getGC(4);
   const letterSpacing = msgHeight * getGC(6);
   const rotation = 45;
@@ -131,7 +125,7 @@ function parseDynamics(str) {
     xmlns:xlink="http://www.w3.org/1999/xlink">
       <defs>
         <pattern id="pattern-2" x="0" y="0" width="${patternWidth}" height="${patternHeight}" patternUnits="userSpaceOnUse">
-          <image xlink:href="/img/pattern.svg" x="0" y="0" width="${patternWidth}" height="${patternHeight}"></image>
+          <path stroke-width="${stokeWidth}" class="dyn-pattern-path" d='M-50.129 12.685C-33.346 12.358-16.786 4.918 0 5c16.787.082 43.213 10 60 10s43.213-9.918 60-10c16.786-.082 33.346 7.358 50.129 7.685' stroke-width='0.5' stroke='rgb(0, 0, 0)' fill='none' />
           <animateTransform
             attributeName="patternTransform"
             attributeType="XML"
@@ -142,21 +136,18 @@ function parseDynamics(str) {
             repeatCount="indefinite" />
         </pattern>
       </defs>
-      <rect transform-origin="50% 50%" transform="rotate(${rotation})" width="${width}" height="${
+      <rect class="dyn-shine" transform-origin="50% 50%" transform="rotate(${rotation})" width="${width}" height="${
     height / 2
-  }" x="0" y="${height}" fill="rgb(210, 49, 52)" />
-      <rect width="${width}" height="${height}" x="0" y="0" fill="url(#pattern-2)" />
-      <rect width="${width}" height="${height}" x="${msgHeight}" y="${msgHeight}" fill="url(#pattern-2)" />
-      <text class="no-user-select" font-weight="700" letter-spacing="-${letterSpacing}" font-size="${
+  }" x="0" y="${height}" />
+      <rect class="dyn-rect-back" width="${width}" height="${height}" x="0" y="0" fill="url(#pattern-2)" />
+      <rect class="dyn-rect-front" width="${width}" height="${height}" x="${msgHeight}" y="${msgHeight}" fill="url(#pattern-2)" />
+      <text class="dyn-text no-user-select" font-weight="700" letter-spacing="-${letterSpacing}" font-size="${
     msgHeight * 1.25
-  }" fill="#fff" alignment-baseline="hanging" text-anchor="middle" x="${
+  }" alignment-baseline="hanging" text-anchor="middle" x="${
     width / 2
   }" y="${height / 2}">${data.tagline}</text>
-      <image xlink:href="${
-        data.image.value
-      }" x="${img1X}" y="${img1Y}" width="${imgWidth}" height="${imgHeight}"></image>
-      <polyline points="${points}" fill="none" stroke="rgb(210, 49, 52)" stroke-width="5" />
       ${polys}
+      <polyline class="dyn-dynamics" points="${points}" stroke-width="5" />
     </svg>`;
 }
 
@@ -169,19 +160,16 @@ function createPoly(x, y, length, label) {
   const p3y = length * (Math.sqrt(3) / 4) + y;
   const cmds = [
     `<polygon
+      class="dyn-point-tri"
       points="${p1x},${p1y} ${p2x},${p2y} ${p3x},${p3y}"
-      fill="none"
-      stroke="#222"
       stroke-width="4"
     />`,
   ];
   if (label) {
     cmds.push(`
-      <a href="#${label}">
-        <text fill="#222" text-anchor="left" x="${x + 10}" y="${
+      <text class="dyn-point-text" text-anchor="left" x="${x + 10}" y="${
       y - 10
     }">${label}</text>
-      </a>
     `);
   }
   return cmds.join("\n");

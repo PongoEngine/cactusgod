@@ -138,3 +138,8 @@ autoprefixer:
 
 server:
   cache: false
+
+node_sass:
+  outputStyle: nested
+  precision: 5
+  sourceComments: false

@@ -1,0 +1,143 @@
+/** Base Typography **/
+html,
+body {
+  font-size: 10px;
+  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0em;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "IBM Plex Serif", serif;
+  letter-spacing: 0em;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+h1 {
+  line-height: 1.5;
+  font-size: 6.10352rem;
+}
+
+h2 {
+  line-height: 1.25;
+  font-size: 4.88281rem;
+}
+
+h3 {
+  line-height: 1.5;
+  font-size: 3.90625rem;
+}
+
+h4 {
+  line-height: 1.5;
+  font-size: 3.125rem;
+}
+
+h5 {
+  line-height: 1.5;
+  font-size: 2.5rem;
+}
+
+h6 {
+  line-height: 1.5;
+  font-size: 2rem;
+}
+
+footer,
+nav,
+ol,
+ul,
+p {
+  margin-bottom: 3rem;
+  line-height: 3rem;
+  font-size: 1.6rem;
+  margin-top: 0;
+}
+ul,
+ol {
+  padding-left: 3rem;
+}
+footer {
+  margin-bottom: 0;
+  padding-bottom: 0.5rem;
+}
+
+header {
+  display: inline-block;
+  padding: 0 2rem;
+  filter: drop-shadow(0px 5px 10px #fff);
+}
+
+a {
+  padding: 0 2rem;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.headerlink {
+  padding: 0;  
+}
+
+ul.blog-nav {
+  margin: 0  
+  padding: 0;
+}
+ul.blog-nav li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+ul.blog-nav li a {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  margin-right: 0.5rem;
+}
+header h1 {
+  margin: 0;
+}
+
+@media only screen and (max-width: 750px) {
+  html {
+    font-size: 11px;
+  }
+  h1 {
+    font-size: calc(6.10352rem * 0.85);
+  }
+
+  h2 {
+    font-size: calc(4.88281rem * 0.85);
+  }
+
+  h3 {
+    font-size: calc(3.90625rem * 0.85);
+  }
+
+  h4 {
+    font-size: calc(3.125rem * 0.85);
+  }
+
+  h5 {
+    font-size: calc(2.5rem * 0.85);
+  }
+
+  h6 {
+    font-size: calc(2rem * 0.85);
+  }
+}

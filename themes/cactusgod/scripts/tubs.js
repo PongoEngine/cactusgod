@@ -1,4 +1,4 @@
-function parseTubs(str, timeSig) {
+function parseTubs_(str, timeSig) {
   const charWidth = 11;
   const cellDim = 20;
   const textOffset = 5;
@@ -39,22 +39,22 @@ function parseTubs(str, timeSig) {
             char = "✖";
           }
           const isEmpty = char === "-" ? true : false;
-          const textColor = isEmpty ? "rgb(157, 131, 93)" : "#222";
+          const textClass = isEmpty ? "empty" : "filled";
           const isDown = charIndex % sepIndex === 0;
           const cmds = [];
           if (isDown) {
             if (!isStart) {
               cmds.push(
-                `<rect width="0.5" height="${cellDim - 1}" x="${
-                  xPos - 6
-                }" y="0" fill="rgb(110, 88, 69)" />`
+                `<rect class="tubs-line" width="0.5" height="${
+                  cellDim - 1
+                }" x="${xPos - 6}" y="0" />`
               );
               xPos += 4;
             }
             isStart = false;
           }
           cmds.push(
-            `<text fill="${textColor}" text-anchor="middle" x="${xPos}" y="${textY}">${char}</text>`
+            `<text class="tubs-note ${textClass}" text-anchor="middle" x="${xPos}" y="${textY}">${char}</text>`
           );
           xPos += cellDim - textOffset;
           if (width < xPos) {
@@ -69,13 +69,13 @@ function parseTubs(str, timeSig) {
       return `
         <g transform="translate(0,${rowIndex * cellDim})">
           ${row}
-          <text fill="#222" x="${
+          <text class="tubs-inst-name" x="${
             charWidth / 2 + xPos
           }" y="${textY}">${rowTitle}</text>
-          <rect width="0.5" height="${cellDim}" x="${width}" y="0" fill="rgb(210, 49, 52)" />
-          <rect width="${width}" height="0.5" x="0" y="${
+          <rect class="tubs-line" width="0.5" height="${cellDim}" x="${width}" y="0" />
+          <rect class="tubs-line" width="${width}" height="0.5" x="0" y="${
         cellDim - 1
-      }" fill="rgb(210, 49, 52)" />
+      }" />
         </g>
       `;
     })
@@ -84,38 +84,64 @@ function parseTubs(str, timeSig) {
   const baseHeight = 20;
   const patternWidth = 120;
   const patternHeight = 20;
-  return `
-    <div><svg version="1.1"
-    width="${width}" viewBox="0 0 ${width} ${height + baseHeight}"
-    class="tubs"
-    xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <pattern id="pattern" x="0" y="0" width="${patternWidth}" height="${patternHeight}" patternUnits="userSpaceOnUse">
-          <image xlink:href="/img/pattern.svg" x="0" y="0" width="${patternWidth}" height="${patternHeight}"></image>
-          <animateTransform attributeType="xml"
-            attributeName="patternTransform"
-            type="translate" from="0" to="${-patternWidth}" begin="0"
-            dur="2s" repeatCount="indefinite"/>
-        </pattern>
-      </defs>
-      <rect width="${width}" height="${height}" x="0" y="0" fill="#fff" />
-      <rect width="${width}" height="0.5" x="0" y="${
+  const svgContent = `
+    <defs>
+      <pattern id="pattern" x="0" y="0" width="${patternWidth}" height="${patternHeight}" patternUnits="userSpaceOnUse">
+      <path class="tubs-pattern-path" d='M-50.129 12.685C-33.346 12.358-16.786 4.918 0 5c16.787.082 43.213 10 60 10s43.213-9.918 60-10c16.786-.082 33.346 7.358 50.129 7.685' stroke-width='0.5' stroke='rgb(0, 0, 0)' fill='none' />
+        <animateTransform attributeType="xml"
+          attributeName="patternTransform"
+          type="translate" from="0" to="${-patternWidth}" begin="0"
+          dur="2s" repeatCount="indefinite"/>
+      </pattern>
+    </defs>
+    <rect class="tubs-backing" width="${width}" height="${
+    height + baseHeight
+  }" x="0" y="0" />
+    <rect class="tubs-line" width="${width}" height="0.5" x="0" y="${
     height - 1
-  }" fill="rgb(210, 49, 52)" />
-      ${lines}
-      <rect fill="url(#pattern)" width="${width}" height="${baseHeight}" x="0" y="${height}" />
-      <rect fill="rgb(210, 49, 52)" width="${width}" height="0.5" x="0" y="${
+  }" />
+    ${lines}
+    <rect fill="url(#pattern)" width="${width}" height="${baseHeight}" x="0" y="${height}" />
+    <rect class="tubs-line" width="${width}" height="0.5" x="0" y="${
     height + baseHeight - 0.5
   }" />
-      <rect fill="rgb(210, 49, 52)" width="0.5" height="${
-        height + baseHeight
-      }" x="0" y="0" />
-      <rect fill="rgb(210, 49, 52)" width="0.5" height="${height + baseHeight}" x="${
+    <rect class="tubs-line" width="0.5" height="${
+      height + baseHeight
+    }" x="0" y="0" />
+    <rect class="tubs-line" width="0.5" height="${height + baseHeight}" x="${
     width - 1
-  }" y="0" />
-      <rect fill="rgb(210, 49, 52)" width="${width}" height="0.5" x="0" y="0" />
-    </svg></div>`;
+  }" y="0" />`;
+
+  return {
+    str: svgContent,
+    width: width,
+    height: height + baseHeight,
+  };
 }
+
+function parseTubs(str, timeSig) {
+  const items = str.split("^^^").map((content) => {
+    return parseTubs_(content, timeSig);
+  });
+  const width = items[0].width;
+  let yPos = 0;
+  const content = items
+    .map((c, index) => {
+      const gElem = `<g transform="translate(0, ${yPos})">${c.str}</g>`;
+      yPos += items[index].height;
+      return gElem;
+    })
+    .join("\n");
+  return `
+  <svg version="1.1"
+    width="${width}" viewBox="0 0 ${width} ${yPos}"
+    class="tubs"
+    xmlns="http://www.w3.org/2000/svg">
+    <rect class="tubs-line" width="${width}" height="0.5" x="0" y="0" />
+    ${content}
+  </svg>`;
+}
+
 hexo.extend.tag.register(
   "tubs",
   function (args, content) {

@@ -1,15 +1,15 @@
 ---
-title: lamination
+title: gold
 album: twtwelve
-date: 2021/8/21
-hue: 30
+date: 2021/8/22
+hue: 350
 ---
 
 {% dynamics %}
-values:3-|4---\|2---|5---\|4---|6---|4---|8---\|5---|3---\|4-
-labels:|Intro|Verse1|Bridge1|Chorus1|Verse2|Bridge2|Chorus2|Outro|Outro
+values:3-|4---\|2---|5---\|4---|6---|5---\|4--
+labels:|Intro|Verse1|Bridge1|Chorus1|Verse2|Bridge2|Outro
 image:/img/header/moon.svg
-tagline:I get too caught up in the moment.
+tagline:come on in the water is fine
 {% enddynamics %}
 
 {% attrs %}
