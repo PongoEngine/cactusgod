@@ -8,3 +8,140 @@ svg :not(text),
 .no-user-select {
   user-select: none;
 }
+
+.container {
+  position: relative
+  z-index: 2;
+}
+
+.top-z {
+  animation-name: top-z-ring;
+  animation-duration: 0.75s;
+  animation-iteration-count: infinite;
+}
+
+.bottom-z {
+  animation-name: bottom-z-ring;
+  animation-duration: 0.75s;
+  animation-iteration-count: infinite;
+}
+
+.top-a {
+  animation-name: top-a-ring;
+  animation-duration: 0.75s;
+  animation-iteration-count: infinite;
+}
+
+.bottom-a {
+  animation-name: bottom-a-ring;
+  animation-duration: 0.75s;
+  animation-iteration-count: infinite;
+}
+
+.top-b {
+  animation-name: top-b-ring;
+  animation-duration: 0.75s;
+  animation-iteration-count: infinite;
+}
+
+.bottom-b {
+  animation-name: bottom-b-ring;
+  animation-duration: 0.75s;
+  animation-iteration-count: infinite;
+}
+
+.top-c {
+  animation-name: top-c-ring;
+  animation-duration: 0.75s;
+  animation-iteration-count: infinite;
+}
+
+.bottom-c {
+  animation-name: bottom-c-ring;
+  animation-duration: 0.75s;
+  animation-iteration-count: infinite;
+}
+
+.crazy circle {
+  filter: drop-shadow(0px 0px 5px #fff);
+}
+
+@keyframes top-z-ring {
+  0% {
+    d: path("M 200, 140 m -80, 0 a 80,40 0 1,0 160,0");
+    opacity: 0;
+  }
+  100% {
+    d: path("M 200, 160 m -100, 0 a 100,50 0 1,0 200,0");
+    opacity: 1;
+  }
+}
+
+@keyframes bottom-z-ring {
+  0% {
+    d: path("M 200, 140 m -80, 0 a 80,40 0 1,0 160,0 a 80,40 0 1,0 -160,0");
+    opacity: 0;
+  }
+  100% {
+    d: path("M 200, 160 m -100, 0 a 100,50 0 1,0 200,0 a 100,50 0 1,0 -200,0");
+    opacity: 1;
+  }
+}
+
+@keyframes top-a-ring {
+  0% {
+    d: path("M 200, 160 m -100, 0 a 100,50 0 1,0 200,0");
+  }
+  100% {
+    d: path("M 200, 200 m -120, 0 a 120,60 0 1,0 240,0");
+  }
+}
+
+@keyframes bottom-a-ring {
+  0% {
+    d: path("M 200, 160 m -100, 0 a 100,50 0 1,0 200,0 a 100,50 0 1,0 -200,0");
+  }
+  100% {
+    d: path("M 200, 200 m -120, 0 a 120,60 0 1,0 240,0 a 120,60 0 1,0 -240,0");
+  }
+}
+
+@keyframes top-b-ring {
+  0% {
+    d: path("M 200, 200 m -120, 0 a 120,60 0 1,0 240,0");
+  }
+  100% {
+    d: path("M 200, 240 m -100, 0 a 100,50 0 1,0 200,0");
+  }
+}
+
+@keyframes bottom-b-ring {
+  0% {
+    d: path("M 200, 200 m -120, 0 a 120,60 0 1,0 240,0 a 120,60 0 1,0 -240,0");
+  }
+  100% {
+    d: path("M 200, 240 m -100, 0 a 100,50 0 1,0 200,0 a 100,50 0 1,0 -200,0");
+  }
+}
+
+@keyframes top-c-ring {
+  0% {
+    d: path("M 200, 240 m -100, 0 a 100,50 0 1,0 200,0");
+    opacity: 1;
+  }
+  100% {
+    d: path("M 200, 260 m -80, 0 a 80,40 0 1,0 160,0");
+    opacity: 0;
+  }
+}
+
+@keyframes bottom-c-ring {
+  0% {
+    d: path("M 200, 240 m -100, 0 a 100,50 0 1,0 200,0 a 100,50 0 1,0 -200,0");
+    opacity: 1;
+  }
+  100% {
+    d: path("M 200, 260 m -80, 0 a 80,40 0 1,0 160,0 a 80,40 0 1,0 -160,0");
+    opacity: 0;
+  }
+}

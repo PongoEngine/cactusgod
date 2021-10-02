@@ -108,6 +108,13 @@ hexo.extend.helper.register("fancy", function (a) {
         fill: #${color1d};
       }
 
+      .crazy circle {
+        fill: #${color1d};
+      }
+
+      .crazy path {
+      }
+
       .dyn-text {
         fill: #${color1c};
       }
