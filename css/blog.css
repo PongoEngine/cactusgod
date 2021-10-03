@@ -161,6 +161,10 @@ header h1 {
           user-select: none;
   display: block;
 }
+.dynamics-container {
+  position: relative;
+  overflow: hidden;
+}
 .dynamics {
   font-size: 6rem;
   width: 100%;
@@ -176,9 +180,13 @@ svg :not(text),
       -ms-user-select: none;
           user-select: none;
 }
+.crazy {
+  position: fixed;
+  top: calc(50% - 200px);
+  left: calc(50% - 200px);
+}
 .container {
   position: relative;
-  z-index: 2;
 }
 .top-z {
   -webkit-animation-name: top-z-ring;
@@ -245,8 +253,8 @@ svg :not(text),
           animation-iteration-count: infinite;
 }
 .crazy circle {
-  -webkit-filter: drop-shadow(0px 0px 5px #fff);
-          filter: drop-shadow(0px 0px 5px #fff);
+  -webkit-filter: drop-shadow(0px -5px 10px #fff);
+          filter: drop-shadow(0px -5px 10px #fff);
 }
 @-webkit-keyframes top-z-ring {
   0% {
