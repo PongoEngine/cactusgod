@@ -45,8 +45,7 @@ function parseTubs_(str, timeSig) {
           if (isDown) {
             if (!isStart) {
               cmds.push(
-                `<rect class="tubs-line" width="0.5" height="${
-                  cellDim - 1
+                `<rect class="tubs-line" width="0.5" height="${cellDim - 1
                 }" x="${xPos - 6}" y="0" />`
               );
               xPos += 4;
@@ -69,13 +68,11 @@ function parseTubs_(str, timeSig) {
       return `
         <g transform="translate(0,${rowIndex * cellDim})">
           ${row}
-          <text class="tubs-inst-name" x="${
-            charWidth / 2 + xPos
-          }" y="${textY}">${rowTitle}</text>
+          <text class="tubs-inst-name" x="${charWidth / 2 + xPos
+        }" y="${textY}">${rowTitle}</text>
           <rect class="tubs-line" width="0.5" height="${cellDim}" x="${width}" y="0" />
-          <rect class="tubs-line" width="${width}" height="0.5" x="0" y="${
-        cellDim - 1
-      }" />
+          <rect class="tubs-line" width="${width}" height="0.5" x="0" y="${cellDim - 1
+        }" />
         </g>
       `;
     })
@@ -94,23 +91,18 @@ function parseTubs_(str, timeSig) {
           dur="2s" repeatCount="indefinite"/>
       </pattern>
     </defs>
-    <rect class="tubs-backing" width="${width}" height="${
-    height + baseHeight
-  }" x="0" y="0" />
-    <rect class="tubs-line" width="${width}" height="0.5" x="0" y="${
-    height - 1
-  }" />
+    <rect class="tubs-backing" width="${width}" height="${height
+    }" x="0" y="0" />
+    <rect class="tubs-line" width="${width}" height="0.5" x="0" y="${height - 1
+    }" />
     ${lines}
     <rect fill="url(#pattern)" width="${width}" height="${baseHeight}" x="0" y="${height}" />
-    <rect class="tubs-line" width="${width}" height="0.5" x="0" y="${
-    height + baseHeight - 0.5
-  }" />
-    <rect class="tubs-line" width="0.5" height="${
-      height + baseHeight
+    <rect class="tubs-line" width="${width}" height="0.5" x="0" y="${height + baseHeight - 0.5
+    }" />
+    <rect class="tubs-line" width="0.5" height="${height + baseHeight
     }" x="0" y="0" />
-    <rect class="tubs-line" width="0.5" height="${height + baseHeight}" x="${
-    width - 1
-  }" y="0" />`;
+    <rect class="tubs-line" width="0.5" height="${height + baseHeight}" x="${width - 1
+    }" y="0" />`;
 
   return {
     str: svgContent,

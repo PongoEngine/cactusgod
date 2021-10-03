@@ -17,6 +17,8 @@
   <% if (item.excerpt && index){ %>
     <p class="post-excerpt"><%- item.excerpt %></p>
   <% } else { %>
-    <%- item.content %>
+    <div class="colored-back">
+      <%- item.content %>
+    </div>
   <% } %>
 </div>

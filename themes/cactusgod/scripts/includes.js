@@ -55,6 +55,10 @@ hexo.extend.helper.register("fancy", function (a) {
         color: #111;
       }
 
+      .colored-back {
+        background-color: #${color1c};
+      }
+
       header {
         background-color: #${color1a};
       }
@@ -113,6 +117,7 @@ hexo.extend.helper.register("fancy", function (a) {
       }
 
       .crazy path {
+        stroke: #${color1a};
       }
 
       .dyn-text {
