@@ -85,10 +85,6 @@ function parseTubs_(str, timeSig) {
     <defs>
       <pattern id="pattern" x="0" y="0" width="${patternWidth}" height="${patternHeight}" patternUnits="userSpaceOnUse">
       <path class="tubs-pattern-path" d='M-50.129 12.685C-33.346 12.358-16.786 4.918 0 5c16.787.082 43.213 10 60 10s43.213-9.918 60-10c16.786-.082 33.346 7.358 50.129 7.685' stroke-width='0.5' stroke='rgb(0, 0, 0)' fill='none' />
-        <animateTransform attributeType="xml"
-          attributeName="patternTransform"
-          type="translate" from="0" to="${-patternWidth}" begin="0"
-          dur="2s" repeatCount="indefinite"/>
       </pattern>
     </defs>
     <rect class="tubs-backing" width="${width}" height="${height

@@ -127,19 +127,8 @@ function parseDynamics(str) {
       <defs>
         <pattern id="pattern-2" x="0" y="0" width="${patternWidth}" height="${patternHeight}" patternUnits="userSpaceOnUse">
           <path stroke-width="${stokeWidth}" class="dyn-pattern-path" d='M-50.129 12.685C-33.346 12.358-16.786 4.918 0 5c16.787.082 43.213 10 60 10s43.213-9.918 60-10c16.786-.082 33.346 7.358 50.129 7.685' stroke-width='0.5' stroke='rgb(0, 0, 0)' fill='none' />
-          <animateTransform
-            attributeName="patternTransform"
-            attributeType="XML"
-            type="translate" 
-            dur="${20 / data.length}s"
-            from="0" 
-            to="${-patternWidth}" 
-            repeatCount="indefinite" />
         </pattern>
       </defs>
-      <rect class="dyn-shine" transform-origin="50% 50%" transform="rotate(${rotation})" width="${width}" height="${
-    height / 2
-  }" x="0" y="${height}" />
       <rect class="dyn-rect-back" width="${width}" height="${height}" x="0" y="0" fill="url(#pattern-2)" />
       <rect class="dyn-rect-front" width="${width}" height="${height}" x="${msgHeight}" y="${msgHeight}" fill="url(#pattern-2)" />
       <text class="dyn-text no-user-select" font-weight="700" letter-spacing="-${letterSpacing}" font-size="${
