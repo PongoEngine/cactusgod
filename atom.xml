@@ -6,7 +6,7 @@
   <link href="https://cactusgod.com/atom.xml" rel="self"/>
   
   <link href="https://cactusgod.com/"/>
-  <updated>2021-10-03T16:19:17.964Z</updated>
+  <updated>2021-10-05T19:57:33.475Z</updated>
   <id>https://cactusgod.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://cactusgod.com/twtwelve/gold/"/>
     <id>https://cactusgod.com/twtwelve/gold/</id>
     <published>2021-08-22T00:00:00.000Z</published>
-    <updated>2021-10-03T16:19:17.964Z</updated>
+    <updated>2021-10-05T19:57:33.475Z</updated>
     
     
     <summary type="html">&lt;/div&gt;
@@ -33,17 +33,8 @@
       &lt;defs&gt;
         &lt;pattern id=&quot;pattern-2&quot; x=&quot;0&quot; y=&quot;0&quot; width=&quot;120&quot; height=&quot;20&quot; patternUnits=&quot;userSpaceOnUse&quot;&gt;
           &lt;path stroke-width=&quot;1.458971001038043&quot; class=&quot;dyn-pattern-path&quot; d=&#39;M-50.129 12.685C-33.346 12.358-16.786 4.918 0 5c16.787.082 43.213 10 60 10s43.213-9.918 60-10c16.786-.082 33.346 7.358 50.129 7.685&#39; stroke-width=&#39;0.5&#39; stroke=&#39;rgb(0, 0, 0)&#39; fill=&#39;none&#39; /&gt;
-          &lt;animateTransform
-            attributeName=&quot;patternTransform&quot;
-            attributeType=&quot;XML&quot;
-            type=&quot;translate&quot; 
-            dur=&quot;0.6896551724137931s&quot;
-            from=&quot;0&quot; 
-            to=&quot;-120&quot; 
-            repeatCount=&quot;indefinite&quot; /&gt;
         &lt;/pattern&gt;
       &lt;/defs&gt;
-      &lt;rect class=&quot;dyn-shine&quot; transform-origin=&quot;50% 50%&quot; transform=&quot;rotate(45)&quot; width=&quot;2900&quot; height=&quot;553.8489441790501&quot; x=&quot;0&quot; y=&quot;1107.6978883581003&quot; /&gt;
       &lt;rect class=&quot;dyn-rect-back&quot; width=&quot;2900&quot; height=&quot;1107.6978883581003&quot; x=&quot;0&quot; y=&quot;0&quot; fill=&quot;url(#pattern-2)&quot; /&gt;
       &lt;rect class=&quot;dyn-rect-front&quot; width=&quot;2900&quot; height=&quot;1107.6978883581003&quot; x=&quot;161.6099097025544&quot; y=&quot;161.6099097025544&quot; fill=&quot;url(#pattern-2)&quot; /&gt;
       &lt;text class=&quot;dyn-text no-user-select&quot; font-weight=&quot;700&quot; letter-spacing=&quot;-9.006125142781995&quot; font-size=&quot;202.012387128193&quot; alignment-baseline=&quot;hanging&quot; text-anchor=&quot;middle&quot; x=&quot;1450&quot; y=&quot;553.8489441790501&quot;&gt;COME ON IN THE WATER IS FINE&lt;/text&gt;
@@ -138,7 +129,7 @@
     <link href="https://cactusgod.com/twtwelve/lamination/"/>
     <id>https://cactusgod.com/twtwelve/lamination/</id>
     <published>2021-08-21T00:00:00.000Z</published>
-    <updated>2021-10-03T16:19:17.964Z</updated>
+    <updated>2021-10-05T19:57:33.475Z</updated>
     
     
     <summary type="html">&lt;/div&gt;
@@ -150,17 +141,8 @@
       &lt;defs&gt;
         &lt;pattern id=&quot;pattern-2&quot; x=&quot;0&quot; y=&quot;0&quot; width=&quot;120&quot; height=&quot;20&quot; patternUnits=&quot;userSpaceOnUse&quot;&gt;
           &lt;path stroke-width=&quot;1.458971001038043&quot; class=&quot;dyn-pattern-path&quot; d=&#39;M-50.129 12.685C-33.346 12.358-16.786 4.918 0 5c16.787.082 43.213 10 60 10s43.213-9.918 60-10c16.786-.082 33.346 7.358 50.129 7.685&#39; stroke-width=&#39;0.5&#39; stroke=&#39;rgb(0, 0, 0)&#39; fill=&#39;none&#39; /&gt;
-          &lt;animateTransform
-            attributeName=&quot;patternTransform&quot;
-            attributeType=&quot;XML&quot;
-            type=&quot;translate&quot; 
-            dur=&quot;0.5s&quot;
-            from=&quot;0&quot; 
-            to=&quot;-120&quot; 
-            repeatCount=&quot;indefinite&quot; /&gt;
         &lt;/pattern&gt;
       &lt;/defs&gt;
-      &lt;rect class=&quot;dyn-shine&quot; transform-origin=&quot;50% 50%&quot; transform=&quot;rotate(45)&quot; width=&quot;4000&quot; height=&quot;763.9295781780002&quot; x=&quot;0&quot; y=&quot;1527.8591563560003&quot; /&gt;
       &lt;rect class=&quot;dyn-rect-back&quot; width=&quot;4000&quot; height=&quot;1527.8591563560003&quot; x=&quot;0&quot; y=&quot;0&quot; fill=&quot;url(#pattern-2)&quot; /&gt;
       &lt;rect class=&quot;dyn-rect-front&quot; width=&quot;4000&quot; height=&quot;1527.8591563560003&quot; x=&quot;222.91022027938536&quot; y=&quot;222.91022027938536&quot; fill=&quot;url(#pattern-2)&quot; /&gt;
       &lt;text class=&quot;dyn-text no-user-select&quot; font-weight=&quot;700&quot; letter-spacing=&quot;-12.422241576251027&quot; font-size=&quot;278.6377753492317&quot; alignment-baseline=&quot;hanging&quot; text-anchor=&quot;middle&quot; x=&quot;2000&quot; y=&quot;763.9295781780002&quot;&gt;I GET TOO CAUGHT UP IN THE MOMENT.&lt;/text&gt;
