@@ -51,12 +51,8 @@ hexo.extend.helper.register("fancy", function (a) {
   fancy += `
     <style>
       body {
-        background-color: #${color1c};
-        color: #111;
-      }
-
-      .colored-back {
-        background-color: #${color1c};
+        background-color: #111;
+        color: #fff;
       }
 
       header {
@@ -79,49 +75,33 @@ hexo.extend.helper.register("fancy", function (a) {
       .arrangement-wavy {
         stroke: #${color1a};
       }
-      
-      .tubs-backing {
-        fill: none;
-      }
-      
-      .tubs-line {
-        fill: #${color1b};
+
+      .tubs-segment.even {
+        fill: #ddd;
       }
 
-      .tubs-pattern-path {
-        stroke: #${color1a};
+      .tubs-segment.odd {
+        fill: #aaa;
       }
 
-      .tubs-inst-name {
-        fill: #111;
-      }
-
-      .tubs-note.filled {
-        fill: #111;
-      }
-
-      .tubs-note.empty {
+      .tubs-segment.hit {
         fill: #${color1a};
+      }
+
+      .tubs-line {
+        stroke: #${color1d};
+      }
+
+      .tubs-text {
+        fill: #fff;
       }
 
       .dyn-pattern-path {
         stroke: #${color1a};
       }
 
-      .dyn-shine {
-        fill: #${color1d};
-      }
-
-      .crazy circle {
-        fill: #${color1d};
-      }
-
-      .crazy path {
-        stroke: #${color1a};
-      }
-
       .dyn-text {
-        fill: #${color1c};
+        fill: #000;
       }
 
       .dyn-dynamics {
@@ -135,7 +115,7 @@ hexo.extend.helper.register("fancy", function (a) {
       }
 
       .dyn-point-text {
-        fill: #111;
+        fill: #fff;
       }
     </style>
   `;

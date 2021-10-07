@@ -25,7 +25,7 @@ Bridge1 is ghost like. Noise echos in the background. The only instruments playi
 <!-- more -->
 
 {% tubs 8 %}
-o-------|o-------|o-------|o-------=BassDrm
+o-------|o-------|o-------|o-------=BassDrm@0.7
 ----o---|----o---|----o---|----o---=BSynth1
 ^^^
 o-------|o-------|o-------|o-------=BassDrm

@@ -1,109 +1,80 @@
-function parseTubs_(str, timeSig) {
-  const charWidth = 11;
-  const cellDim = 20;
-  const textOffset = 5;
-  const textY = cellDim - textOffset;
-  let width = 0;
-  let maxText = 0;
-  let height = 0;
-  const sepIndex = parseInt(timeSig);
-  const lines = str
+// https://observablehq.com/@haakenlid/svg-circle
+
+function polarToCartesian(x, y, r, degrees) {
+  const radians = (degrees * Math.PI) / 180.0;
+  return [x + r * Math.cos(radians), y + r * Math.sin(radians)];
+}
+function segmentPath(x, y, r0, r1, d0, d1) {
+  // https://svgwg.org/specs/paths/#PathDataEllipticalArcCommands
+  const arc = Math.abs(d0 - d1) > 180 ? 1 : 0;
+  const point = (radius, degree) =>
+    polarToCartesian(x, y, radius, degree)
+      .map((n) => n.toPrecision(5))
+      .join(",");
+  return [
+    `M${point(r0, d0)}`,
+    `A${r0},${r0},0,${arc},1,${point(r0, d1)}`,
+    `L${point(r1, d1)}`,
+    `A${r1},${r1},0,${arc},0,${point(r1, d0)}`,
+    "Z",
+  ].join("");
+}
+
+function segment(n, segments, level, isHit, maxWidth) {
+  const width = 20;
+  const offset = width * level + 10 * level;
+  const radius = (maxWidth / 2) - offset;
+  const margin = 0;
+  const center = radius + offset;
+  const degrees = 360 / segments;
+  const middleOffset = degrees / 2;
+  const start = degrees * n - middleOffset;
+  const end = degrees * (n + 1 - margin) + (margin == 0 ? 1 : 0) - middleOffset;
+  const path = segmentPath(center, center, radius, radius - width, start, end);
+  const evenClass = (n + level) % 2 == 0 ? "odd" : "even";
+  const hitClass = isHit ? "hit" : "";
+  return `<path class="tubs-segment ${evenClass} ${hitClass}" d="${path}" fill="none" stroke="#fff" />`;
+}
+
+function parseTubs_(tubs, timeSig) {
+  const maxWidth = 500;
+  const hpad = 240;
+
+  const svg = tubs
     .split("\n")
-    .map((str) => str.trim())
     .filter((str) => str.length > 0)
-    .map((str, rowIndex) => {
-      height += cellDim;
-      let rowTitle = "";
-      let hasEquals = false;
-      let xPos = 14;
-      let isStart = true;
-      const row = str
-        .split("")
-        .filter((char) => {
-          return char !== "|";
-        })
-        .map((char, charIndex) => {
-          if (char === "=") {
-            hasEquals = true;
-            return "";
-          }
-          if (hasEquals) {
-            rowTitle += char.trim();
-            return "";
-          }
-          if (char.toLowerCase() === ".") {
-            char = "•";
-          } else if (char.toLowerCase() === "o") {
-            char = "⚬";
-          } else if (char.toLowerCase() === "x") {
-            char = "✖";
-          }
-          const isEmpty = char === "-" ? true : false;
-          const textClass = isEmpty ? "empty" : "filled";
-          const isDown = charIndex % sepIndex === 0;
-          const cmds = [];
-          if (isDown) {
-            if (!isStart) {
-              cmds.push(
-                `<rect class="tubs-line" width="0.5" height="${cellDim - 1
-                }" x="${xPos - 6}" y="0" />`
-              );
-              xPos += 4;
-            }
-            isStart = false;
-          }
-          cmds.push(
-            `<text class="tubs-note ${textClass}" text-anchor="middle" x="${xPos}" y="${textY}">${char}</text>`
-          );
-          xPos += cellDim - textOffset;
-          if (width < xPos) {
-            width = xPos;
-          }
-          return cmds.join("\n");
-        })
-        .join("");
-      if (maxText < rowTitle.length) {
-        maxText = rowTitle.length;
+    .map((str, level) => {
+      const items = str.split("=");
+      const nameItems = items[1].split("@")
+      const tubsName = nameItems[0];
+      const tubsShuffle = nameItems[1];
+      let shuffle = 0.5;
+      if(tubsShuffle) {
+        shuffle = parseFloat(tubsShuffle)
       }
-      return `
-        <g transform="translate(0,${rowIndex * cellDim})">
-          ${row}
-          <text class="tubs-inst-name" x="${charWidth / 2 + xPos
-        }" y="${textY}">${rowTitle}</text>
-          <rect class="tubs-line" width="0.5" height="${cellDim}" x="${width}" y="0" />
-          <rect class="tubs-line" width="${width}" height="0.5" x="0" y="${cellDim - 1
-        }" />
-        </g>
+      console.log(shuffle)
+
+      const tubsLine = items[0]
+        .split("")
+        .filter((char) => char === "o" || char === "-")
+        .map((char, index, items) => {
+          const isHit = char === "o";
+          return segment(index, items.length, level, isHit, maxWidth);
+        });
+
+      const xPox = maxWidth
+      const yPos = level * 30
+      return tubsLine.join("\n") + `
+      <line stroke-width="1" class="tubs-line" x1="${maxWidth / 2}" y1="${yPos + 10}" x2="${xPox + 5}" y2="${yPos + 10}" />
+      <text class="tubs-text" text-anchor="left" x="${xPox + 10}" y="${yPos + 15}">${tubsName}</text>
       `;
     })
-    .join("");
-  width += maxText * charWidth + charWidth;
-  const baseHeight = 20;
-  const patternWidth = 120;
-  const patternHeight = 20;
-  const svgContent = `
-    <defs>
-      <pattern id="pattern" x="0" y="0" width="${patternWidth}" height="${patternHeight}" patternUnits="userSpaceOnUse">
-      <path class="tubs-pattern-path" d='M-50.129 12.685C-33.346 12.358-16.786 4.918 0 5c16.787.082 43.213 10 60 10s43.213-9.918 60-10c16.786-.082 33.346 7.358 50.129 7.685' stroke-width='0.5' stroke='rgb(0, 0, 0)' fill='none' />
-      </pattern>
-    </defs>
-    <rect class="tubs-backing" width="${width}" height="${height
-    }" x="0" y="0" />
-    <rect class="tubs-line" width="${width}" height="0.5" x="0" y="${height - 1
-    }" />
-    ${lines}
-    <rect fill="url(#pattern)" width="${width}" height="${baseHeight}" x="0" y="${height}" />
-    <rect class="tubs-line" width="${width}" height="0.5" x="0" y="${height + baseHeight - 0.5
-    }" />
-    <rect class="tubs-line" width="0.5" height="${height + baseHeight
-    }" x="0" y="0" />
-    <rect class="tubs-line" width="0.5" height="${height + baseHeight}" x="${width - 1
-    }" y="0" />`;
+    .join("\n");
 
   return {
-    str: svgContent,
-    width: width,
-    height: height + baseHeight,
+    str: svg,
+    width: maxWidth + 2 + hpad,
+    height: maxWidth + 12,
   };
 }
 
@@ -125,7 +96,6 @@ function parseTubs(str, timeSig) {
     width="${width}" viewBox="0 0 ${width} ${yPos}"
     class="tubs"
     xmlns="http://www.w3.org/2000/svg">
-    <rect class="tubs-line" width="${width}" height="0.5" x="0" y="0" />
     ${content}
   </svg>`;
 }
