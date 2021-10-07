@@ -77,12 +77,21 @@ hexo.extend.helper.register("fancy", function (a) {
         stroke: #${color1a};
       }
 
-      .tubs-segment.even {
-        fill: #ddd;
+      .tubs-segment {
+        fill: #666;
+        stroke: #000;
       }
 
-      .tubs-segment.odd {
-        fill: #aaa;
+      .tubs-segment.down {
+        fill: #${color1c};
+      }
+
+      .tubs-segment.back {
+        fill: #${color1c};
+      }
+
+      .tubs-segment.split {
+        fill: #${color1c};
       }
 
       .tubs-segment.hit {

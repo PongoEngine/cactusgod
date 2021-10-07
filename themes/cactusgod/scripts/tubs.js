@@ -20,11 +20,11 @@ function segmentPath(x, y, r0, r1, d0, d1) {
   ].join("");
 }
 
-function segment(n, segments, level, isHit, maxWidth) {
+function segment(n, segments, level, isHit, timeSig, maxWidth) {
   const width = 20;
   const offset = width * level + 10 * level;
   const radius = (maxWidth / 2) - offset;
-  const margin = 0;
+  const margin = 0.05;
   const center = radius + offset;
   const degrees = 360 / segments;
   const middleOffset = degrees / 2;
@@ -33,9 +33,15 @@ function segment(n, segments, level, isHit, maxWidth) {
   start = (start - 90) % 360
   end = (end - 90) % 360
   const path = segmentPath(center, center, radius, radius - width, start, end);
-  const evenClass = (n + level) % 2 == 0 ? "odd" : "even";
+  const downClass = (n % (timeSig * 2) == 0) 
+    ? "down" 
+    : ((n + timeSig * 2) % (timeSig) == 0)
+      ? "back"
+      : ((n + timeSig) % (timeSig) == 0)
+        ? "split"
+        : ""
   const hitClass = isHit ? "hit" : "";
-  return `<path class="tubs-segment ${evenClass} ${hitClass}" d="${path}" fill="none" stroke="#fff" />`;
+  return `<path class="tubs-segment ${downClass} ${hitClass}" d="${path}" fill="none" stroke="#fff" />`;
 }
 
 function parseTubs_(tubs, timeSig) {
@@ -61,7 +67,7 @@ function parseTubs_(tubs, timeSig) {
         .filter((char) => char === "o" || char === "-")
         .map((char, index, items) => {
           const isHit = char === "o";
-          return segment(index, items.length, level, isHit, maxWidth);
+          return segment(index, items.length, level, isHit, timeSig, maxWidth);
         });
 
       const xPox = maxWidth
