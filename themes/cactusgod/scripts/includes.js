@@ -57,6 +57,7 @@ hexo.extend.helper.register("fancy", function (a) {
 
       header {
         background-color: #${color1a};
+        color: #222;
       }
 
       a {
