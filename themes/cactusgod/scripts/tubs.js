@@ -28,8 +28,10 @@ function segment(n, segments, level, isHit, maxWidth) {
   const center = radius + offset;
   const degrees = 360 / segments;
   const middleOffset = degrees / 2;
-  const start = degrees * n - middleOffset;
-  const end = degrees * (n + 1 - margin) + (margin == 0 ? 1 : 0) - middleOffset;
+  let start = degrees * n - middleOffset;
+  let end = degrees * (n + 1 - margin) + (margin == 0 ? 1 : 0) - middleOffset;
+  start = (start - 90) % 360
+  end = (end - 90) % 360
   const path = segmentPath(center, center, radius, radius - width, start, end);
   const evenClass = (n + level) % 2 == 0 ? "odd" : "even";
   const hitClass = isHit ? "hit" : "";
