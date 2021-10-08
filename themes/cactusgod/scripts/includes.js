@@ -78,20 +78,20 @@ hexo.extend.helper.register("fancy", function (a) {
       }
 
       .tubs-segment {
-        fill: #666;
+        fill: #444;
         stroke: #000;
       }
 
       .tubs-segment.down {
-        fill: #${color1c};
+        fill: #fff;
       }
 
       .tubs-segment.back {
-        fill: #${color1c};
+        fill: #bbb;
       }
 
       .tubs-segment.split {
-        fill: #${color1c};
+        fill: #777;
       }
 
       .tubs-segment.hit {

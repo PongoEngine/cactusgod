@@ -19,6 +19,16 @@ function segmentPath(x, y, r0, r1, d0, d1) {
   ].join("");
 }
 
+function downClass(n, timeSig) {
+  return (n % (timeSig * 4) === 0)
+    ? "down"
+    : (n % (timeSig * 2) === 0)
+      ? "back"
+      : (n % (timeSig * 1) === 0)
+        ? "split"
+        : ""
+}
+
 function segment(n, segments, level, isHit, timeSig, maxWidth, shuffle) {
   const width = 20;
   const offset = width * level + 5 * level;
@@ -42,15 +52,8 @@ function segment(n, segments, level, isHit, timeSig, maxWidth, shuffle) {
     start += shuffled - dist
   }
   const path = segmentPath(center, center, radius, radius - width, start, end);
-  const downClass = (n % (timeSig * 2) == 0)
-    ? "down"
-    : ((n + timeSig * 2) % (timeSig) == 0)
-      ? "back"
-      : ((n + timeSig) % (timeSig) == 0)
-        ? "split"
-        : ""
   const hitClass = isHit ? "hit" : "";
-  return `<path class="tubs-segment ${downClass} ${hitClass}" d="${path}" fill="none" stroke="#fff" />`;
+  return `<path class="tubs-segment ${downClass(n, timeSig)} ${hitClass}" d="${path}" fill="none" stroke="#fff" />`;
 }
 
 function getTubsLine(str) {
@@ -106,6 +109,7 @@ function parseTubs_(tubs, timeSig) {
 }
 
 function parseTubs(str, timeSig) {
+  timeSig = parseInt(timeSig[0]) || 4
   const tubs = parseTubs_(str, timeSig);
   const width = tubs.width;
   const height = tubs.height;

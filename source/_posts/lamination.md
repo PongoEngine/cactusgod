@@ -26,14 +26,14 @@ Bridge1 is ghost like. Noise echos in the background. The only instruments playi
 ### Rhythm1 builds
 Bridge1 is ghost like. Noise echos in the background. The only instruments playing are the bass drum, snare, and rhythm1 in its original state. The vocals are a softer but still carry that fuck you vibe. Rhythm1 builds much quicker as the song transitions to Bridge2.
 
-{% tubs 8 %}
+{% tubs 4 %}
 o-------|o-------|o-------|o-------=BassDrm@0.5
 ----o---|----o---|----o---|----o---=BSynth1@0.75
 {% endtubs %}
 
 ### Noise echos
 Bridge1 is ghost like. Noise echos in the background. The only instruments playing are the bass drum, snare, and rhythm1 in its original state. The vocals are a softer but still carry that fuck you vibe. Rhythm1 builds much quicker as the song transitions to Bridge2.
-{% tubs 8 %}
+{% tubs 4 %}
 o-------|o-------|o-------|o-------=BassDrm
 ----o---|----o---|----o---|----o---=BSynth1
 ooo-----|o-o-----|o-o-----|o-o-o-o-=BSynth2
@@ -41,7 +41,7 @@ ooo-----|o-o-----|o-o-----|o-o-o-o-=BSynth2
 
 ### Hello
 Bridge1 is ghost like. Noise echos in the background. The only instruments playing are the bass drum, snare, and rhythm1 in its original state. The vocals are a softer but still carry that fuck you vibe. Rhythm1 builds much quicker as the song transitions to Bridge2.
-{% tubs 8 %}
+{% tubs 4 %}
 o-------|--------|o-------|--------=BassDrm
 --------|o-------|--------|o-------=Snare
 ----o---|----o---|----o---|----o---=BSynth1
@@ -50,7 +50,7 @@ o-o-----|o-o-----|o-o-----|o-o-o-o-=BSynth2
 
 ### Still carry that
 Bridge1 is ghost like. Noise echos in the background. The only instruments playing are the bass drum, snare, and rhythm1 in its original state. The vocals are a softer but still carry that fuck you vibe. Rhythm1 builds much quicker as the song transitions to Bridge2.
-{% tubs 8 %}
+{% tubs 4 %}
 o-------|o-------|o-------|o-------=BassDrm
 o-o-----|o-o-----|o-o-----|o-o-o-o-=BSynth2
 o-------|--------|--------|--------=Vox
@@ -58,7 +58,7 @@ o-------|--------|--------|--------=Vox
 
 ### Song transitions
 Bridge1 is ghost like. Noise echos in the background. The only instruments playing are the bass drum, snare, and rhythm1 in its original state. The vocals are a softer but still carry that fuck you vibe. Rhythm1 builds much quicker as the song transitions to Bridge2.
-{% tubs 8 %}
+{% tubs 4 %}
 o-------|--------|o-------|--------=BassDrm
 --------|o-------|--------|o-------=Snare
 o-o-----|o-o-----|o-o-----|o-o-o-o-=BSynth2
@@ -67,7 +67,7 @@ o-------|--------|--------|--------=Vox
 
 ### Original state
 Bridge1 is ghost like. Noise echos in the background. The only instruments playing are the bass drum, snare, and rhythm1 in its original state. The vocals are a softer but still carry that fuck you vibe. Rhythm1 builds much quicker as the song transitions to Bridge2.
-{% tubs 8 %}
+{% tubs 4 %}
 o-------|--------|o-------|--------=BassDrm
 --------|o-------|--------|o-------=Snare
 ----o---|----o---|----o---|----o---=HiHat
@@ -77,7 +77,7 @@ o-------|--------|--------|--------=Vox
 
 ### The vocals are a softer
 Bridge1 is ghost like. Noise echos in the background. The only instruments playing are the bass drum, snare, and rhythm1 in its original state. The vocals are a softer but still carry that fuck you vibe. Rhythm1 builds much quicker as the song transitions to Bridge2.
-{% tubs 8 %}
+{% tubs 4 %}
 o-------|--------|o-------|--------=BassDrm
 --------|o-------|--------|o-------=Snare
 ----o---|----o---|----o---|----o---=BSynth1
@@ -89,14 +89,14 @@ o-------|--------|--------|--------=SFX
 
 ### Transitions to Bridge2
 Bridge1 is ghost like. Noise echos in the background. The only instruments playing are the bass drum, snare, and rhythm1 in its original state. The vocals are a softer but still carry that fuck you vibe. Rhythm1 builds much quicker as the song transitions to Bridge2.
-{% tubs 8 %}
+{% tubs 4 %}
 o-o-----|o-o-----|o-o-----|o-o-o-o-=BSynth2
 o-------|--------|--------|--------=Vox
 {% endtubs %}
 
 ### Ghost like
 Bridge1 is ghost like. Noise echos in the background. The only instruments playing are the bass drum, snare, and rhythm1 in its original state. The vocals are a softer but still carry that fuck you vibe. Rhythm1 builds much quicker as the song transitions to Bridge2.
-{% tubs 8 %}
+{% tubs 4 %}
 o-------|--------|o-------|--------=BassDrm
 --------|o-------|--------|o-------=Snare
 ----o---|----o---|----o---|----o---=HiHat
@@ -106,7 +106,7 @@ o-------|--------|--------|--------=Vox
 
 ### The bass drum
 Bridge1 is ghost like. Noise echos in the background. The only instruments playing are the bass drum, snare, and rhythm1 in its original state. The vocals are a softer but still carry that fuck you vibe. Rhythm1 builds much quicker as the song transitions to Bridge2.
-{% tubs 8 %}
+{% tubs 4 %}
 o-------|--------|o-------|--------=BassDrm
 --------|o-------|--------|o-------=Snare
 o---o---|o---o---|o---o---|o---o---=HiHat
