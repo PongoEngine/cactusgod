@@ -51,7 +51,7 @@ function segment(n, segments, level, isHit, timeSig, maxWidth, shuffle) {
     const shuffled = dist * shuffle * 2;
     start += shuffled - dist
   }
-  const path = segmentPath(center, center, radius, radius - width, start, end);
+  const path = segmentPath(center + 2, center + 2, radius, radius - width, start, end);
   const hitClass = isHit ? "hit" : "";
   return `<path class="tubs-segment ${downClass(n, timeSig)} ${hitClass}" d="${path}" fill="none" stroke="#fff" />`;
 }
@@ -103,7 +103,7 @@ function parseTubs_(tubs, timeSig) {
 
   return {
     str: svg,
-    width: maxWidth + 2 + hpad,
+    width: maxWidth + hpad,
     height: maxWidth + 12,
   };
 }
