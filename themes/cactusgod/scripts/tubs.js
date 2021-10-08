@@ -5,7 +5,6 @@ function polarToCartesian(x, y, r, degrees) {
   return [x + r * Math.cos(radians), y + r * Math.sin(radians)];
 }
 function segmentPath(x, y, r0, r1, d0, d1) {
-  // https://svgwg.org/specs/paths/#PathDataEllipticalArcCommands
   const arc = Math.abs(d0 - d1) > 180 ? 1 : 0;
   const point = (radius, degree) =>
     polarToCartesian(x, y, radius, degree)
@@ -20,9 +19,9 @@ function segmentPath(x, y, r0, r1, d0, d1) {
   ].join("");
 }
 
-function segment(n, segments, level, isHit, timeSig, maxWidth) {
+function segment(n, segments, level, isHit, timeSig, maxWidth, shuffle) {
   const width = 20;
-  const offset = width * level + 10 * level;
+  const offset = width * level + 5 * level;
   const radius = (maxWidth / 2) - offset;
   const margin = 0.05;
   const center = radius + offset;
@@ -32,9 +31,19 @@ function segment(n, segments, level, isHit, timeSig, maxWidth) {
   let end = degrees * (n + 1 - margin) + (margin == 0 ? 1 : 0) - middleOffset;
   start = (start - 90) % 360
   end = (end - 90) % 360
+  const isDown = n % 2 === 0
+  if (isDown) {
+    const dist = end - start;
+    end = start + (dist * shuffle * 2)
+  }
+  else {
+    const dist = end - start;
+    const shuffled = dist * shuffle * 2;
+    start += shuffled - dist
+  }
   const path = segmentPath(center, center, radius, radius - width, start, end);
-  const downClass = (n % (timeSig * 2) == 0) 
-    ? "down" 
+  const downClass = (n % (timeSig * 2) == 0)
+    ? "down"
     : ((n + timeSig * 2) % (timeSig) == 0)
       ? "back"
       : ((n + timeSig) % (timeSig) == 0)
@@ -44,37 +53,47 @@ function segment(n, segments, level, isHit, timeSig, maxWidth) {
   return `<path class="tubs-segment ${downClass} ${hitClass}" d="${path}" fill="none" stroke="#fff" />`;
 }
 
-function parseTubs_(tubs, timeSig) {
-  const maxWidth = 500;
-  const hpad = 240;
+function getTubsLine(str) {
+  const reg = /([^=]*)=([^@]*)@?([^|]*)?\|?([^,]*)?,?(\S*)/gm
+  const match = reg.exec(str)
+  const hits = match[1]
+  const name = match[2]
+  const shuffle = parseFloat(match[3] || "0.5")
+  const x = parseFloat(match[4] || "0.5")
+  const y = parseFloat(match[5] || "0.5")
 
-  const svg = tubs
+  return {
+    hits,
+    name,
+    shuffle,
+    x,
+    y
+  }
+}
+
+function parseTubs_(tubs, timeSig) {
+  const maxWidth = 550;
+  const hpad = 100;
+
+  let svg = tubs
     .split("\n")
     .filter((str) => str.length > 0)
     .map((str, level) => {
-      const items = str.split("=");
-      const nameItems = items[1].split("@")
-      const tubsName = nameItems[0];
-      const tubsShuffle = nameItems[1];
-      let shuffle = 0.5;
-      if(tubsShuffle) {
-        shuffle = parseFloat(tubsShuffle)
-      }
-      console.log(shuffle)
+      const tubs = getTubsLine(str)
 
-      const tubsLine = items[0]
+      const tubsLine = tubs.hits
         .split("")
         .filter((char) => char === "o" || char === "-")
         .map((char, index, items) => {
           const isHit = char === "o";
-          return segment(index, items.length, level, isHit, timeSig, maxWidth);
+          return segment(index, items.length, level, isHit, timeSig, maxWidth, tubs.shuffle);
         });
 
       const xPox = maxWidth
-      const yPos = level * 30
+      const yPos = level * 25
       return tubsLine.join("\n") + `
       <line stroke-width="1" class="tubs-line" x1="${maxWidth / 2}" y1="${yPos + 10}" x2="${xPox + 5}" y2="${yPos + 10}" />
-      <text class="tubs-text" text-anchor="left" x="${xPox + 10}" y="${yPos + 15}">${tubsName}</text>
+      <text class="tubs-text" text-anchor="left" x="${xPox + 10}" y="${yPos + 15}">${tubs.name}</text>
       `;
     })
     .join("\n");
@@ -87,25 +106,16 @@ function parseTubs_(tubs, timeSig) {
 }
 
 function parseTubs(str, timeSig) {
-  const items = str.split("^^^").map((content) => {
-    return parseTubs_(content, timeSig);
-  });
-  const width = items[0].width;
-  let yPos = 0;
-  const content = items
-    .map((c, index) => {
-      const gElem = `<g transform="translate(0, ${yPos})">${c.str}</g>`;
-      yPos += items[index].height;
-      return gElem;
-    })
-    .join("\n");
+  const tubs = parseTubs_(str, timeSig);
+  const width = tubs.width;
+  const height = tubs.height;
   return `
-  <svg version="1.1"
-    width="${width}" viewBox="0 0 ${width} ${yPos}"
-    class="tubs"
-    xmlns="http://www.w3.org/2000/svg">
-    ${content}
-  </svg>`;
+    <svg version="1.1"
+      width="${width}" viewBox="0 0 ${width} ${height}"
+      class="tubs"
+      xmlns="http://www.w3.org/2000/svg">
+      ${tubs.str}
+    </svg>`;
 }
 
 hexo.extend.tag.register(
