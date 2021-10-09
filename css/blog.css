@@ -164,6 +164,10 @@ header h1 {
           user-select: none;
   display: block;
 }
+.tubs-about-text {
+  font-size: 1.4rem;
+  fill: #fff;
+}
 .dynamics-container {
   position: relative;
   overflow: hidden;

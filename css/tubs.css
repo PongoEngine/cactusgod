@@ -10,3 +10,7 @@
           user-select: none;
   display: block;
 }
+.tubs-about-text {
+  font-size: 1.4rem;
+  fill: #fff;
+}
