@@ -1,15 +1,15 @@
 ---
-title: lamination
+title: untitled
 album: twtwelve
-date: 2021/8/21
-hue: 30
+date: 2021/10/08
+hue: 190
 ---
 
 {% dynamics %}
-values:3-|4---\|2---|5---\|4---|6---|4---|8---\|5---|3---\|4-
-labels:|Intro|Verse1|Bridge1|Chorus1|Verse2|Bridge2|Chorus2|Outro|Outro
+values:3-|4---\|2---|5---\|4---|6---|5---\|4--
+labels:|Intro|Verse1|Bridge1|Chorus1|Verse2|Bridge2|Outro
 image:/img/header/moon.svg
-tagline:I get too caught up in the moment.
+tagline:there is power in the words that you whisper
 {% enddynamics %}
 <!-- more -->
 
@@ -19,25 +19,26 @@ tempo: 120
 signature: 4/4
 {% endattrs %}
 
-Verse1 is accompanied with just the bass drum and rhythm2 synth which highlights the vocals. The instruments build much like they did in the intro with additional layers and percussion.
-
-Bridge1 is ghost like. Noise echos in the background. The only instruments playing are the bass drum, snare, and rhythm1 in its original state. The vocals are a softer but still carry that fuck you vibe. Rhythm1 builds much quicker as the song transitions to Bridge2.
-
-### Rhythm1 builds
-Bridge1 is ghost like. Noise echos in the background. The only instruments playing are the bass drum, snare, and rhythm1 in its original state. The vocals are a softer but still carry that fuck you vibe. Rhythm1 builds much quicker as the song transitions to Bridge2.
+### Simple intro
+The intro beings with a single instrument that is highly effected with chorus and reverb. It plucks the notes of a chord in the first half of a measure and rests for the second half. Then in the next measure it plucks another chord using the same rhythm. The two measures repeat to make the intro.
 
 {% tubs 4 %}
-o-------|o-------|o-------|o-------=BassDrm@0.5
-----o---|----o---|----o---|----o---=BSynth1@0.75
+ooo-|o-o-|----|----=Plucks@0.75
 {% endtubs %}
 
-### Noise echos
-Bridge1 is ghost like. Noise echos in the background. The only instruments playing are the bass drum, snare, and rhythm1 in its original state. The vocals are a softer but still carry that fuck you vibe. Rhythm1 builds much quicker as the song transitions to Bridge2.
+### Sharp First Verse
+The first verse hits hard with syncopated hip hop drums and rhythmic lyrics that dance on the down beat.
 {% tubs 4 %}
-o-------|o-------|o-------|o-------=BassDrm
-----o---|----o---|----o---|----o---=BSynth1
-ooo-----|o-o-----|o-o-----|o-o-o-o-=BSynth2
+ooo-|o-o-|----|----=Plucks@0.75
+----|----|----|----=BassDrum@0.5
+----|----|----|----=Snap@0.5
 {% endtubs %}
+{% tubs 4 %}
+----|----|----|----=Plucks@0.5
+----|----|----|----=BassDrum@0.5
+----|----|----|----=ClosedHat@0.5
+{% endtubs %}
+
 
 ### Hello
 Bridge1 is ghost like. Noise echos in the background. The only instruments playing are the bass drum, snare, and rhythm1 in its original state. The vocals are a softer but still carry that fuck you vibe. Rhythm1 builds much quicker as the song transitions to Bridge2.

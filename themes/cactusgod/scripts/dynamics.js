@@ -118,7 +118,6 @@ function parseDynamics(str) {
   const letterSpacing = msgHeight * getGC(6);
   const rotation = 45;
   return `
-    </div>
     <svg version="1.1"
     width="${width}" viewBox="0 0 ${width} ${height}"
     class="dynamics"
@@ -138,8 +137,7 @@ function parseDynamics(str) {
   }" y="${height / 2}">${data.tagline}</text>
       ${polys}
       <polyline class="dyn-dynamics" points="${points}" stroke-width="5" />
-    </svg>
-    <div class="colored-back">`;
+    </svg>`;
 }
 
 function createPoly(x, y, length, label) {

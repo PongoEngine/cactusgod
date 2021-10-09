@@ -6,11 +6,12 @@ hue: 350
 ---
 
 {% dynamics %}
-values:3-|4---\|2---|5---\|4---|6---|5---\|4--
-labels:|Intro|Verse1|Bridge1|Chorus1|Verse2|Bridge2|Outro
+values:1-|2--|3-\|2-\|3--|5---\|4---|6---|5---\|4--
+labels:|Intro|Verse1|Bridge1|Chorus1|Verse2|Bridge2|Outro|Moon|Cool
 image:/img/header/moon.svg
 tagline:come on in the water is fine
 {% enddynamics %}
+<!-- more -->
 
 {% attrs %}
 scale: TBD
@@ -22,8 +23,6 @@ Verse1 is accompanied with just the bass drum and rhythm2 synth which highlights
 
 Bridge1 is ghost like. Noise echos in the background. The only instruments playing are the bass drum, snare, and rhythm1 in its original state. The vocals are a softer but still carry that fuck you vibe. Rhythm1 builds much quicker as the song transitions to Bridge2. The only instruments playing are the bass drum, snare, and rhythm1 in its original state. The vocals are a softer but still carry that fuck you vibe. Rhythm1 builds much quicker as the song transitions to Bridge2.
 
-
-<!-- more -->
 ### Rhythm1 builds
 Bridge1 is ghost like. Noise echos in the background. The only instruments playing are the bass drum, snare, and rhythm1 in its original state. The vocals are a softer but still carry that fuck you vibe. Rhythm1 builds much quicker as the song transitions to Bridge2.
 

@@ -20,11 +20,11 @@ function segmentPath(x, y, r0, r1, d0, d1) {
 }
 
 function downClass(n, timeSig) {
-  return (n % (timeSig * 4) === 0)
+  return (n % (timeSig * 2) === 0)
     ? "down"
-    : (n % (timeSig * 2) === 0)
+    : (n % (timeSig * 1) === 0)
       ? "back"
-      : (n % (timeSig * 1) === 0)
+      : (n % Math.floor(timeSig / 2) === 0)
         ? "split"
         : ""
 }
