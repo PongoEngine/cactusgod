@@ -174,7 +174,8 @@ o--o|-o-o|o--o|-o-o=Hat1
 ----|o---|----|o---=Hat2
 --o-|--o-|--o-|--o-=Guitar
 ----|----|----|----=Vox
-----|----|----|----=VoxAh
+o-o-|o-o-|o-o-|o-o-=VoxAh
+%VoxAh enters as a chord that plays on every down, back, and slice.
 ^^^
 o---|----|o---|----=BassSynth
 o--o|-o-o|o--o|-o-o=Hat1
