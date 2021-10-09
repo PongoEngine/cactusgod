@@ -90,6 +90,7 @@ function prepLine(items, index) {
 function parseTubs_(tubsStr, timeSig) {
   const maxWidth = 550;
   const hpad = 220;
+  const padding = 10
 
   const tubsData = tubsStr.split("%")
   const tubsLines = tubsData[0]
@@ -104,7 +105,7 @@ function parseTubs_(tubsStr, timeSig) {
       const word = words[wordIndex++]
       prepLine(combinedStr, lineIndex);
       const lineWidth = wordCount(combinedStr, lineIndex, word)
-      if (lineWidth > hpad) {
+      if (lineWidth > hpad + padding) {
         lineIndex++
       }
       prepLine(combinedStr, lineIndex);
@@ -113,7 +114,6 @@ function parseTubs_(tubsStr, timeSig) {
     }
     const lineHeight = 18
     const height = lineHeight * combinedStr.length
-    const padding = 10
     const backingX = maxWidth - 1 - padding * 2
     const backingY = maxWidth - height - 1 - padding * 2
     const backingWidth = hpad + padding * 2

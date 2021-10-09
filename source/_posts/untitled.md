@@ -29,7 +29,7 @@ o---|----|----|----=Synth
 o---|----|o---|----=BassSynth
 o---|----|----|----=Synth
 ----|----|----|--o-=Vox
-%The intro plays a second time. At the end of the second measure the vocals start.
+%At the end of the second measure the vocals start.
 {% endtubs %}
 
 ### Verse1
