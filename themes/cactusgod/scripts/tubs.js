@@ -1,3 +1,5 @@
+const pixelWidth = require('string-pixel-width');
+
 // https://observablehq.com/@haakenlid/svg-circle
 
 function polarToCartesian(x, y, r, degrees) {
@@ -74,11 +76,58 @@ function getTubsLine(str) {
   }
 }
 
-function parseTubs_(tubs, timeSig) {
-  const maxWidth = 550;
-  const hpad = 100;
+function wordCount(items, index, word) {
+  const line = items[index].join(" ") + " " + word
+  return pixelWidth(line, { font: 'Open Sans', size: 10 * 1.4 });
+}
 
-  let svg = tubs
+function prepLine(items, index) {
+  if (items[index] === undefined) {
+    items[index] = []
+  }
+}
+
+function parseTubs_(tubsStr, timeSig) {
+  const maxWidth = 550;
+  const hpad = 220;
+
+  const tubsData = tubsStr.split("%")
+  const tubsLines = tubsData[0]
+  const tubsAbout = tubsData[1]
+  let aboutElement = ""
+  if (tubsAbout) {
+    let words = tubsAbout.split(" ")
+    let combinedStr = []
+    let wordIndex = 0
+    let lineIndex = 0
+    while (wordIndex < words.length) {
+      const word = words[wordIndex++]
+      prepLine(combinedStr, lineIndex);
+      const lineWidth = wordCount(combinedStr, lineIndex, word)
+      if (lineWidth > hpad) {
+        lineIndex++
+      }
+      prepLine(combinedStr, lineIndex);
+      combinedStr[lineIndex].push(word)
+      
+    }
+    const lineHeight = 18
+    const height = lineHeight * combinedStr.length
+    const padding = 10
+    const backingX = maxWidth - 1 - padding * 2
+    const backingY = maxWidth - height - 1 - padding * 2
+    const backingWidth = hpad + padding * 2
+    const backingHeight = height + padding * 2
+    aboutElement += `<rect class="tubs-backing-cur" x="${backingX}" y="${backingY}" width="${backingWidth}" height="${backingHeight}" fill="none" />`
+    aboutElement += combinedStr.map((str, index) => {
+      const line = str.join(" ");
+      const x = maxWidth - padding;
+      const y = (((maxWidth - height) + index * lineHeight) + lineHeight - padding - 5);
+      return `<text class="tubs-about-text" text-anchor="left" x="${x}" y="${y}">${line}</text>`
+    }).join("\n")
+  }
+
+  let svg = tubsLines
     .split("\n")
     .filter((str) => str.length > 0)
     .map((str, level) => {
@@ -97,6 +146,7 @@ function parseTubs_(tubs, timeSig) {
       return tubsLine.join("\n") + `
       <line stroke-width="1" class="tubs-line" x1="${maxWidth / 2}" y1="${yPos + 10}" x2="${xPox + 5}" y2="${yPos + 10}" />
       <text class="tubs-text" text-anchor="left" x="${xPox + 10}" y="${yPos + 15}">${tubs.name}</text>
+      ${aboutElement}
       `;
     })
     .join("\n");

@@ -24,10 +24,12 @@ signature: 4/4
 {% tubs 4 %}
 o---|----|o---|----=BassSynth
 o---|----|----|----=Synth
+%The bass synth hits ever down beat with a long attack. The synth has quick decay that feels like a bass drum.
 ^^^
 o---|----|o---|----=BassSynth
 o---|----|----|----=Synth
 ----|----|----|--o-=Vox
+%The intro plays a second time. At the end of the second measure the vocals start.
 {% endtubs %}
 
 ### Verse1
