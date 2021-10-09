@@ -2,7 +2,7 @@
 title: untitled
 album: twtwelve
 date: 2021/10/08
-hue: 190
+hue: 20
 ---
 
 {% dynamics %}
