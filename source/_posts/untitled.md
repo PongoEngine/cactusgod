@@ -19,99 +19,349 @@ tempo: 120
 signature: 4/4
 {% endattrs %}
 
-### Simple intro
-The intro beings with a single instrument that is highly effected with chorus and reverb. It plucks the notes of a chord in the first half of a measure and rests for the second half. Then in the next measure it plucks another chord using the same rhythm. The two measures repeat to make the intro.
 
+### Intro
 {% tubs 4 %}
-ooo-|o-o-|----|----=Plucks@0.75
-{% endtubs %}
-
-### Sharp First Verse
-The first verse hits hard with syncopated hip hop drums and rhythmic lyrics that dance on the down beat.
-{% tubs 4 %}
-ooo-|o-o-|----|----=Plucks@0.75
-----|----|----|----=BassDrum@0.5
-----|----|----|----=Snap@0.5
+o---|----|o---|----=BassSynth
+o---|----|----|----=Synth
 {% endtubs %}
 {% tubs 4 %}
-----|----|----|----=Plucks@0.5
-----|----|----|----=BassDrum@0.5
-----|----|----|----=ClosedHat@0.5
+o---|----|o---|----=BassSynth
+o---|----|----|----=Synth
+----|----|----|--o-=Vox
 {% endtubs %}
 
-
-### Hello
-Bridge1 is ghost like. Noise echos in the background. The only instruments playing are the bass drum, snare, and rhythm1 in its original state. The vocals are a softer but still carry that fuck you vibe. Rhythm1 builds much quicker as the song transitions to Bridge2.
+### Verse1
 {% tubs 4 %}
-o-------|--------|o-------|--------=BassDrm
---------|o-------|--------|o-------=Snare
-----o---|----o---|----o---|----o---=BSynth1
-o-o-----|o-o-----|o-o-----|o-o-o-o-=BSynth2
+o---|----|o---|----=BassSynth
+o---|----|----|----=Synth
+----|----|----|----=Vox
+{% endtubs %}
+{% tubs 4 %}
+o---|----|o---|----=BassSynth
+o---|----|----|----=Synth
+----|----|----|----=Vox
+{% endtubs %}
+{% tubs 4 %}
+o---|----|o---|----=BassSynth
+o---|----|----|----=Synth
+----|----|----|----=Vox
+{% endtubs %}
+{% tubs 4 %}
+o---|----|o---|----=BassSynth
+o---|----|----|----=Synth
+----|----|----|----=Vox1
+----|----|----|----=Vox2
 {% endtubs %}
 
-### Still carry that
-Bridge1 is ghost like. Noise echos in the background. The only instruments playing are the bass drum, snare, and rhythm1 in its original state. The vocals are a softer but still carry that fuck you vibe. Rhythm1 builds much quicker as the song transitions to Bridge2.
+### Verse1.5
 {% tubs 4 %}
-o-------|o-------|o-------|o-------=BassDrm
-o-o-----|o-o-----|o-o-----|o-o-o-o-=BSynth2
-o-------|--------|--------|--------=Vox
+o---|----|o---|----=BassSynth
+o---|----|----|----=Synth
+--o-|--o-|--o-|--o-=ClosedHat
+----|----|----|----=Vox
+{% endtubs %}
+{% tubs 4 %}
+o---|----|o---|----=BassSynth
+o---|----|----|----=Synth
+--o-|--o-|--o-|--o-=ClosedHat
+----|----|----|----=Vox1
+----|----|----|----=Vox2
+{% endtubs %}
+{% tubs 4 %}
+o---|----|o---|----=BassSynth
+o---|----|----|----=Synth
+--o-|--o-|--o-|--o-=ClosedHat
+----|----|----|----=Vox
+{% endtubs %}
+{% tubs 4 %}
+o---|----|o---|----=BassSynth
+o---|----|----|----=Synth
+--o-|--o-|--o-|--o-=ClosedHat
+----|----|----|----=Vox
 {% endtubs %}
 
-### Song transitions
-Bridge1 is ghost like. Noise echos in the background. The only instruments playing are the bass drum, snare, and rhythm1 in its original state. The vocals are a softer but still carry that fuck you vibe. Rhythm1 builds much quicker as the song transitions to Bridge2.
+### Bridge
 {% tubs 4 %}
-o-------|--------|o-------|--------=BassDrm
---------|o-------|--------|o-------=Snare
-o-o-----|o-o-----|o-o-----|o-o-o-o-=BSynth2
-o-------|--------|--------|--------=Vox
+o---|----|o---|----=BassSynth
+--o-|--o-|--o-|--o-=ClosedHat
+oooo|oooo|oooo|oooo=Guitar
+----|----|----|----=Vox
+{% endtubs %}
+{% tubs 4 %}
+o---|----|o---|----=BassSynth
+--o-|--o-|--o-|--o-=ClosedHat
+oooo|oooo|oooo|oooo=Guitar
+----|----|----|----=Vox
+{% endtubs %}
+{% tubs 4 %}
+o---|----|o---|----=BassSynth
+--o-|--o-|--o-|--o-=ClosedHat
+oooo|oooo|oooo|oooo=Guitar
+----|----|----|----=Vox
+{% endtubs %}
+{% tubs 4 %}
+o---|----|o---|----=BassSynth
+--o-|--o-|--o-|--o-=ClosedHat
+oooo|oooo|oooo|oooo=Guitar
+----|----|----|----=Vox
 {% endtubs %}
 
-### Original state
-Bridge1 is ghost like. Noise echos in the background. The only instruments playing are the bass drum, snare, and rhythm1 in its original state. The vocals are a softer but still carry that fuck you vibe. Rhythm1 builds much quicker as the song transitions to Bridge2.
+### Chorus1
 {% tubs 4 %}
-o-------|--------|o-------|--------=BassDrm
---------|o-------|--------|o-------=Snare
-----o---|----o---|----o---|----o---=HiHat
-o-o-----|o-o-----|o-o-----|o-o-o-o-=BSynth2
-o-------|--------|--------|--------=Vox
+o-o-|o-o-|o-o-|o-o-=BassDrum
+o-o-|o-o-|o-o-|o-o-=BassSynth
+----|----|----|----=Vox
+{% endtubs %}
+{% tubs 4 %}
+o-o-|o-o-|o-o-|o-o-=BassDrum
+o-o-|o-o-|o-o-|o-o-=BassSynth
+----|----|----|----=Vox
+{% endtubs %}
+{% tubs 4 %}
+o-o-|o-o-|o-o-|o-o-=BassDrum
+o-o-|o-o-|o-o-|o-o-=BassSynth
+----|----|----|----=Vox
+{% endtubs %}
+{% tubs 4 %}
+o-o-|o-o-|o-o-|o-o-=BassDrum
+o-o-|o-o-|o-o-|o-o-=BassSynth
+----|----|----|oooo=Toms
+----|----|----|----=Vox
 {% endtubs %}
 
-### The vocals are a softer
-Bridge1 is ghost like. Noise echos in the background. The only instruments playing are the bass drum, snare, and rhythm1 in its original state. The vocals are a softer but still carry that fuck you vibe. Rhythm1 builds much quicker as the song transitions to Bridge2.
+### Chorus1.5
 {% tubs 4 %}
-o-------|--------|o-------|--------=BassDrm
---------|o-------|--------|o-------=Snare
-----o---|----o---|----o---|----o---=BSynth1
-o-o-----|o-o-----|o-o-----|o-o-o-o-=BSynth2
-o-------|--------|--------|--------=Vox1
-o-------|--------|--------|--------=Vox2
-o-------|--------|--------|--------=SFX
+o-o-|o-o-|o-o-|o-o-=BassDrum
+o-o-|o-o-|o-o-|o-o-=BassSynth
+--o-|--o-|--o-|--o-=Snare
+o--o|-o-o|o--o|-o-o=Hat1
+----|o---|----|o---=Hat2
+----|----|----|----=Vox
+----|----|----|----=VoxDouble
+{% endtubs %}
+{% tubs 4 %}
+o-o-|o-o-|o-o-|o-o-=BassDrum
+o-o-|o-o-|o-o-|o-o-=BassSynth
+--o-|--o-|--o-|--o-=Snare
+o--o|-o-o|o--o|-o-o=Hat1
+----|o---|----|o---=Hat2
+----|----|----|----=Vox
+----|----|----|----=VoxDouble
+{% endtubs %}
+{% tubs 4 %}
+o-o-|o-o-|o-o-|o-o-=BassDrum
+o-o-|o-o-|o-o-|o-o-=BassSynth
+--o-|--o-|--o-|--o-=Snare
+o--o|-o-o|o--o|-o-o=Hat1
+----|o---|----|o---=Hat2
+----|----|----|----=Vox
+----|----|----|----=VoxDouble
+{% endtubs %}
+{% tubs 4 %}
+o-o-|o-o-|o-o-|o-o-=BassDrum
+o-o-|o-o-|o-o-|o-o-=BassSynth
+--o-|--o-|--o-|--o-=Snare
+o--o|-o-o|o--o|-o-o=Hat1
+----|o---|----|o---=Hat2
+----|----|----|----=Vox
+----|----|----|----=VoxDouble
 {% endtubs %}
 
-### Transitions to Bridge2
-Bridge1 is ghost like. Noise echos in the background. The only instruments playing are the bass drum, snare, and rhythm1 in its original state. The vocals are a softer but still carry that fuck you vibe. Rhythm1 builds much quicker as the song transitions to Bridge2.
+### Verse2
 {% tubs 4 %}
-o-o-----|o-o-----|o-o-----|o-o-o-o-=BSynth2
-o-------|--------|--------|--------=Vox
+o---|----|o---|----=BassSynth
+----|----|----|----=Hat1
+----|----|----|----=Hat2
+--o-|--o-|--o-|--o-=Guitar
+----|----|----|----=Vox
+{% endtubs %}
+{% tubs 4 %}
+o---|----|o---|----=BassSynth
+----|----|----|----=Hat1
+----|----|----|----=Hat2
+--o-|--o-|--o-|--o-=Guitar
+----|----|----|----=Vox
+{% endtubs %}
+{% tubs 4 %}
+o---|----|o---|----=BassSynth
+----|----|----|----=Hat1
+----|----|----|----=Hat2
+--o-|--o-|--o-|--o-=Guitar
+----|----|----|----=Vox
+----|----|----|----=VoxBacking
+{% endtubs %}
+{% tubs 4 %}
+o---|----|o---|----=BassSynth
+----|----|----|----=Hat1
+----|----|----|----=Hat2
+--o-|--o-|--o-|--o-=Guitar1
+----|----|----|----=Guitar2
+----|----|----|----=Vox
+----|----|----|----=VoxBacking
 {% endtubs %}
 
-### Ghost like
-Bridge1 is ghost like. Noise echos in the background. The only instruments playing are the bass drum, snare, and rhythm1 in its original state. The vocals are a softer but still carry that fuck you vibe. Rhythm1 builds much quicker as the song transitions to Bridge2.
+### Bridge
 {% tubs 4 %}
-o-------|--------|o-------|--------=BassDrm
---------|o-------|--------|o-------=Snare
-----o---|----o---|----o---|----o---=HiHat
-o-o-----|o-o-----|o-o-----|o-o-o-o-=BSynth2
-o-------|--------|--------|--------=Vox
+----|----|----|----=BassSynth
+----|----|----|----=Synth
+----|----|----|----=Hat1
+----|----|----|----=Hat2
+--o-|--o-|--o-|--o-=ClosedHat
+----|----|----|----=Guitar
+----|----|----|----=Vox
+{% endtubs %}
+{% tubs 4 %}
+----|----|----|----=BassSynth
+----|----|----|----=Synth
+----|----|----|----=Hat1
+----|----|----|----=Hat2
+--o-|--o-|--o-|--o-=ClosedHat
+----|----|----|----=Guitar
+----|----|----|----=Vox
+{% endtubs %}
+{% tubs 4 %}
+----|----|----|----=BassSynth
+----|----|----|----=Synth
+----|----|----|----=Hat1
+----|----|----|----=Hat2
+--o-|--o-|--o-|--o-=ClosedHat
+----|----|----|----=Guitar
+----|----|----|----=Vox
+{% endtubs %}
+{% tubs 4 %}
+----|----|----|----=BassSynth
+----|----|----|----=Synth
+----|----|----|----=Hat1
+----|----|----|----=Hat2
+--o-|--o-|--o-|--o-=ClosedHat
+----|----|----|----=Guitar
+----|----|----|----=Vox
 {% endtubs %}
 
-### The bass drum
-Bridge1 is ghost like. Noise echos in the background. The only instruments playing are the bass drum, snare, and rhythm1 in its original state. The vocals are a softer but still carry that fuck you vibe. Rhythm1 builds much quicker as the song transitions to Bridge2.
+### Chorus2
 {% tubs 4 %}
-o-------|--------|o-------|--------=BassDrm
---------|o-------|--------|o-------=Snare
-o---o---|o---o---|o---o---|o---o---=HiHat
-----o---|----o---|----o---|----o---=BSynth1
-o-o-----|o-o-----|o-o-----|o-o-o-o-=BSynth2
-oo------|--------|--------|------oo=Vox
+----|----|----|----=BassDrum
+----|----|----|----=BassSynth
+----|----|----|----=Vox
+{% endtubs %}
+{% tubs 4 %}
+----|----|----|----=BassDrum
+----|----|----|----=BassSynth
+----|----|----|----=Vox
+{% endtubs %}
+{% tubs 4 %}
+----|----|----|----=BassDrum
+----|----|----|----=BassSynth
+----|----|----|----=Vox
+{% endtubs %}
+{% tubs 4 %}
+----|----|----|----=BassDrum
+----|----|----|----=BassSynth
+----|----|----|----=Toms
+----|----|----|----=Vox
+{% endtubs %}
+
+### Chorus2.5
+{% tubs 4 %}
+o-o-|o-o-|o-o-|o-o-=BassDrum
+o-o-|o-o-|o-o-|o-o-=BassSynth
+--o-|--o-|--o-|--o-=Snare
+o--o|-o-o|o--o|-o-o=Hat1
+----|o---|----|o---=Hat2
+----|----|----|----=Vox
+----|----|----|----=VoxDouble
+{% endtubs %}
+{% tubs 4 %}
+o-o-|o-o-|o-o-|o-o-=BassDrum
+o-o-|o-o-|o-o-|o-o-=BassSynth
+--o-|--o-|--o-|--o-=Snare
+o--o|-o-o|o--o|-o-o=Hat1
+----|o---|----|o---=Hat2
+----|----|----|----=Vox
+----|----|----|----=VoxDouble
+{% endtubs %}
+{% tubs 4 %}
+o-o-|o-o-|o-o-|o-o-=BassDrum
+o-o-|o-o-|o-o-|o-o-=BassSynth
+--o-|--o-|--o-|--o-=Snare
+o--o|-o-o|o--o|-o-o=Hat1
+----|o---|----|o---=Hat2
+----|----|----|----=Vox
+----|----|----|----=VoxDouble
+{% endtubs %}
+{% tubs 4 %}
+o-o-|o-o-|o-o-|o-o-=BassDrum
+o-o-|o-o-|o-o-|o-o-=BassSynth
+--o-|--o-|--o-|--o-=Snare
+o--o|-o-o|o--o|-o-o=Hat1
+----|o---|----|o---=Hat2
+----|----|----|----=Vox
+----|----|----|----=VoxDouble
+{% endtubs %}
+
+### SickSolo1
+{% tubs 4 %}
+----|----|----|----=BassDrum
+----|----|----|----=BassSynth
+----|----|----|----=Snare
+----|----|----|----=Hat1
+----|----|----|----=Hat2
+----|----|----|----=Crash/Ride
+{% endtubs %}
+{% tubs 4 %}
+----|----|----|----=____
+{% endtubs %}
+{% tubs 4 %}
+----|----|----|----=____
+{% endtubs %}
+{% tubs 4 %}
+----|----|----|----=____
+{% endtubs %}
+
+### Bridge
+{% tubs 4 %}
+----|----|----|----=____
+{% endtubs %}
+{% tubs 4 %}
+----|----|----|----=____
+{% endtubs %}
+{% tubs 4 %}
+----|----|----|----=____
+{% endtubs %}
+{% tubs 4 %}
+----|----|----|----=____
+{% endtubs %}
+
+### SickSolo2
+{% tubs 4 %}
+----|----|----|----=____
+{% endtubs %}
+{% tubs 4 %}
+----|----|----|----=____
+{% endtubs %}
+{% tubs 4 %}
+----|----|----|----=____
+{% endtubs %}
+{% tubs 4 %}
+----|----|----|----=____
+{% endtubs %}
+
+### Chorus1
+{% tubs 4 %}
+----|----|----|----=____
+{% endtubs %}
+{% tubs 4 %}
+----|----|----|----=____
+{% endtubs %}
+{% tubs 4 %}
+----|----|----|----=____
+{% endtubs %}
+{% tubs 4 %}
+----|----|----|----=____
+{% endtubs %}
+
+### Outro
+{% tubs 4 %}
+----|----|----|----=____
 {% endtubs %}
