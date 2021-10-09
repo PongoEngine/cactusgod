@@ -108,18 +108,32 @@ function parseTubs_(tubs, timeSig) {
   };
 }
 
-function parseTubs(str, timeSig) {
-  timeSig = parseInt(timeSig[0]) || 4
-  const tubs = parseTubs_(str, timeSig);
-  const width = tubs.width;
-  const height = tubs.height;
+function parseTubs(str, attrs) {
+  const timeSig = parseInt(attrs[0]) || 4
+  const items = str.split("^^^")
+    .map(s => s.trim())
+    .filter(s => s.length > 0)
+    .map((s, index, items) => {
+      const tubs = parseTubs_(s, timeSig);
+      const width = tubs.width;
+      const height = tubs.height;
+      const display = index === 0 ? "block" : "none"
+      const style = `display: ${display}`
+      return `
+        <svg version="1.1"
+          width="${width}" viewBox="0 0 ${width} ${height}"
+          class="tubs"
+          style="${style}"
+          xmlns="http://www.w3.org/2000/svg">
+          ${tubs.str}
+          <rect class="tubs-backing-cur" x="1" y="1" width="60" height="25" fill="none" />
+          <text class="tubs-text-cur" text-anchor="middle" x="30" y="18">${index + 1}/${items.length}</text>
+        </svg>`;
+    })
   return `
-    <svg version="1.1"
-      width="${width}" viewBox="0 0 ${width} ${height}"
-      class="tubs"
-      xmlns="http://www.w3.org/2000/svg">
-      ${tubs.str}
-    </svg>`;
+    <div class="tubs-container">
+      ${items.join("\n")}
+    </div>`
 }
 
 hexo.extend.tag.register(

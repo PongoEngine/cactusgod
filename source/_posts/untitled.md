@@ -2,7 +2,7 @@
 title: untitled
 album: twtwelve
 date: 2021/10/08
-hue: 20
+hue: 350
 ---
 
 {% dynamics %}
@@ -13,19 +13,18 @@ tagline:there is power in the words that you whisper
 {% enddynamics %}
 <!-- more -->
 
-{% attrs %}
+<!-- {% attrs %}
 scale: TBD
 tempo: 120
 signature: 4/4
-{% endattrs %}
+{% endattrs %} -->
 
 
 ### Intro
 {% tubs 4 %}
 o---|----|o---|----=BassSynth
 o---|----|----|----=Synth
-{% endtubs %}
-{% tubs 4 %}
+^^^
 o---|----|o---|----=BassSynth
 o---|----|----|----=Synth
 ----|----|----|--o-=Vox
@@ -36,18 +35,15 @@ o---|----|----|----=Synth
 o---|----|o---|----=BassSynth
 o---|----|----|----=Synth
 ----|----|----|----=Vox
-{% endtubs %}
-{% tubs 4 %}
+^^^
 o---|----|o---|----=BassSynth
 o---|----|----|----=Synth
 ----|----|----|----=Vox
-{% endtubs %}
-{% tubs 4 %}
+^^^
 o---|----|o---|----=BassSynth
 o---|----|----|----=Synth
 ----|----|----|----=Vox
-{% endtubs %}
-{% tubs 4 %}
+^^^
 o---|----|o---|----=BassSynth
 o---|----|----|----=Synth
 ----|----|----|----=Vox1
@@ -60,51 +56,46 @@ o---|----|o---|----=BassSynth
 o---|----|----|----=Synth
 --o-|--o-|--o-|--o-=ClosedHat
 ----|----|----|----=Vox
-{% endtubs %}
-{% tubs 4 %}
+^^^
 o---|----|o---|----=BassSynth
 o---|----|----|----=Synth
 --o-|--o-|--o-|--o-=ClosedHat
 ----|----|----|----=Vox1
 ----|----|----|----=Vox2
-{% endtubs %}
-{% tubs 4 %}
+^^^
 o---|----|o---|----=BassSynth
 o---|----|----|----=Synth
 --o-|--o-|--o-|--o-=ClosedHat
 ----|----|----|----=Vox
-{% endtubs %}
-{% tubs 4 %}
+^^^
 o---|----|o---|----=BassSynth
 o---|----|----|----=Synth
 --o-|--o-|--o-|--o-=ClosedHat
 ----|----|----|----=Vox
 {% endtubs %}
 
-### Bridge
+### Bridge1
 {% tubs 4 %}
 o---|----|o---|----=BassSynth
 --o-|--o-|--o-|--o-=ClosedHat
 oooo|oooo|oooo|oooo=Guitar
 ----|----|----|----=Vox
-{% endtubs %}
-{% tubs 4 %}
+^^^
 o---|----|o---|----=BassSynth
 --o-|--o-|--o-|--o-=ClosedHat
 oooo|oooo|oooo|oooo=Guitar
 ----|----|----|----=Vox
-{% endtubs %}
-{% tubs 4 %}
+^^^
 o---|----|o---|----=BassSynth
 --o-|--o-|--o-|--o-=ClosedHat
 oooo|oooo|oooo|oooo=Guitar
 ----|----|----|----=Vox
-{% endtubs %}
-{% tubs 4 %}
+^^^
 o---|----|o---|----=BassSynth
 --o-|--o-|--o-|--o-=ClosedHat
 oooo|oooo|oooo|oooo=Guitar
-----|----|----|----=Vox
+----|----|----|----=Vox1
+----|----|----|----=Vox2
 {% endtubs %}
 
 ### Chorus1
@@ -112,18 +103,15 @@ oooo|oooo|oooo|oooo=Guitar
 o-o-|o-o-|o-o-|o-o-=BassDrum
 o-o-|o-o-|o-o-|o-o-=BassSynth
 ----|----|----|----=Vox
-{% endtubs %}
-{% tubs 4 %}
+^^^
 o-o-|o-o-|o-o-|o-o-=BassDrum
 o-o-|o-o-|o-o-|o-o-=BassSynth
 ----|----|----|----=Vox
-{% endtubs %}
-{% tubs 4 %}
+^^^
 o-o-|o-o-|o-o-|o-o-=BassDrum
 o-o-|o-o-|o-o-|o-o-=BassSynth
 ----|----|----|----=Vox
-{% endtubs %}
-{% tubs 4 %}
+^^^
 o-o-|o-o-|o-o-|o-o-=BassDrum
 o-o-|o-o-|o-o-|o-o-=BassSynth
 ----|----|----|oooo=Toms
@@ -139,8 +127,7 @@ o--o|-o-o|o--o|-o-o=Hat1
 ----|o---|----|o---=Hat2
 ----|----|----|----=Vox
 ----|----|----|----=VoxDouble
-{% endtubs %}
-{% tubs 4 %}
+^^^
 o-o-|o-o-|o-o-|o-o-=BassDrum
 o-o-|o-o-|o-o-|o-o-=BassSynth
 --o-|--o-|--o-|--o-=Snare
@@ -148,8 +135,7 @@ o--o|-o-o|o--o|-o-o=Hat1
 ----|o---|----|o---=Hat2
 ----|----|----|----=Vox
 ----|----|----|----=VoxDouble
-{% endtubs %}
-{% tubs 4 %}
+^^^
 o-o-|o-o-|o-o-|o-o-=BassDrum
 o-o-|o-o-|o-o-|o-o-=BassSynth
 --o-|--o-|--o-|--o-=Snare
@@ -157,8 +143,7 @@ o--o|-o-o|o--o|-o-o=Hat1
 ----|o---|----|o---=Hat2
 ----|----|----|----=Vox
 ----|----|----|----=VoxDouble
-{% endtubs %}
-{% tubs 4 %}
+^^^
 o-o-|o-o-|o-o-|o-o-=BassDrum
 o-o-|o-o-|o-o-|o-o-=BassSynth
 --o-|--o-|--o-|--o-=Snare
@@ -175,68 +160,59 @@ o--o|-o-o|o--o|-o-o=Hat1
 ----|o---|----|o---=Hat2
 --o-|--o-|--o-|--o-=Guitar
 ----|----|----|----=Vox
-{% endtubs %}
-{% tubs 4 %}
+^^^
 o---|----|o---|----=BassSynth
 o--o|-o-o|o--o|-o-o=Hat1
 ----|o---|----|o---=Hat2
 --o-|--o-|--o-|--o-=Guitar
 ----|----|----|----=Vox
-{% endtubs %}
-{% tubs 4 %}
+^^^
 o---|----|o---|----=BassSynth
 o--o|-o-o|o--o|-o-o=Hat1
 ----|o---|----|o---=Hat2
 --o-|--o-|--o-|--o-=Guitar
 ----|----|----|----=Vox
-----|----|----|----=VoxBacking
-{% endtubs %}
-{% tubs 4 %}
+----|----|----|----=VoxAh
+^^^
 o---|----|o---|----=BassSynth
 o--o|-o-o|o--o|-o-o=Hat1
 ----|o---|----|o---=Hat2
 --o-|--o-|--o-|--o-=Guitar1
 ----|----|----|----=Guitar2
 ----|----|----|----=Vox
-----|----|----|----=VoxBacking
+----|----|----|----=VoxAh
 {% endtubs %}
 
-### Bridge1
+### Bridge2
 {% tubs 4 %}
 o---|----|o---|----=BassSynth
-----|----|----|----=Synth
-----|----|----|----=Hat1
-----|----|----|----=Hat2
+o--o|-o-o|o--o|-o-o=Hat1
+----|o---|----|o---=Hat2
 --o-|--o-|--o-|--o-=ClosedHat
-----|----|----|----=Guitar
+oooo|oooo|oooo|oooo=Guitar
 ----|----|----|----=Vox
-{% endtubs %}
-{% tubs 4 %}
+^^^
 o---|----|o---|----=BassSynth
-----|----|----|----=Synth
-----|----|----|----=Hat1
-----|----|----|----=Hat2
+o--o|-o-o|o--o|-o-o=Hat1
+----|o---|----|o---=Hat2
 --o-|--o-|--o-|--o-=ClosedHat
-----|----|----|----=Guitar
+oooo|oooo|oooo|oooo=Guitar
 ----|----|----|----=Vox
-{% endtubs %}
-{% tubs 4 %}
+^^^
 o---|----|o---|----=BassSynth
-----|----|----|----=Synth
-----|----|----|----=Hat1
-----|----|----|----=Hat2
+o--o|-o-o|o--o|-o-o=Hat1
+----|o---|----|o---=Hat2
 --o-|--o-|--o-|--o-=ClosedHat
-----|----|----|----=Guitar
+oooo|oooo|oooo|oooo=Guitar
 ----|----|----|----=Vox
-{% endtubs %}
-{% tubs 4 %}
+^^^
 o---|----|o---|----=BassSynth
-----|----|----|----=Synth
-----|----|----|----=Hat1
-----|----|----|----=Hat2
+o--o|-o-o|o--o|-o-o=Hat1
+----|o---|----|o---=Hat2
 --o-|--o-|--o-|--o-=ClosedHat
-----|----|----|----=Guitar
-----|----|----|----=Vox
+oooo|oooo|oooo|oooo=Guitar
+----|----|----|----=Vox1
+----|----|--o-|----=Vox2
 {% endtubs %}
 
 ### Chorus2
@@ -244,18 +220,15 @@ o---|----|o---|----=BassSynth
 o-o-|o-o-|o-o-|o-o-=BassDrum
 o-o-|o-o-|o-o-|o-o-=BassSynth
 ----|----|----|----=Vox
-{% endtubs %}
-{% tubs 4 %}
+^^^
 o-o-|o-o-|o-o-|o-o-=BassDrum
 o-o-|o-o-|o-o-|o-o-=BassSynth
 ----|----|----|----=Vox
-{% endtubs %}
-{% tubs 4 %}
+^^^
 o-o-|o-o-|o-o-|o-o-=BassDrum
 o-o-|o-o-|o-o-|o-o-=BassSynth
 ----|----|----|----=Vox
-{% endtubs %}
-{% tubs 4 %}
+^^^
 o-o-|o-o-|o-o-|o-o-=BassDrum
 o-o-|o-o-|o-o-|o-o-=BassSynth
 ----|----|----|oooo=Toms
@@ -271,8 +244,7 @@ o--o|-o-o|o--o|-o-o=Hat1
 ----|o---|----|o---=Hat2
 ----|----|----|----=Vox
 ----|----|----|----=VoxDouble
-{% endtubs %}
-{% tubs 4 %}
+^^^
 o-o-|o-o-|o-o-|o-o-=BassDrum
 o-o-|o-o-|o-o-|o-o-=BassSynth
 --o-|--o-|--o-|--o-=Snare
@@ -280,8 +252,7 @@ o--o|-o-o|o--o|-o-o=Hat1
 ----|o---|----|o---=Hat2
 ----|----|----|----=Vox
 ----|----|----|----=VoxDouble
-{% endtubs %}
-{% tubs 4 %}
+^^^
 o-o-|o-o-|o-o-|o-o-=BassDrum
 o-o-|o-o-|o-o-|o-o-=BassSynth
 --o-|--o-|--o-|--o-=Snare
@@ -289,8 +260,7 @@ o--o|-o-o|o--o|-o-o=Hat1
 ----|o---|----|o---=Hat2
 ----|----|----|----=Vox
 ----|----|----|----=VoxDouble
-{% endtubs %}
-{% tubs 4 %}
+^^^
 o-o-|o-o-|o-o-|o-o-=BassDrum
 o-o-|o-o-|o-o-|o-o-=BassSynth
 --o-|--o-|--o-|--o-=Snare
@@ -302,109 +272,155 @@ o--o|-o-o|o--o|-o-o=Hat1
 
 ### SickSolo1
 {% tubs 4 %}
-----|----|----|----=BassDrum
-----|----|----|----=BassSynth
-----|----|----|----=Snare
-----|----|----|----=Guitar
-----|----|----|----=Hat1
-----|----|----|----=Hat2
-----|----|----|----=Crash/Ride
-{% endtubs %}
-{% tubs 4 %}
-----|----|----|----=BassDrum
-----|----|----|----=BassSynth
-----|----|----|----=Snare
-----|----|----|----=Guitar
-----|----|----|----=Hat1
-----|----|----|----=Hat2
-----|----|----|----=Crash/Ride
-{% endtubs %}
-{% tubs 4 %}
-----|----|----|----=BassDrum
-----|----|----|----=BassSynth
-----|----|----|----=Snare
-----|----|----|----=Guitar
-----|----|----|----=Hat1
-----|----|----|----=Hat2
-----|----|----|----=Crash/Ride
-{% endtubs %}
-{% tubs 4 %}
-----|----|----|----=BassDrum
-----|----|----|----=BassSynth
-----|----|----|----=Snare
-----|----|----|----=Guitar
-----|----|----|----=Hat1
-----|----|----|----=Hat2
-----|----|----|----=Crash/Ride
+o---|o---|o---|o---=BassDrum
+oo-o|oo-o|oo-o|oo-o=BassSynth@0.75
+--o-|--o-|--o-|--o-=Snare
+oo-o|oo-o|oo-o|oo-o=Guitar@0.75
+o--o|-o-o|o--o|-o-o=Hat1
+----|o---|----|o---=Hat2
+o---|o---|o---|o---=Crash/Ride
+^^^
+o---|o---|o---|o---=BassDrum
+oo-o|oo-o|oo-o|oo-o=BassSynth@0.75
+--o-|--o-|--o-|--o-=Snare
+oo-o|oo-o|oo-o|oo-o=Guitar@0.75
+o--o|-o-o|o--o|-o-o=Hat1
+----|o---|----|o---=Hat2
+o---|o---|o---|o---=Crash/Ride
+^^^
+o---|o---|o---|o---=BassDrum
+oo-o|oo-o|oo-o|oo-o=BassSynth@0.75
+--o-|--o-|--o-|--o-=Snare
+oo-o|oo-o|oo-o|oo-o=Guitar@0.75
+o--o|-o-o|o--o|-o-o=Hat1
+----|o---|----|o---=Hat2
+o---|o---|o---|o---=Crash/Ride
+^^^
+o---|o---|o---|o---=BassDrum
+oo-o|oo-o|oo-o|oo-o=BassSynth@0.75
+--o-|--o-|--o-|--o-=Snare
+oo-o|oo-o|oo-o|oo-o=Guitar@0.75
+o--o|-o-o|o--o|-o-o=Hat1
+----|o---|----|o---=Hat2
+o---|o---|o---|o---=Crash/Ride
 {% endtubs %}
 
 ### Bridge2
 {% tubs 4 %}
-----|----|----|----=____
-{% endtubs %}
-{% tubs 4 %}
-----|----|----|----=____
-{% endtubs %}
-{% tubs 4 %}
-----|----|----|----=____
-{% endtubs %}
-{% tubs 4 %}
-----|----|----|----=____
+o---|----|o---|----=BassSynth
+o--o|-o-o|o--o|-o-o=Hat1
+----|o---|----|o---=Hat2
+--o-|--o-|--o-|--o-=ClosedHat
+oo-o|oo-o|oo-o|oo-o=SynthPerc@0.75
+oooo|oooo|oooo|oooo=Guitar
+o---|----|----|----=FX
+----|----|----|----=Vox
+^^^
+o---|----|o---|----=BassSynth
+o--o|-o-o|o--o|-o-o=Hat1
+----|o---|----|o---=Hat2
+--o-|--o-|--o-|--o-=ClosedHat
+oo-o|oo-o|oo-o|oo-o=SynthPerc@0.75
+oooo|oooo|oooo|oooo=Guitar
+----|----|----|----=FX
+----|----|----|----=Vox
+^^^
+o---|----|o---|----=BassSynth
+o--o|-o-o|o--o|-o-o=Hat1
+----|o---|----|o---=Hat2
+--o-|--o-|--o-|--o-=ClosedHat
+oo-o|oo-o|oo-o|oo-o=SynthPerc@0.75
+oooo|oooo|oooo|oooo=Guitar
+----|----|----|----=FX
+----|----|----|----=Vox
+^^^
+o---|----|o---|----=BassSynth
+o--o|-o-o|o--o|-o-o=Hat1
+----|o---|----|o---=Hat2
+--o-|--o-|--o-|--o-=ClosedHat
+oo-o|oo-o|oo-o|oo-o=SynthPerc@0.75
+oooo|oooo|oooo|oooo=Guitar
+----|----|----|----=FX
+----|----|----|----=Vox1
+----|----|----|----=Vox2
 {% endtubs %}
 
 ### SickSolo2
 {% tubs 4 %}
-----|----|----|----=BassDrum
-----|----|----|----=BassSynth
-----|----|----|----=Snare
-----|----|----|----=Guitar
-----|----|----|----=Hat1
-----|----|----|----=Hat2
-----|----|----|----=Crash/Ride
-{% endtubs %}
-{% tubs 4 %}
-----|----|----|----=BassDrum
-----|----|----|----=BassSynth
-----|----|----|----=Snare
-----|----|----|----=Guitar
-----|----|----|----=Hat1
-----|----|----|----=Hat2
-----|----|----|----=Crash/Ride
-{% endtubs %}
-{% tubs 4 %}
-----|----|----|----=BassDrum
-----|----|----|----=BassSynth
-----|----|----|----=Snare
-----|----|----|----=Guitar
-----|----|----|----=Hat1
-----|----|----|----=Hat2
-----|----|----|----=Crash/Ride
-{% endtubs %}
-{% tubs 4 %}
-----|----|----|----=BassDrum
-----|----|----|----=BassSynth
-----|----|----|----=Snare
-----|----|----|----=Guitar
-----|----|----|----=Hat1
-----|----|----|----=Hat2
-----|----|----|----=Crash/Ride
+o---|o---|o---|o---=BassDrum
+oo-o|oo-o|oo-o|oo-o=BassSynth@0.75
+--o-|--o-|--o-|--o-=Snare
+oo-o|oo-o|oo-o|oo-o=Guitar@0.75
+o--o|-o-o|o--o|-o-o=Hat1
+----|o---|----|o---=Hat2
+o---|o---|o---|o---=Crash/Ride
+^^^
+o---|o---|o---|o---=BassDrum
+oo-o|oo-o|oo-o|oo-o=BassSynth@0.75
+--o-|--o-|--o-|--o-=Snare
+oo-o|oo-o|oo-o|oo-o=Guitar@0.75
+o--o|-o-o|o--o|-o-o=Hat1
+----|o---|----|o---=Hat2
+o---|o---|o---|o---=Crash/Ride
+^^^
+o---|o---|o---|o---=BassDrum
+oo-o|oo-o|oo-o|oo-o=BassSynth@0.75
+--o-|--o-|--o-|--o-=Snare
+oo-o|oo-o|oo-o|oo-o=Guitar@0.75
+o--o|-o-o|o--o|-o-o=Hat1
+----|o---|----|o---=Hat2
+o---|o---|o---|o---=Crash/Ride
+^^^
+o---|o---|o---|o---=BassDrum
+oo-o|oo-o|oo-o|oo-o=BassSynth@0.75
+--o-|--o-|--o-|--o-=Snare
+oo-o|oo-o|oo-o|oo-o=Guitar@0.75
+o--o|-o-o|o--o|-o-o=Hat1
+----|o---|----|o---=Hat2
+o---|o---|o---|o---=Crash/Ride
 {% endtubs %}
 
 ### Bridge3
 {% tubs 4 %}
-----|----|----|----=____
-{% endtubs %}
-{% tubs 4 %}
-----|----|----|----=____
-{% endtubs %}
-{% tubs 4 %}
-----|----|----|----=____
-{% endtubs %}
-{% tubs 4 %}
-----|----|----|----=____
+o---|o---|o---|o---=BassDrum
+oo-o|oo-o|oo-o|oo-o=BassSynth@0.75
+--o-|--o-|--o-|--o-=Snare
+oo-o|oo-o|oo-o|oo-o=Guitar@0.75
+o--o|-o-o|o--o|-o-o=Hat1
+----|o---|----|o---=Hat2
+o---|o---|o---|o---=Crash/Ride
+----|----|----|----=Vox
+^^^
+o---|o---|o---|o---=BassDrum
+oo-o|oo-o|oo-o|oo-o=BassSynth@0.75
+--o-|--o-|--o-|--o-=Snare
+oo-o|oo-o|oo-o|oo-o=Guitar@0.75
+o--o|-o-o|o--o|-o-o=Hat1
+----|o---|----|o---=Hat2
+o---|o---|o---|o---=Crash/Ride
+----|----|----|----=Vox
+^^^
+o---|o---|o---|o---=BassDrum
+oo-o|oo-o|oo-o|oo-o=BassSynth@0.75
+--o-|--o-|--o-|--o-=Snare
+oo-o|oo-o|oo-o|oo-o=Guitar@0.75
+o--o|-o-o|o--o|-o-o=Hat1
+----|o---|----|o---=Hat2
+o---|o---|o---|o---=Crash/Ride
+----|----|----|----=Vox
+^^^
+o---|o---|o---|o---=BassDrum
+oo-o|oo-o|oo-o|oo-o=BassSynth@0.75
+--o-|--o-|--o-|--o-=Snare
+oo-o|oo-o|oo-o|oo-o=Guitar@0.75
+o--o|-o-o|o--o|-o-o=Hat1
+----|o---|----|o---=Hat2
+o---|o---|o---|o---=Crash/Ride
+----|----|----|----=Vox1
+----|----|----|----=Vox2
 {% endtubs %}
 
 ### Outro
 {% tubs 4 %}
-----|----|----|----=____
+o---|----|----|----=Synth
 {% endtubs %}

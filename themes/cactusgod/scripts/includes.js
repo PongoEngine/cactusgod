@@ -109,6 +109,14 @@ hexo.extend.helper.register("fancy", function (a) {
         fill: #fff;
       }
 
+      .tubs-backing-cur {
+        stroke: #${color1d};
+      }
+
+      .tubs-text-cur {
+        fill: #fff;
+      }
+
       .dyn-pattern-path {
         stroke: #${color1a};
       }
