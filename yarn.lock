@@ -1325,10 +1325,10 @@ sprintf-js@~1.0.2:
   resolved "https://registry.yarnpkg.com/statuses/-/statuses-1.5.0.tgz#161c7dac177659fd9811f43771fa99381478628c"
   integrity sha1-Fhx9rBd2Wf2YEfQ3cfqZOBR4Yow=
 
-string-pixel-width@^1.10.0:
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/string-pixel-width/-/string-pixel-width-1.10.0.tgz#aff215aaa7a65627f937d70fcc88d83ae1bc5657"
-  integrity sha512-cOMpkH+CpxWAnrPsWUvPWhZxh25CzUukweT+6WF+Kwx6+G2ksg8flvELZusLyWiZzfFCjj1+QRRGwcPWZlwVYA==
+string-pixel-width@^1.11.0:
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/string-pixel-width/-/string-pixel-width-1.11.0.tgz#c710eb767427f21154fb823aed2ea5ed83239976"
+  integrity sha512-GeKuNcCza7Gf3tlMJiZY8SF1LtbFGeMUEpHifncgJn+ZcUpnoPyE69HEyb0rXrJ3bejY/M/kBylu7IDlPJD9Ng==
   dependencies:
     lodash.deburr "^4.1.0"
 
