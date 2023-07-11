@@ -6,7 +6,7 @@
   <link href="https://cactusgod.com/atom.xml" rel="self"/>
   
   <link href="https://cactusgod.com/"/>
-  <updated>2021-10-13T00:23:40.680Z</updated>
+  <updated>2023-07-11T23:46:15.013Z</updated>
   <id>https://cactusgod.com/</id>
   
   <author>
@@ -17,84 +17,20 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>untitled</title>
-    <link href="https://cactusgod.com/twtwelve/untitled/"/>
-    <id>https://cactusgod.com/twtwelve/untitled/</id>
-    <published>2021-10-08T00:00:00.000Z</published>
-    <updated>2021-10-13T00:23:40.680Z</updated>
+    <title>AUDIO_UTIL_mix</title>
+    <link href="https://cactusgod.com/twtwelve/AUDIO_UTIL_mix/"/>
+    <id>https://cactusgod.com/twtwelve/AUDIO_UTIL_mix/</id>
+    <published>2023-07-11T00:00:00.000Z</published>
+    <updated>2023-07-11T23:46:15.013Z</updated>
     
     
-    <summary type="html">&lt;svg version=&quot;1.1&quot;
-    width=&quot;2900&quot; viewBox=&quot;0 0 2900 1107.6978883581003&quot;
-    class=&quot;dynamics&quot;
-    xmlns=&quot;http://www.w3.org/2000/svg&quot;
-    xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot;&gt;
-      &lt;defs&gt;
-        &lt;pattern id=&quot;pattern-2&quot; x=&quot;0&quot; y=&quot;0&quot; width=&quot;120&quot; height=&quot;20&quot; patternUnits=&quot;userSpaceOnUse&quot;&gt;
-          &lt;path stroke-width=&quot;1.458971001038043&quot; class=&quot;dyn-pattern-path&quot; d=&#39;M-50.129 12.685C-33.346 12.358-16.786 4.918 0 5c16.787.082 43.213 10 60 10s43.213-9.918 60-10c16.786-.082 33.346 7.358 50.129 7.685&#39; stroke-width=&#39;0.5&#39; stroke=&#39;rgb(0, 0, 0)&#39; fill=&#39;none&#39; /&gt;
-        &lt;/pattern&gt;
-      &lt;/defs&gt;
-      &lt;rect class=&quot;dyn-rect-back&quot; width=&quot;2900&quot; height=&quot;1107.6978883581003&quot; x=&quot;0&quot; y=&quot;0&quot; fill=&quot;url(#pattern-2)&quot; /&gt;
-      &lt;rect class=&quot;dyn-rect-front&quot; width=&quot;2900&quot; height=&quot;1107.6978883581003&quot; x=&quot;161.6099097025544&quot; y=&quot;161.6099097025544&quot; fill=&quot;url(#pattern-2)&quot; /&gt;
-      &lt;text class=&quot;dyn-text no-user-select&quot; font-weight=&quot;700&quot; letter-spacing=&quot;-9.006125142781995&quot; font-size=&quot;202.012387128193&quot; alignment-baseline=&quot;hanging&quot; text-anchor=&quot;middle&quot; x=&quot;1450&quot; y=&quot;553.8489441790501&quot;&gt;THERE IS POWER IN THE WORDS THAT YOU WHISPER&lt;/text&gt;
-      &lt;polygon
-      class=&quot;dyn-point-tri&quot;
-      points=&quot;207.14285714285714,647.2982249391714 227.14285714285714,681.9392410905489 187.14285714285714,681.9392410905489&quot;
-      stroke-width=&quot;4&quot;
-    /&gt;
-
-      &lt;text class=&quot;dyn-point-text&quot; text-anchor=&quot;left&quot; x=&quot;217.14285714285714&quot; y=&quot;654.6187330148601&quot;&gt;Intro&lt;/text&gt;
-    
-&lt;polygon
-      class=&quot;dyn-point-tri&quot;
-      points=&quot;621.4285714285714,868.8378026107915 641.4285714285714,903.478818762169 601.4285714285714,903.478818762169&quot;
-      stroke-width=&quot;4&quot;
-    /&gt;
-
-      &lt;text class=&quot;dyn-point-text&quot; text-anchor=&quot;left&quot; x=&quot;631.4285714285714&quot; y=&quot;876.1583106864803&quot;&gt;Verse1&lt;/text&gt;
-    
-&lt;polygon
-      class=&quot;dyn-point-tri&quot;
-      points=&quot;1035.7142857142858,536.5284361033614 1055.7142857142858,571.1694522547389 1015.7142857142858,571.1694522547389&quot;
-      stroke-width=&quot;4&quot;
-    /&gt;
-
-      &lt;text class=&quot;dyn-point-text&quot; text-anchor=&quot;left&quot; x=&quot;1045.7142857142858&quot; y=&quot;543.8489441790501&quot;&gt;Bridge1&lt;/text&gt;
-    
-&lt;polygon
-      class=&quot;dyn-point-tri&quot;
-      points=&quot;1450.0000000000005,647.2982249391714 1470.0000000000005,681.9392410905489 1430.0000000000005,681.9392410905489&quot;
-      stroke-width=&quot;4&quot;
-    /&gt;
-
-      &lt;text class=&quot;dyn-point-text&quot; text-anchor=&quot;left&quot; x=&quot;1460.0000000000005&quot; y=&quot;654.6187330148601&quot;&gt;Chorus1&lt;/text&gt;
-    
-&lt;polygon
-      class=&quot;dyn-point-tri&quot;
-      points=&quot;1864.2857142857151,425.75864726755134 1884.2857142857151,460.3996634189289 1844.2857142857151,460.3996634189289&quot;
-      stroke-width=&quot;4&quot;
-    /&gt;
-
-      &lt;text class=&quot;dyn-point-text&quot; text-anchor=&quot;left&quot; x=&quot;1874.2857142857151&quot; y=&quot;433.07915534324013&quot;&gt;Verse2&lt;/text&gt;
-    
-&lt;polygon
-      class=&quot;dyn-point-tri&quot;
-      points=&quot;2278.5714285714294,536.5284361033614 2298.5714285714294,571.1694522547389 2258.5714285714294,571.1694522547389&quot;
-      stroke-width=&quot;4&quot;
-    /&gt;
-
-      &lt;text class=&quot;dyn-point-text&quot; text-anchor=&quot;left&quot; x=&quot;2288.5714285714294&quot; y=&quot;543.8489441790501&quot;&gt;Bridge2&lt;/text&gt;
-    
-&lt;polygon
-      class=&quot;dyn-point-tri&quot;
-      points=&quot;2692.857142857143,647.2982249391714 2712.857142857143,681.9392410905489 2672.857142857143,681.9392410905489&quot;
-      stroke-width=&quot;4&quot;
-    /&gt;
-
-      &lt;text class=&quot;dyn-point-text&quot; text-anchor=&quot;left&quot; x=&quot;2702.857142857143&quot; y=&quot;654.6187330148601&quot;&gt;Outro&lt;/text&gt;
-    
-      &lt;polyline class=&quot;dyn-dynamics&quot; points=&quot;0,775.3885218506703 103.57142857142857,775.3885218506703 207.14285714285714,664.6187330148601 310.7142857142857,664.6187330148601 414.2857142857143,664.6187330148601 517.8571428571429,664.6187330148601 621.4285714285714,664.6187330148601 621.4285714285714,886.1583106864803 725,886.1583106864803 828.5714285714286,886.1583106864803 932.1428571428571,886.1583106864803 1035.7142857142858,553.8489441790501 1139.2857142857144,553.8489441790501 1242.8571428571431,553.8489441790501 1346.4285714285718,553.8489441790501 1450.0000000000005,553.8489441790501 1450.0000000000005,664.6187330148601 1553.5714285714291,664.6187330148601 1657.1428571428578,664.6187330148601 1760.7142857142865,664.6187330148601 1864.2857142857151,443.07915534324013 1967.8571428571438,443.07915534324013 2071.4285714285725,443.07915534324013 2175.000000000001,443.07915534324013 2278.5714285714294,553.8489441790501 2382.142857142858,553.8489441790501 2485.7142857142862,553.8489441790501 2589.2857142857147,553.8489441790501 2692.857142857143,553.8489441790501 2692.857142857143,664.6187330148601 2796.4285714285716,664.6187330148601 2900,664.6187330148601 &quot; stroke-width=&quot;5&quot; /&gt;
-    &lt;/svg&gt;</summary>
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Decoding-the-AUDIO-UTIL-mix-Function-Preventing-Clipping-in-Racing-Simulations&quot;&gt;&lt;a</summary>
+        
+      
     
     
     
