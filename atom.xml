@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Cactus God</title>
   <icon>https://cactusgod.com/icon.png</icon>
-  
+  <subtitle>Haptic feedback and sound synthesis</subtitle>
   <link href="https://cactusgod.com/atom.xml" rel="self"/>
   
   <link href="https://cactusgod.com/"/>
-  <updated>2023-07-12T05:32:18.037Z</updated>
+  <updated>2023-07-12T05:41:24.882Z</updated>
   <id>https://cactusgod.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://cactusgod.com/twtwelve/waves-of-sensation/"/>
     <id>https://cactusgod.com/twtwelve/waves-of-sensation/</id>
     <published>2023-07-14T00:00:00.000Z</published>
-    <updated>2023-07-12T05:32:18.037Z</updated>
+    <updated>2023-07-12T05:41:24.882Z</updated>
     
     
     <summary type="html">&lt;svg version=&quot;1.1&quot;
@@ -53,7 +53,7 @@
     <link href="https://cactusgod.com/twtwelve/science-of-smash/"/>
     <id>https://cactusgod.com/twtwelve/science-of-smash/</id>
     <published>2023-07-13T00:00:00.000Z</published>
-    <updated>2023-07-12T05:32:18.033Z</updated>
+    <updated>2023-07-12T05:41:24.882Z</updated>
     
     
     <summary type="html">&lt;svg version=&quot;1.1&quot;
@@ -90,7 +90,7 @@
     <link href="https://cactusgod.com/twtwelve/tuning-road-noise/"/>
     <id>https://cactusgod.com/twtwelve/tuning-road-noise/</id>
     <published>2023-07-12T00:00:00.000Z</published>
-    <updated>2023-07-12T05:32:18.037Z</updated>
+    <updated>2023-07-12T05:41:24.882Z</updated>
     
     
     <summary type="html">&lt;svg version=&quot;1.1&quot;
@@ -122,7 +122,7 @@
     <link href="https://cactusgod.com/twtwelve/audio-util-mix/"/>
     <id>https://cactusgod.com/twtwelve/audio-util-mix/</id>
     <published>2023-07-11T00:00:00.000Z</published>
-    <updated>2023-07-12T05:32:18.033Z</updated>
+    <updated>2023-07-12T05:41:24.882Z</updated>
     
     
     <summary type="html">&lt;svg version=&quot;1.1&quot;
