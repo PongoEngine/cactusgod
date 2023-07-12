@@ -5,6 +5,12 @@ date: 2023/07/13
 hue: 50
 ---
 
+{% dynamics %}
+values:5-5-5-5-5-5-5-5-5-5-5-5|91-1-1-1-1-1
+labels:
+tagline:detecting and quantifying crash events
+{% enddynamics %}
+
 The adrenaline rush in a racing simulator is not just about mastering the art of maneuvering around bends at dizzying speeds; it's also about the abruptness of a high-speed crash. But with limited telemetry data from the game often lacking specific collision information, how do we detect and quantify the severity of a crash?
 
 Thankfully the regular updates we get from the simulator — 60 times a second, to be precise — provides an opportunity. This high-frequency data, specifically the velocity data, can be our secret weapon in detecting and quantifying crash events.

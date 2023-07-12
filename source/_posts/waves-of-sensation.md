@@ -5,6 +5,12 @@ date: 2023/07/14
 hue: 10
 ---
 
+{% dynamics %}
+values:9-8-7-6-5-4-3-2-1-2-3-4-5-6-7-8-9-8-7-6-5-4-3-2-1
+labels:
+tagline:The vibrational language of haptic feedback
+{% enddynamics %}
+
 In the domain of racing simulators, the pursuit of immersive experiences goes beyond the graphical representation of the racing environment. One crucial facet is haptic feedback, which enables players to 'feel' their virtual ride. This post will delve into how different waveforms – sawtooth, sine, and square – can convey detailed haptic information from multiple sources into a single feedback channel.
 
 <!-- more -->
