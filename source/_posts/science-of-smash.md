@@ -7,12 +7,6 @@ hue: 50
 
 The adrenaline rush in a racing simulator is not just about mastering the art of maneuvering around bends at dizzying speeds; it's also about the abruptness of a high-speed crash. But with limited telemetry data from the game often lacking specific collision information, how do we detect and quantify the severity of a crash?
 
-<!-- more -->
-
-## The Challenge of Limited Telemetry Data
-
-In the world of racing simulators telemetry data is invaluable. It gives us information about the vehicle's speed, position, orientation, and more. But it often falls short when it comes to specific collision data making the task of simulating crashes a tricky affair.
-
 Thankfully the regular updates we get from the simulator — 60 times a second, to be precise — provides an opportunity. This high-frequency data, specifically the velocity data, can be our secret weapon in detecting and quantifying crash events.
 
 ## Deciphering Velocity Data to Detect Crashes
