@@ -6,7 +6,7 @@
   <link href="https://cactusgod.com/atom.xml" rel="self"/>
   
   <link href="https://cactusgod.com/"/>
-  <updated>2023-07-12T04:31:31.484Z</updated>
+  <updated>2023-07-12T04:55:37.131Z</updated>
   <id>https://cactusgod.com/</id>
   
   <author>
@@ -21,10 +21,27 @@
     <link href="https://cactusgod.com/twtwelve/waves-of-sensation/"/>
     <id>https://cactusgod.com/twtwelve/waves-of-sensation/</id>
     <published>2023-07-14T00:00:00.000Z</published>
-    <updated>2023-07-12T04:31:31.484Z</updated>
+    <updated>2023-07-12T04:55:37.131Z</updated>
     
     
-    <summary type="html">&lt;p&gt;In the domain of racing simulators, the pursuit of immersive experiences goes beyond the graphical representation of the racing environment. One crucial facet is haptic feedback, which enables players to ‘feel’ their virtual ride. This post will delve into how different waveforms – sawtooth, sine, and square – can convey detailed haptic information from multiple sources into a single feedback channel.&lt;/p&gt;</summary>
+    <summary type="html">&lt;svg version=&quot;1.1&quot;
+    width=&quot;4900&quot; viewBox=&quot;0 0 4900 1871.6274665361002&quot;
+    class=&quot;dynamics&quot;
+    xmlns=&quot;http://www.w3.org/2000/svg&quot;
+    xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot;&gt;
+      &lt;defs&gt;
+        &lt;pattern id=&quot;pattern-2&quot; x=&quot;0&quot; y=&quot;0&quot; width=&quot;120&quot; height=&quot;20&quot; patternUnits=&quot;userSpaceOnUse&quot;&gt;
+          &lt;path stroke-width=&quot;1.458971001038043&quot; class=&quot;dyn-pattern-path&quot; d=&#39;M-50.129 12.685C-33.346 12.358-16.786 4.918 0 5c16.787.082 43.213 10 60 10s43.213-9.918 60-10c16.786-.082 33.346 7.358 50.129 7.685&#39; stroke-width=&#39;0.5&#39; stroke=&#39;rgb(0, 0, 0)&#39; fill=&#39;none&#39; /&gt;
+        &lt;/pattern&gt;
+      &lt;/defs&gt;
+      &lt;rect class=&quot;dyn-rect-back&quot; width=&quot;4900&quot; height=&quot;1871.6274665361002&quot; x=&quot;0&quot; y=&quot;0&quot; fill=&quot;url(#pattern-2)&quot; /&gt;
+      &lt;rect class=&quot;dyn-rect-front&quot; width=&quot;4900&quot; height=&quot;1871.6274665361002&quot; x=&quot;273.06501984224707&quot; y=&quot;273.06501984224707&quot; fill=&quot;url(#pattern-2)&quot; /&gt;
+      &lt;text class=&quot;dyn-text no-user-select&quot; font-weight=&quot;700&quot; letter-spacing=&quot;-15.217245930907508&quot; font-size=&quot;341.3312748028088&quot; alignment-baseline=&quot;hanging&quot; text-anchor=&quot;middle&quot; x=&quot;2450&quot; y=&quot;935.8137332680501&quot;&gt;THE VIBRATIONAL LANGUAGE OF HAPTIC FEEDBACK&lt;/text&gt;
+      
+      &lt;polyline class=&quot;dyn-dynamics&quot; points=&quot;0,187.16274665360993 102.08333333333333,187.16274665360993 204.16666666666666,374.32549330721986 306.25,374.32549330721986 408.3333333333333,561.4882399608302 510.41666666666663,561.4882399608302 612.5,748.6509866144402 714.5833333333334,748.6509866144402 816.6666666666667,935.8137332680501 918.7500000000001,935.8137332680501 1020.8333333333335,1122.97647992166 1122.9166666666667,1122.97647992166 1225,1310.1392265752702 1327.0833333333333,1310.1392265752702 1429.1666666666665,1497.3019732288801 1531.2499999999998,1497.3019732288801 1633.333333333333,1684.46471988249 1735.4166666666663,1684.46471988249 1837.4999999999995,1497.3019732288801 1939.5833333333328,1497.3019732288801 2041.666666666666,1310.1392265752702 2143.7499999999995,1310.1392265752702 2245.833333333333,1122.97647992166 2347.9166666666665,1122.97647992166 2450,935.8137332680501 2552.0833333333335,935.8137332680501 2654.166666666667,748.6509866144402 2756.2500000000005,748.6509866144402 2858.333333333334,561.4882399608302 2960.4166666666674,561.4882399608302 3062.500000000001,374.32549330721986 3164.5833333333344,374.32549330721986 3266.666666666668,187.16274665360993 3368.7500000000014,187.16274665360993 3470.833333333335,374.32549330721986 3572.9166666666683,374.32549330721986 3675.000000000002,561.4882399608302 3777.0833333333353,561.4882399608302 3879.166666666669,748.6509866144402 3981.2500000000023,748.6509866144402 4083.3333333333358,935.8137332680501 4185.416666666669,935.8137332680501 4287.500000000002,1122.97647992166 4389.583333333335,1122.97647992166 4491.666666666668,1310.1392265752702 4593.750000000001,1310.1392265752702 4695.833333333334,1497.3019732288801 4797.916666666667,1497.3019732288801 4900,1684.46471988249 &quot; stroke-width=&quot;5&quot; /&gt;
+    &lt;/svg&gt;
+
+&lt;p&gt;In the domain of racing simulators, the pursuit of immersive experiences goes beyond the graphical representation of the racing environment. One crucial facet is haptic feedback, which enables players to ‘feel’ their virtual ride. This post will delve into how different waveforms – sawtooth, sine, and square – can convey detailed haptic information from multiple sources into a single feedback channel.&lt;/p&gt;</summary>
     
     
     
@@ -36,10 +53,31 @@
     <link href="https://cactusgod.com/twtwelve/science-of-smash/"/>
     <id>https://cactusgod.com/twtwelve/science-of-smash/</id>
     <published>2023-07-13T00:00:00.000Z</published>
-    <updated>2023-07-12T04:31:31.480Z</updated>
+    <updated>2023-07-12T04:55:37.131Z</updated>
     
     
-    <summary type="html">&lt;p&gt;The adrenaline rush in a racing simulator is not just about mastering the art of maneuvering around bends at dizzying speeds; it’s also about the abruptness of a high-speed crash. But with limited telemetry data from the game often lacking specific collision information, how do we detect and quantify the severity of a crash?&lt;/p&gt;
+    <summary type="html">&lt;svg version=&quot;1.1&quot;
+    width=&quot;3500&quot; viewBox=&quot;0 0 3500 1336.8767618115003&quot;
+    class=&quot;dynamics&quot;
+    xmlns=&quot;http://www.w3.org/2000/svg&quot;
+    xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot;&gt;
+      &lt;defs&gt;
+        &lt;pattern id=&quot;pattern-2&quot; x=&quot;0&quot; y=&quot;0&quot; width=&quot;120&quot; height=&quot;20&quot; patternUnits=&quot;userSpaceOnUse&quot;&gt;
+          &lt;path stroke-width=&quot;1.458971001038043&quot; class=&quot;dyn-pattern-path&quot; d=&#39;M-50.129 12.685C-33.346 12.358-16.786 4.918 0 5c16.787.082 43.213 10 60 10s43.213-9.918 60-10c16.786-.082 33.346 7.358 50.129 7.685&#39; stroke-width=&#39;0.5&#39; stroke=&#39;rgb(0, 0, 0)&#39; fill=&#39;none&#39; /&gt;
+        &lt;/pattern&gt;
+      &lt;/defs&gt;
+      &lt;rect class=&quot;dyn-rect-back&quot; width=&quot;3500&quot; height=&quot;1336.8767618115003&quot; x=&quot;0&quot; y=&quot;0&quot; fill=&quot;url(#pattern-2)&quot; /&gt;
+      &lt;rect class=&quot;dyn-rect-front&quot; width=&quot;3500&quot; height=&quot;1336.8767618115003&quot; x=&quot;195.04644274446218&quot; y=&quot;195.04644274446218&quot; fill=&quot;url(#pattern-2)&quot; /&gt;
+      &lt;text class=&quot;dyn-text no-user-select&quot; font-weight=&quot;700&quot; letter-spacing=&quot;-10.869461379219647&quot; font-size=&quot;243.80805343057773&quot; alignment-baseline=&quot;hanging&quot; text-anchor=&quot;middle&quot; x=&quot;1750&quot; y=&quot;668.4383809057501&quot;&gt;DETECTING AND QUANTIFYING CRASH EVENTS&lt;/text&gt;
+      &lt;polygon
+      class=&quot;dyn-point-tri&quot;
+      points=&quot;2367.64705882353,116.36716810546122 2387.64705882353,151.00818425683875 2347.64705882353,151.00818425683875&quot;
+      stroke-width=&quot;4&quot;
+    /&gt;
+      &lt;polyline class=&quot;dyn-dynamics&quot; points=&quot;0,668.4383809057501 102.94117647058823,668.4383809057501 205.88235294117646,668.4383809057501 308.8235294117647,668.4383809057501 411.7647058823529,668.4383809057501 514.7058823529412,668.4383809057501 617.6470588235295,668.4383809057501 720.5882352941178,668.4383809057501 823.5294117647061,668.4383809057501 926.4705882352944,668.4383809057501 1029.4117647058827,668.4383809057501 1132.352941176471,668.4383809057501 1235.2941176470592,668.4383809057501 1338.2352941176475,668.4383809057501 1441.1764705882358,668.4383809057501 1544.117647058824,668.4383809057501 1647.0588235294124,668.4383809057501 1750.0000000000007,668.4383809057501 1852.941176470589,668.4383809057501 1955.8823529411773,668.4383809057501 2058.8235294117653,668.4383809057501 2161.7647058823536,668.4383809057501 2264.705882352942,668.4383809057501 2367.64705882353,133.68767618114998 2470.5882352941185,1203.1890856303503 2573.5294117647068,1203.1890856303503 2676.470588235295,1203.1890856303503 2779.4117647058833,1203.1890856303503 2882.3529411764716,1203.1890856303503 2985.29411764706,1203.1890856303503 3088.235294117648,1203.1890856303503 3191.1764705882365,1203.1890856303503 3294.117647058825,1203.1890856303503 3397.058823529413,1203.1890856303503 3500.0000000000014,1203.1890856303503 &quot; stroke-width=&quot;5&quot; /&gt;
+    &lt;/svg&gt;
+
+&lt;p&gt;The adrenaline rush in a racing simulator is not just about mastering the art of maneuvering around bends at dizzying speeds; it’s also about the abruptness of a high-speed crash. But with limited telemetry data from the game often lacking specific collision information, how do we detect and quantify the severity of a crash?&lt;/p&gt;
 &lt;p&gt;Thankfully the regular updates we get from the simulator — 60 times a second, to be precise — provides an opportunity. This high-frequency data, specifically the velocity data, can be our secret weapon in detecting and quantifying crash events.&lt;/p&gt;</summary>
     
     
@@ -52,10 +90,27 @@
     <link href="https://cactusgod.com/twtwelve/tuning-road-noise/"/>
     <id>https://cactusgod.com/twtwelve/tuning-road-noise/</id>
     <published>2023-07-12T00:00:00.000Z</published>
-    <updated>2023-07-12T04:31:31.480Z</updated>
+    <updated>2023-07-12T04:55:37.131Z</updated>
     
     
-    <summary type="html">&lt;p&gt;When it comes to immersive driving experiences in simulators, the devil is in the details. Even the road’s texture, from smoothly paved highways to bumpy off-road trails, should not only reflect visually but should also echo in the audio rendering. In this context, it might seem puzzling: how can we convert the jargon of suspension data into the language of sound?&lt;/p&gt;</summary>
+    <summary type="html">&lt;svg version=&quot;1.1&quot;
+    width=&quot;2400&quot; viewBox=&quot;0 0 2400 916.7154938136001&quot;
+    class=&quot;dynamics&quot;
+    xmlns=&quot;http://www.w3.org/2000/svg&quot;
+    xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot;&gt;
+      &lt;defs&gt;
+        &lt;pattern id=&quot;pattern-2&quot; x=&quot;0&quot; y=&quot;0&quot; width=&quot;120&quot; height=&quot;20&quot; patternUnits=&quot;userSpaceOnUse&quot;&gt;
+          &lt;path stroke-width=&quot;1.458971001038043&quot; class=&quot;dyn-pattern-path&quot; d=&#39;M-50.129 12.685C-33.346 12.358-16.786 4.918 0 5c16.787.082 43.213 10 60 10s43.213-9.918 60-10c16.786-.082 33.346 7.358 50.129 7.685&#39; stroke-width=&#39;0.5&#39; stroke=&#39;rgb(0, 0, 0)&#39; fill=&#39;none&#39; /&gt;
+        &lt;/pattern&gt;
+      &lt;/defs&gt;
+      &lt;rect class=&quot;dyn-rect-back&quot; width=&quot;2400&quot; height=&quot;916.7154938136001&quot; x=&quot;0&quot; y=&quot;0&quot; fill=&quot;url(#pattern-2)&quot; /&gt;
+      &lt;rect class=&quot;dyn-rect-front&quot; width=&quot;2400&quot; height=&quot;916.7154938136001&quot; x=&quot;133.7461321676312&quot; y=&quot;133.7461321676312&quot; fill=&quot;url(#pattern-2)&quot; /&gt;
+      &lt;text class=&quot;dyn-text no-user-select&quot; font-weight=&quot;700&quot; letter-spacing=&quot;-7.453344945750615&quot; font-size=&quot;167.182665209539&quot; alignment-baseline=&quot;hanging&quot; text-anchor=&quot;middle&quot; x=&quot;1200&quot; y=&quot;458.35774690680006&quot;&gt;VIRTUAL DRIVING TERRAIN AND THE AUDITORY SENSATION&lt;/text&gt;
+      
+      &lt;polyline class=&quot;dyn-dynamics&quot; points=&quot;0,825.0439444322401 104.34782608695652,825.0439444322401 104.34782608695652,91.67154938136002 208.69565217391303,91.67154938136002 208.69565217391303,825.0439444322401 313.04347826086956,825.0439444322401 313.04347826086956,91.67154938136002 417.39130434782606,91.67154938136002 417.39130434782606,825.0439444322401 521.7391304347826,825.0439444322401 521.7391304347826,91.67154938136002 626.0869565217391,91.67154938136002 626.0869565217391,825.0439444322401 730.4347826086956,825.0439444322401 730.4347826086956,91.67154938136002 834.7826086956521,91.67154938136002 834.7826086956521,825.0439444322401 939.1304347826086,825.0439444322401 939.1304347826086,91.67154938136002 1043.4782608695652,91.67154938136002 1043.4782608695652,825.0439444322401 1147.8260869565217,825.0439444322401 1147.8260869565217,91.67154938136002 1252.1739130434783,91.67154938136002 1252.1739130434783,825.0439444322401 1356.5217391304348,825.0439444322401 1356.5217391304348,91.67154938136002 1460.8695652173913,91.67154938136002 1460.8695652173913,825.0439444322401 1565.2173913043478,825.0439444322401 1565.2173913043478,91.67154938136002 1669.5652173913043,91.67154938136002 1669.5652173913043,825.0439444322401 1773.9130434782608,825.0439444322401 1773.9130434782608,91.67154938136002 1878.2608695652173,91.67154938136002 1878.2608695652173,825.0439444322401 1982.6086956521738,825.0439444322401 1982.6086956521738,91.67154938136002 2086.9565217391305,91.67154938136002 2086.9565217391305,825.0439444322401 2191.304347826087,825.0439444322401 2191.304347826087,91.67154938136002 2295.6521739130435,91.67154938136002 2295.6521739130435,825.0439444322401 2400,825.0439444322401 2400,91.67154938136002 &quot; stroke-width=&quot;5&quot; /&gt;
+    &lt;/svg&gt;
+
+&lt;p&gt;When it comes to immersive driving experiences in simulators, the devil is in the details. Even the road’s texture, from smoothly paved highways to bumpy off-road trails, should not only reflect visually but should also echo in the audio rendering. In this context, it might seem puzzling: how can we convert the jargon of suspension data into the language of sound?&lt;/p&gt;</summary>
     
     
     
@@ -67,10 +122,27 @@
     <link href="https://cactusgod.com/twtwelve/audio-util-mix/"/>
     <id>https://cactusgod.com/twtwelve/audio-util-mix/</id>
     <published>2023-07-11T00:00:00.000Z</published>
-    <updated>2023-07-12T04:31:31.480Z</updated>
+    <updated>2023-07-12T04:55:37.131Z</updated>
     
     
-    <summary type="html">&lt;p&gt;Racing simulators hinge on immersive experiences, and achieving quality sound plays a significant role. The crux lies in accurately blending multiple audio signals without distortion or clipping - a consequence of exceeding the system’s maximum limit.&lt;/p&gt;</summary>
+    <summary type="html">&lt;svg version=&quot;1.1&quot;
+    width=&quot;4300&quot; viewBox=&quot;0 0 4300 1642.4485930827002&quot;
+    class=&quot;dynamics&quot;
+    xmlns=&quot;http://www.w3.org/2000/svg&quot;
+    xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot;&gt;
+      &lt;defs&gt;
+        &lt;pattern id=&quot;pattern-2&quot; x=&quot;0&quot; y=&quot;0&quot; width=&quot;120&quot; height=&quot;20&quot; patternUnits=&quot;userSpaceOnUse&quot;&gt;
+          &lt;path stroke-width=&quot;1.458971001038043&quot; class=&quot;dyn-pattern-path&quot; d=&#39;M-50.129 12.685C-33.346 12.358-16.786 4.918 0 5c16.787.082 43.213 10 60 10s43.213-9.918 60-10c16.786-.082 33.346 7.358 50.129 7.685&#39; stroke-width=&#39;0.5&#39; stroke=&#39;rgb(0, 0, 0)&#39; fill=&#39;none&#39; /&gt;
+        &lt;/pattern&gt;
+      &lt;/defs&gt;
+      &lt;rect class=&quot;dyn-rect-back&quot; width=&quot;4300&quot; height=&quot;1642.4485930827002&quot; x=&quot;0&quot; y=&quot;0&quot; fill=&quot;url(#pattern-2)&quot; /&gt;
+      &lt;rect class=&quot;dyn-rect-front&quot; width=&quot;4300&quot; height=&quot;1642.4485930827002&quot; x=&quot;239.62848680033926&quot; y=&quot;239.62848680033926&quot; fill=&quot;url(#pattern-2)&quot; /&gt;
+      &lt;text class=&quot;dyn-text no-user-select&quot; font-weight=&quot;700&quot; letter-spacing=&quot;-13.353909694469854&quot; font-size=&quot;299.5356085004241&quot; alignment-baseline=&quot;hanging&quot; text-anchor=&quot;middle&quot; x=&quot;2150&quot; y=&quot;821.2242965413501&quot;&gt;NEEDS TO PREVENT CLIPPING&lt;/text&gt;
+      
+      &lt;polyline class=&quot;dyn-dynamics&quot; points=&quot;0,1478.2037337744302 102.38095238095238,1478.2037337744302 204.76190476190476,1313.95887446616 307.1428571428571,1313.95887446616 409.5238095238095,1478.2037337744302 511.9047619047619,1478.2037337744302 614.2857142857143,1313.95887446616 716.6666666666667,1313.95887446616 819.0476190476192,1149.7140151578901 921.4285714285716,1149.7140151578901 1023.809523809524,1478.2037337744302 1126.1904761904764,1478.2037337744302 1126.1904761904764,164.24485930826995 1228.5714285714287,164.24485930826995 1330.952380952381,164.24485930826995 1433.3333333333333,164.24485930826995 1535.7142857142856,164.24485930826995 1638.0952380952378,164.24485930826995 1740.4761904761901,164.24485930826995 1842.8571428571424,164.24485930826995 1945.2380952380947,164.24485930826995 2047.619047619047,164.24485930826995 2149.9999999999995,164.24485930826995 2252.380952380952,164.24485930826995 2354.761904761904,164.24485930826995 2457.1428571428564,164.24485930826995 2559.5238095238087,164.24485930826995 2661.904761904761,164.24485930826995 2764.2857142857133,164.24485930826995 2764.2857142857133,1149.7140151578901 2866.6666666666656,1149.7140151578901 2969.047619047618,1313.95887446616 3071.42857142857,1313.95887446616 3173.8095238095225,1478.2037337744302 3276.190476190475,1478.2037337744302 3378.571428571427,1478.2037337744302 3378.571428571427,1313.95887446616 3480.9523809523794,1313.95887446616 3583.3333333333317,1149.7140151578901 3685.714285714284,1149.7140151578901 3788.0952380952363,1313.95887446616 3890.4761904761885,1313.95887446616 3992.857142857141,1478.2037337744302 4095.238095238093,1478.2037337744302 4095.238095238093,164.24485930826995 4197.619047619046,164.24485930826995 4299.999999999998,164.24485930826995 &quot; stroke-width=&quot;5&quot; /&gt;
+    &lt;/svg&gt;
+
+&lt;p&gt;Racing simulators hinge on immersive experiences, and achieving quality sound plays a significant role. The crux lies in accurately blending multiple audio signals without distortion or clipping - a consequence of exceeding the system’s maximum limit.&lt;/p&gt;</summary>
     
     
     
