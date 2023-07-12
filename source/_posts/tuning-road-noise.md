@@ -5,6 +5,12 @@ date: 2023/07/12
 hue: 150
 ---
 
+{% dynamics %}
+values:1\9/1\9/1\9/1\9/1\9/1\9/1\9/1\9/1\9/1\9/1\9/1\9/
+labels:
+tagline:virtual driving terrain and the auditory sensation
+{% enddynamics %}
+
 When it comes to immersive driving experiences in simulators, the devil is in the details. Even the road's texture, from smoothly paved highways to bumpy off-road trails, should not only reflect visually but should also echo in the audio rendering. In this context, it might seem puzzling: how can we convert the jargon of suspension data into the language of sound?
 
 <!-- more -->
