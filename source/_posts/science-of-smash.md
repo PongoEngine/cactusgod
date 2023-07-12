@@ -9,6 +9,8 @@ The adrenaline rush in a racing simulator is not just about mastering the art of
 
 Thankfully the regular updates we get from the simulator — 60 times a second, to be precise — provides an opportunity. This high-frequency data, specifically the velocity data, can be our secret weapon in detecting and quantifying crash events.
 
+<!-- more -->
+
 ## Deciphering Velocity Data to Detect Crashes
 
 The principle is simple: During regular driving, the velocity changes smoothly. However, during a crash, there is a sudden and significant change in velocity. 
