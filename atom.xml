@@ -6,7 +6,7 @@
   <link href="https://cactusgod.com/atom.xml" rel="self"/>
   
   <link href="https://cactusgod.com/"/>
-  <updated>2023-07-12T05:41:24.882Z</updated>
+  <updated>2023-07-12T15:11:27.187Z</updated>
   <id>https://cactusgod.com/</id>
   
   <author>
@@ -17,11 +17,52 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>The Power of Normalization</title>
+    <link href="https://cactusgod.com/twtwelve/power-of-normalization/"/>
+    <id>https://cactusgod.com/twtwelve/power-of-normalization/</id>
+    <published>2023-07-15T00:00:00.000Z</published>
+    <updated>2023-07-12T15:11:27.187Z</updated>
+    
+    
+    <summary type="html">&lt;svg version=&quot;1.1&quot;
+    width=&quot;3600&quot; viewBox=&quot;0 0 3600 1375.0732407204002&quot;
+    class=&quot;dynamics&quot;
+    xmlns=&quot;http://www.w3.org/2000/svg&quot;
+    xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot;&gt;
+      &lt;defs&gt;
+        &lt;pattern id=&quot;pattern-2&quot; x=&quot;0&quot; y=&quot;0&quot; width=&quot;120&quot; height=&quot;20&quot; patternUnits=&quot;userSpaceOnUse&quot;&gt;
+          &lt;path stroke-width=&quot;1.458971001038043&quot; class=&quot;dyn-pattern-path&quot; d=&#39;M-50.129 12.685C-33.346 12.358-16.786 4.918 0 5c16.787.082 43.213 10 60 10s43.213-9.918 60-10c16.786-.082 33.346 7.358 50.129 7.685&#39; stroke-width=&#39;0.5&#39; stroke=&#39;rgb(0, 0, 0)&#39; fill=&#39;none&#39; /&gt;
+        &lt;/pattern&gt;
+      &lt;/defs&gt;
+      &lt;rect class=&quot;dyn-rect-back&quot; width=&quot;3600&quot; height=&quot;1375.0732407204002&quot; x=&quot;0&quot; y=&quot;0&quot; fill=&quot;url(#pattern-2)&quot; /&gt;
+      &lt;rect class=&quot;dyn-rect-front&quot; width=&quot;3600&quot; height=&quot;1375.0732407204002&quot; x=&quot;200.61919825144682&quot; y=&quot;200.61919825144682&quot; fill=&quot;url(#pattern-2)&quot; /&gt;
+      &lt;text class=&quot;dyn-text no-user-select&quot; font-weight=&quot;700&quot; letter-spacing=&quot;-11.180017418625923&quot; font-size=&quot;250.77399781430853&quot; alignment-baseline=&quot;hanging&quot; text-anchor=&quot;middle&quot; x=&quot;1800&quot; y=&quot;687.5366203602001&quot;&gt;NONE ARE AS POWERFUL OR VERSATILE AS THE CONCEPT OF NORMALIZATION&lt;/text&gt;
+      &lt;polygon
+      class=&quot;dyn-point-tri&quot;
+      points=&quot;822.857142857143,1220.2454085726713 842.857142857143,1254.886424724049 802.857142857143,1254.886424724049&quot;
+      stroke-width=&quot;4&quot;
+    /&gt;
+&lt;polygon
+      class=&quot;dyn-point-tri&quot;
+      points=&quot;2160,395.20146414043137 2180,429.84248029180895 2140,429.84248029180895&quot;
+      stroke-width=&quot;4&quot;
+    /&gt;
+      &lt;polyline class=&quot;dyn-dynamics&quot; points=&quot;0,1237.5659166483601 102.85714285714286,1237.5659166483601 205.71428571428572,1100.0585925763203 308.57142857142856,1100.0585925763203 411.42857142857144,137.5073240720401 514.2857142857143,137.5073240720401 617.1428571428572,1237.5659166483601 720.0000000000001,1237.5659166483601 822.857142857143,1237.5659166483601 925.7142857142859,1237.5659166483601 1028.5714285714287,825.0439444322401 1131.4285714285716,825.0439444322401 1234.2857142857144,412.52197221612016 1337.1428571428573,412.52197221612016 1440.0000000000002,1237.5659166483601 1542.8571428571431,1237.5659166483601 1645.714285714286,412.52197221612016 1748.571428571429,412.52197221612016 1851.4285714285718,825.0439444322401 1954.2857142857147,825.0439444322401 2057.1428571428573,1100.0585925763203 2160,412.52197221612016 2262.8571428571427,412.52197221612016 2365.7142857142853,137.5073240720401 2468.571428571428,137.5073240720401 2571.4285714285706,1237.5659166483601 2674.2857142857133,1237.5659166483601 2777.142857142856,1100.0585925763203 2879.9999999999986,1100.0585925763203 2982.8571428571413,137.5073240720401 3085.714285714284,137.5073240720401 3188.5714285714266,275.01464814407996 3291.4285714285693,275.01464814407996 3394.285714285712,412.52197221612016 3497.1428571428546,412.52197221612016 3599.9999999999973,550.0292962881601 &quot; stroke-width=&quot;5&quot; /&gt;
+    &lt;/svg&gt;
+
+&lt;p&gt;Mastering the art of module development involves a variety of elements, but perhaps none are as powerful or versatile as the concept of normalization. This seemingly simple concept of transforming values into a range between 0 and 1 can profoundly impact the scalability, versatility, and user experience of a module.&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>Waves of Sensation</title>
     <link href="https://cactusgod.com/twtwelve/waves-of-sensation/"/>
     <id>https://cactusgod.com/twtwelve/waves-of-sensation/</id>
     <published>2023-07-14T00:00:00.000Z</published>
-    <updated>2023-07-12T05:41:24.882Z</updated>
+    <updated>2023-07-12T15:11:27.187Z</updated>
     
     
     <summary type="html">&lt;svg version=&quot;1.1&quot;
@@ -53,7 +94,7 @@
     <link href="https://cactusgod.com/twtwelve/science-of-smash/"/>
     <id>https://cactusgod.com/twtwelve/science-of-smash/</id>
     <published>2023-07-13T00:00:00.000Z</published>
-    <updated>2023-07-12T05:41:24.882Z</updated>
+    <updated>2023-07-12T15:11:27.187Z</updated>
     
     
     <summary type="html">&lt;svg version=&quot;1.1&quot;
@@ -90,7 +131,7 @@
     <link href="https://cactusgod.com/twtwelve/tuning-road-noise/"/>
     <id>https://cactusgod.com/twtwelve/tuning-road-noise/</id>
     <published>2023-07-12T00:00:00.000Z</published>
-    <updated>2023-07-12T05:41:24.882Z</updated>
+    <updated>2023-07-12T15:11:27.187Z</updated>
     
     
     <summary type="html">&lt;svg version=&quot;1.1&quot;
@@ -122,7 +163,7 @@
     <link href="https://cactusgod.com/twtwelve/audio-util-mix/"/>
     <id>https://cactusgod.com/twtwelve/audio-util-mix/</id>
     <published>2023-07-11T00:00:00.000Z</published>
-    <updated>2023-07-12T05:41:24.882Z</updated>
+    <updated>2023-07-12T15:11:27.187Z</updated>
     
     
     <summary type="html">&lt;svg version=&quot;1.1&quot;
