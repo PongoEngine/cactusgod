@@ -6,7 +6,7 @@
   <link href="https://cactusgod.com/atom.xml" rel="self"/>
   
   <link href="https://cactusgod.com/"/>
-  <updated>2023-07-12T03:13:14.008Z</updated>
+  <updated>2023-07-12T03:16:56.011Z</updated>
   <id>https://cactusgod.com/</id>
   
   <author>
@@ -21,10 +21,16 @@
     <link href="https://cactusgod.com/twtwelve/science-of-smash/"/>
     <id>https://cactusgod.com/twtwelve/science-of-smash/</id>
     <published>2023-07-13T00:00:00.000Z</published>
-    <updated>2023-07-12T03:13:14.008Z</updated>
+    <updated>2023-07-12T03:16:56.011Z</updated>
     
     
-    <summary type="html">&lt;p&gt;The adrenaline rush in a racing simulator is not just about mastering the art of maneuvering around bends at dizzying speeds; it’s also about the abruptness of a high-speed crash. But with limited telemetry data from the game often lacking specific collision information, how do we detect and quantify the severity of a crash?&lt;/p&gt;</summary>
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;The adrenaline rush in a racing simulator is not just about mastering the art of maneuvering around bends at dizzying speeds; it’s also</summary>
+        
+      
     
     
     
@@ -36,7 +42,7 @@
     <link href="https://cactusgod.com/twtwelve/tuning-road-noise/"/>
     <id>https://cactusgod.com/twtwelve/tuning-road-noise/</id>
     <published>2023-07-12T00:00:00.000Z</published>
-    <updated>2023-07-12T03:13:14.008Z</updated>
+    <updated>2023-07-12T03:16:56.011Z</updated>
     
     
     <summary type="html">&lt;p&gt;When it comes to immersive driving experiences in simulators, the devil is in the details. Even the road’s texture, from smoothly paved highways to bumpy off-road trails, should not only reflect visually but should also echo in the audio rendering. In this context, it might seem puzzling: how can we convert the jargon of suspension data into the language of sound?&lt;/p&gt;</summary>
@@ -51,7 +57,7 @@
     <link href="https://cactusgod.com/twtwelve/audio-util-mix/"/>
     <id>https://cactusgod.com/twtwelve/audio-util-mix/</id>
     <published>2023-07-11T00:00:00.000Z</published>
-    <updated>2023-07-12T03:13:14.008Z</updated>
+    <updated>2023-07-12T03:16:56.011Z</updated>
     
     
     <summary type="html">&lt;p&gt;Racing simulators hinge on immersive experiences, and achieving quality sound plays a significant role. The crux lies in accurately blending multiple audio signals without distortion or clipping - a consequence of exceeding the system’s maximum limit.&lt;/p&gt;</summary>

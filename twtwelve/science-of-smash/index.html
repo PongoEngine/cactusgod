@@ -155,9 +155,6 @@
   
   
     <p>The adrenaline rush in a racing simulator is not just about mastering the art of maneuvering around bends at dizzying speeds; it’s also about the abruptness of a high-speed crash. But with limited telemetry data from the game often lacking specific collision information, how do we detect and quantify the severity of a crash?</p>
-<span id="more"></span>
-
-<h2 id="The-Challenge-of-Limited-Telemetry-Data"><a href="#The-Challenge-of-Limited-Telemetry-Data" class="headerlink" title="The Challenge of Limited Telemetry Data"></a>The Challenge of Limited Telemetry Data</h2><p>In the world of racing simulators telemetry data is invaluable. It gives us information about the vehicle’s speed, position, orientation, and more. But it often falls short when it comes to specific collision data making the task of simulating crashes a tricky affair.</p>
 <p>Thankfully the regular updates we get from the simulator — 60 times a second, to be precise — provides an opportunity. This high-frequency data, specifically the velocity data, can be our secret weapon in detecting and quantifying crash events.</p>
 <h2 id="Deciphering-Velocity-Data-to-Detect-Crashes"><a href="#Deciphering-Velocity-Data-to-Detect-Crashes" class="headerlink" title="Deciphering Velocity Data to Detect Crashes"></a>Deciphering Velocity Data to Detect Crashes</h2><p>The principle is simple: During regular driving, the velocity changes smoothly. However, during a crash, there is a sudden and significant change in velocity. </p>
 <p>By calculating acceleration, which is the change in velocity over time, we can detect a crash. But we can also do one better – by comparing the calculated acceleration to a known maximum value (representing the most severe crash), we can get a crash severity value between 0 and 1. A value closer to 0 represents no crash, while a value closer to 1 represents a severe crash.</p>
