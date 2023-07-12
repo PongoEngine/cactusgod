@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+     
+    <meta name="author" content="Jeremy" />
+     
+    <meta name="description" content="Technical specifications of the forever 2012 album." />
+     
+    <meta property="og:title" content="Tuning Into the Symphony of Road Noise" />
+    
+    <meta property="og:site_name" content="Cactus God" />
+
+    
+    <meta property="og:image" content="" />
+     <link rel="shortcut icon" href="/img/favicon.ico">  <link rel="alternate" href="/atom.xml" title="Cactus God" type="application/atom+xml"> 
+    <title>Tuning Into the Symphony of Road Noise | Cactus God</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    
+    <style>
+      body {
+        background-color: #111;
+        color: #fff;
+      }
+
+      header {
+        background-color: #99ff00;
+        color: #222;
+      }
+
+      code {
+        background-color: #e6ffbf;
+        color: #222;
+      }
+
+      figure {
+        background-color: #e6ffbf;
+        color: #222;
+      }
+
+      .arrangement {
+        border: 1px solid #ccff80;
+      }
+
+      .arrangement-wavy {
+        stroke: #99ff00;
+      }
+
+      .tubs-segment {
+        fill: #444;
+        stroke: #000;
+      }
+
+      .tubs-segment.down {
+        stroke: #888;
+        stroke-width: 3px;
+      }
+
+      .tubs-segment.back {
+        stroke: #888;
+        stroke-width: 2px;
+      }
+
+      .tubs-segment.split {
+        stroke: #888;
+        stroke-width: 1px;
+      }
+
+      .tubs-segment.hit {
+        fill: #99ff00;
+      }
+
+      .tubs-line {
+        stroke: #ccff80;
+      }
+
+      .tubs-text {
+        fill: #fff;
+      }
+
+      .tubs-backing-cur {
+        stroke: #ccff80;
+      }
+
+      .tubs-text-cur {
+        fill: #fff;
+      }
+
+      .dyn-pattern-path {
+        stroke: #99ff00;
+      }
+
+      .dyn-text {
+        fill: #000;
+      }
+
+      .dyn-dynamics {
+        fill: none;
+        stroke: #99ff00;
+      }
+
+      .dyn-point-tri {
+        fill: none;
+        stroke: #99ff00;
+      }
+
+      .dyn-point-text {
+        fill: #fff;
+      }
+    </style>
+  
+    
+<link rel="stylesheet" href="/css/blog.css">
+
+  <meta name="generator" content="Hexo 5.4.0"></head>
+  <body>
+    <div class="container">
+      <header>
+  <ul class="blog-nav">
+    
+    <li class="blog-nav-item">
+      <a href="/">Home</a>
+    </li>
+    
+    <li class="blog-nav-item">
+      <a href="/about">About</a>
+    </li>
+    
+  </ul>
+  <h1>
+    <span class="header-title">Cactus God</span
+    >
+  </h1>
+  <div class="header-line"></div>
+</header>
+ 
+      <div class="post">
+  <!-- Title -->
+  <h1>
+    
+      Tuning Into the Symphony of Road Noise
+    
+  </h1>
+  
+    <p class="post-date">
+      July 12, 2023
+    </p>
+  
+  
+    <p>When it comes to immersive driving experiences in simulators, the devil is in the details. Even the road’s texture, from smoothly paved highways to bumpy off-road trails, should not only reflect visually but should also echo in the audio rendering. In this context, it might seem puzzling: how can we convert the jargon of suspension data into the language of sound?</p>
+<span id="more"></span>
+
+<h2 id="Decoding-Standard-Deviation"><a href="#Decoding-Standard-Deviation" class="headerlink" title="Decoding Standard Deviation"></a>Decoding Standard Deviation</h2><p>Standard deviation is a measure of the amount of variance or dispersion in a set of values. In our context, the “set of values” refers to the audio signals generated due to the interaction between tires and different road surfaces. </p>
+<p>A low standard deviation indicates that the values tend to be close to the mean (or expected value), which translates to a smooth, less noisy road in our simulator. On the other hand, a high standard deviation indicates that the values are spread out over a wider range, implying a bumpy, noisy road.</p>
+<h2 id="Mapping-Noise-to-a-0-1-Range"><a href="#Mapping-Noise-to-a-0-1-Range" class="headerlink" title="Mapping Noise to a [0,1] Range"></a>Mapping Noise to a [0,1] Range</h2><p>To convert the calculated standard deviation into a quantifiable noise factor within a range of [0,1], we compare it to a predetermined maximum noise value. For instance, if we define the maximum tolerable road noise as <code>MaxNoise</code>, any calculated standard deviation (<code>SD</code>) can be normalized to a value between 0 and 1 by simply dividing <code>SD</code> by <code>MaxNoise</code>.</p>
+<p>To illustrate, let’s say the <code>MaxNoise</code> is 10 units, and the calculated standard deviation for a particular road surface is 4 units. The noise factor for this road will be <code>4/10 = 0.4</code>, a moderately smooth road. </p>
+<p>It’s important to note that <code>MaxNoise</code> should be a reasonably high value to accommodate even the most extreme road surfaces. However, it should also not be unrealistically high, as that could result in most roads seeming smoother than they actually are.</p>
+<p>The <code>noise</code> value then becomes a versatile input that can be plugged into the audio system to adjust the sound effects dynamically based on the real-time road conditions, contributing to a more immersive experience.</p>
+<p>In essence, the standard deviation does more than just crunching numbers. It acts as a bridge between the physical attributes of the virtual driving terrain and the auditory sensation of the driver, bringing an added layer of realism to the simulation. So, buckle up, tune into the symphony of road noise, and enjoy the ride!</p>
+
+  
+</div>
+ 
+      <footer>
+    &#169; 2021 Cactus God | Jeremy
+</footer>
+    </div>
+    
+<script src="/js/script.js"></script>
+
+  </body>
+</html>
