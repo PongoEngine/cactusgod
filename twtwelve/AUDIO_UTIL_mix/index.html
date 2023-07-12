@@ -9,14 +9,14 @@
      
     <meta name="description" content="Technical specifications of the forever 2012 album." />
      
-    <meta property="og:title" content="AUDIO_UTIL_mix" />
+    <meta property="og:title" content="Decoding the AUDIO_UTIL_mix function" />
     
     <meta property="og:site_name" content="Cactus God" />
 
     
     <meta property="og:image" content="" />
      <link rel="shortcut icon" href="/img/favicon.ico">  <link rel="alternate" href="/atom.xml" title="Cactus God" type="application/atom+xml"> 
-    <title>AUDIO_UTIL_mix | Cactus God</title>
+    <title>Decoding the AUDIO_UTIL_mix function | Cactus God</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -35,17 +35,14 @@
         color: #222;
       }
 
-      figure {
-        color: #ed0044;
-      }
-
-      a {
+      code {
+        background-color: #ffbfd1;
         color: #222;
-        background-color: #ed0044;
       }
 
-      a:hover {
-        color: #ff80a4;
+      figure {
+        background-color: #ffbfd1;
+        color: #222;
       }
 
       .arrangement {
@@ -146,20 +143,23 @@
  
       <div class="post">
   <!-- Title -->
-  <h2 class="post-title">
+  <h1>
     
-      AUDIO_UTIL_mix
+      Decoding the AUDIO_UTIL_mix function
     
-  </h2>
+  </h1>
   
     <p class="post-date">
       July 11, 2023
     </p>
   
   
-    <h1 id="Decoding-the-AUDIO-UTIL-mix-function"><a href="#Decoding-the-AUDIO-UTIL-mix-function" class="headerlink" title="Decoding the AUDIO_UTIL_mix function"></a>Decoding the AUDIO_UTIL_mix function</h1><p>Racing simulators hinge on immersive experiences, and achieving quality sound plays a significant role. The crux lies in accurately blending multiple audio signals without distortion or clipping - a consequence of exceeding the system’s maximum limit.</p>
+    <p>Racing simulators hinge on immersive experiences, and achieving quality sound plays a significant role. The crux lies in accurately blending multiple audio signals without distortion or clipping - a consequence of exceeding the system’s maximum limit.</p>
+<span id="more"></span>
+
 <p>The solution emerges in the AUDIO_UTIL_mix function. It effortlessly combines signals, curbs clipping, and maintains signal integrity, crucial for authentically reproducing sounds like the fluctuating car suspension heights during a virtual race.</p>
 <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">float</span> <span class="title">AUDIO_UTIL_mix</span><span class="params">(<span class="keyword">float</span> a, <span class="keyword">float</span> b)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="keyword">return</span> (a + b) - a * b;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
 
 <p>Given <code>a</code> and <code>b</code> as the two signals, the values of <code>a</code> and <code>b</code> always lie within the range [0,1].</p>
 <h2 id="Preventing-Clipping"><a href="#Preventing-Clipping" class="headerlink" title="Preventing Clipping"></a>Preventing Clipping</h2><p>In traditional signal mixing, when you simply add together two signals (for example, <code>a + b</code>), it might result in a value that exceeds 1. This is what leads to the dreaded clipping effect. </p>

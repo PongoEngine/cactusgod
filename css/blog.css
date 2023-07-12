@@ -1,6 +1,6 @@
 .container {
   position: relative;
-  max-width: 70rem;
+  max-width: 80rem;
   margin: 0 auto;
   padding: 0 2rem;
 }
@@ -68,6 +68,7 @@ h6 {
 footer,
 nav,
 ol,
+code,
 ul,
 p {
   margin-bottom: 2rem;
@@ -86,13 +87,22 @@ footer {
 header {
   display: inline-block;
   padding: 0 2rem;
+  margin-bottom: 4rem;
 }
-a {
-  padding: 0 2rem;
+header a {
+  color: #222;
+  font-weight: 400;
   text-decoration: none;
 }
-a:hover {
+header a:hover {
   text-decoration: underline;
+}
+a {
+  text-decoration: underline;
+  color: #fff;
+}
+a:hover {
+  text-decoration: none;
 }
 .headerlink {
   padding: 0;
@@ -143,9 +153,12 @@ figure {
   margin: 0;
   font-family: monospace;
   overflow: auto;
+  padding: 0px 1rem;
+  margin-bottom: 2rem;
+  border-radius: 3px;
 }
 figure .gutter {
-  padding-right: 10px;
+  padding-right: 1rem;
 }
 @media only screen and (max-width: 750px) {
   figure {
@@ -157,6 +170,8 @@ figure .gutter {
 }
 code {
   white-space: nowrap;
+  padding: 2px 5px;
+  border-radius: 2px;
 }
 .arrangement {
   padding: 0 1rem;

@@ -33,17 +33,14 @@
         color: #222;
       }
 
-      figure {
-        color: #ed0044;
-      }
-
-      a {
+      code {
+        background-color: #ffbfd1;
         color: #222;
-        background-color: #ed0044;
       }
 
-      a:hover {
-        color: #ff80a4;
+      figure {
+        background-color: #ffbfd1;
+        color: #222;
       }
 
       .arrangement {
@@ -145,31 +142,16 @@
       
     <div class="post">
   <!-- Title -->
-  <h2 class="post-title">
+  <h1>
     
       <a href="/twtwelve/AUDIO_UTIL_mix/">
-        AUDIO_UTIL_mix
+        Decoding the AUDIO_UTIL_mix function
       </a>
     
-  </h2>
+  </h1>
   
   
-    <h1 id="Decoding-the-AUDIO-UTIL-mix-function"><a href="#Decoding-the-AUDIO-UTIL-mix-function" class="headerlink" title="Decoding the AUDIO_UTIL_mix function"></a>Decoding the AUDIO_UTIL_mix function</h1><p>Racing simulators hinge on immersive experiences, and achieving quality sound plays a significant role. The crux lies in accurately blending multiple audio signals without distortion or clipping - a consequence of exceeding the system’s maximum limit.</p>
-<p>The solution emerges in the AUDIO_UTIL_mix function. It effortlessly combines signals, curbs clipping, and maintains signal integrity, crucial for authentically reproducing sounds like the fluctuating car suspension heights during a virtual race.</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">float</span> <span class="title">AUDIO_UTIL_mix</span><span class="params">(<span class="keyword">float</span> a, <span class="keyword">float</span> b)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="keyword">return</span> (a + b) - a * b;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>Given <code>a</code> and <code>b</code> as the two signals, the values of <code>a</code> and <code>b</code> always lie within the range [0,1].</p>
-<h2 id="Preventing-Clipping"><a href="#Preventing-Clipping" class="headerlink" title="Preventing Clipping"></a>Preventing Clipping</h2><p>In traditional signal mixing, when you simply add together two signals (for example, <code>a + b</code>), it might result in a value that exceeds 1. This is what leads to the dreaded clipping effect. </p>
-<p>The AUDIO_UTIL_mix function avoids this issue by subtracting the product of <code>a</code> and <code>b</code> from their sum (<code>a + b - a * b</code>). The mathematical range for this operation is always [0,1] as long as the inputs <code>a</code> and <code>b</code> are within [0,1]. Here’s why:</p>
-<ul>
-<li>At the maximum, when <code>a</code> and <code>b</code> are both 1, the output of the function is <code>1 + 1 - 1 * 1 = 1</code>.</li>
-<li>At the minimum, when <code>a</code> and <code>b</code> are both 0, the output is <code>0 + 0 - 0 * 0 = 0</code>.</li>
-</ul>
-<p>So, regardless of the input values, the result always stays within the allowable signal range, thus successfully preventing clipping.</p>
-<h2 id="Signal-Preservation"><a href="#Signal-Preservation" class="headerlink" title="Signal Preservation"></a>Signal Preservation</h2><p>A well-designed audio mixing function not only needs to prevent clipping but also ensure that the essence of each individual signal is maintained in the mixed output. Let’s see how the AUDIO_UTIL_mix function handles this:</p>
-<p>The component <code>(a * b)</code> in the equation can be interpreted as the ‘interaction’ between the two signals. As <code>a</code> or <code>b</code> gets closer to 0, the interaction term reduces, thus making the combined signal closer to a linear sum of the two individual signals, ensuring that the nature of the quieter signal is retained. On the other hand, as <code>a</code> or <code>b</code> approaches 1, the interaction becomes more significant, which helps to maintain the overall amplitude limit without a significant loss of signal characteristics.</p>
-<p>To wrap up, the AUDIO_UTIL_mix function provides a clever solution to mix two audio signals without clipping and with minimal distortion to the original signals. Its mathematical simplicity is deceptively potent, encapsulating a balance of amplitude control and signal preservation. It is a clear testament to the profound importance of efficient mathematical modeling in audio signal processing. So the next time you’re working on audio mixing, remember that sometimes the simplest solutions can be the most effective!</p>
-
+    <p class="post-excerpt"><p>Racing simulators hinge on immersive experiences, and achieving quality sound plays a significant role. The crux lies in accurately blending multiple audio signals without distortion or clipping - a consequence of exceeding the system’s maximum limit.</p></p>
   
 </div>
 
