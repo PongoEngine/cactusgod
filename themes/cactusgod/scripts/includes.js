@@ -60,6 +60,10 @@ hexo.extend.helper.register("fancy", function (a) {
         color: #222;
       }
 
+      figure {
+        color: #${color1a};
+      }
+
       a {
         color: #222;
         background-color: #${color1a};
