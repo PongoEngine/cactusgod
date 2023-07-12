@@ -31,8 +31,6 @@ With three different waveforms representing distinct aspects of the driving expe
 
 Typically, the mixing process involves normalizing the amplitude of each waveform relative to its importance to the feedback. The RPM sine wave, for example, might contribute significantly to the overall mix, while the sawtooth wave for tire slippage might only contribute under specific conditions (like when navigating a slippery turn).
 
-Absolutely, here is how the revised section would look like:
-
 ## The Result: A Symphony of Sensation
 
 Drawing parallels from how our ears distinguish a symphony of voices through minor details in their vocals, we aim to do something similar with haptic feedback. Our goal is to translate complex combinations of waveforms into distinct sensations, felt through the vibrations of the controller.
