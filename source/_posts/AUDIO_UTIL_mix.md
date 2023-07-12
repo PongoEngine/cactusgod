@@ -1,13 +1,13 @@
 ---
-title: AUDIO_UTIL_mix
+title: Decoding the AUDIO_UTIL_mix function
 album: twtwelve
 date: 2023/07/11
 hue: 350
 ---
 
-# Decoding the AUDIO_UTIL_mix function
-
 Racing simulators hinge on immersive experiences, and achieving quality sound plays a significant role. The crux lies in accurately blending multiple audio signals without distortion or clipping - a consequence of exceeding the system's maximum limit.
+
+<!-- more -->
 
 The solution emerges in the AUDIO_UTIL_mix function. It effortlessly combines signals, curbs clipping, and maintains signal integrity, crucial for authentically reproducing sounds like the fluctuating car suspension heights during a virtual race.
 
@@ -17,6 +17,7 @@ float AUDIO_UTIL_mix(float a, float b)
   return (a + b) - a * b;
 }
 ```
+
 
 Given `a` and `b` as the two signals, the values of `a` and `b` always lie within the range [0,1].
 

@@ -41,7 +41,7 @@ hexo.extend.helper.register("fancy", function (a) {
   const hue = getHue(this.page);
   const variation = getVariation(this.page);
   const colorScheme = new ColorScheme();
-  colorScheme.from_hue(hue).scheme("mono").variation(variation);
+  colorScheme.from_hue(hue).scheme("triade").variation(variation);
   const colors = colorScheme.colors();
   const color1a = colors[0];
   const color1b = colors[1];
@@ -60,17 +60,14 @@ hexo.extend.helper.register("fancy", function (a) {
         color: #222;
       }
 
-      figure {
-        color: #${color1a};
-      }
-
-      a {
+      code {
+        background-color: #${color1c};
         color: #222;
-        background-color: #${color1a};
       }
 
-      a:hover {
-        color: #${color1d};
+      figure {
+        background-color: #${color1c};
+        color: #222;
       }
 
       .arrangement {

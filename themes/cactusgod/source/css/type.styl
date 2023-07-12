@@ -60,6 +60,7 @@ h6 {
 footer,
 nav,
 ol,
+code,
 ul,
 p {
   margin-bottom: 2rem;
@@ -79,15 +80,25 @@ footer {
 header {
   display: inline-block;
   padding: 0 2rem;
+  margin-bottom: 4rem;
+
+  a {
+    color: #222;
+    font-weight: 400;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
 }
 
 a {
-  padding: 0 2rem;
-  text-decoration: none;
+  text-decoration: underline;
+  color: #fff;
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .headerlink {
@@ -147,9 +158,12 @@ figure {
   margin: 0;
   font-family: monospace;
   overflow: auto;
+  padding: 0px 1rem;
+  margin-bottom: 2rem;
+  border-radius: 3px;
 
   .gutter {
-    padding-right: 10px;
+    padding-right: 1rem;
   }
 }
 
@@ -164,4 +178,6 @@ figure {
 
 code {
   white-space: nowrap;
+  padding: 2px 5px;
+  border-radius: 2px;
 }
