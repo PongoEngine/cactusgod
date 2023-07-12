@@ -11,13 +11,13 @@ labels:
 tagline:The vibrational language of haptic feedback
 {% enddynamics %}
 
-In the domain of racing simulators, the pursuit of immersive experiences goes beyond the graphical representation of the racing environment. One crucial facet is haptic feedback, which enables players to 'feel' their virtual ride. This post will delve into how different waveforms – sawtooth, sine, and square – can convey detailed haptic information from multiple sources into a single feedback channel.
+In the domain of racing simulators the pursuit of immersive experiences goes beyond the graphical representation of the racing environment. One crucial facet is haptic feedback, which enables players to 'feel' their virtual ride. This post will delve into how different waveforms – sawtooth, sine, and square – can convey detailed haptic information from multiple sources into a single feedback channel.
 
 <!-- more -->
 
 ## Haptic Feedback: From Vibration to Perception
 
-The vibrational language of haptic feedback enables players to sense everything from the hum of the engine to the nuances of the road surface. But there's a challenge: these sensations must be delivered through a limited set of actuators in a steering wheel or a gamepad. So how can we provide such a rich array of information through a single channel? The key lies in the waveforms that modulate these vibrations.
+The vibrational language of haptic feedback enables players to sense everything from the hum of the engine to the nuances of the road surface. But there's a challenge: these sensations must be delivered through a limited set of actuators in a steering wheel, bass shaker, or a gamepad. So how can we provide such a rich array of information through a single channel? The key lies in the waveforms that modulate these vibrations.
 
 ### Sine Waves: The RPM Rhythm
 
@@ -29,13 +29,13 @@ Now let's turn our attention to the interaction between the tires and the road s
 
 ### Sawtooth Waves: Slipping Tires 
 
-Finally, there's tire slippage, a sensation critical for judging the limits of your car's grip. A sawtooth wave, with its ramp-like upswing and sudden drop, captures this feeling well. As the tires begin to lose traction, the rise in the sawtooth wave builds tension. The sudden drop then conveys the moment the tires lose grip entirely. By mapping the slippage to the frequency and amplitude of a sawtooth wave, we can create a rising sense of anticipation and a sudden release that mimics the feeling of tires slipping on the tarmac.
+Finally, there's tire slippage, a sensation critical for judging the limits of your car's grip. A sawtooth wave, with its ramp-like upswing and sudden drop, captures this feeling well. As the tires begin to lose traction, the quick rise and drop in the sawtooth wave builds tension. By mapping the slippage to the frequency and amplitude of a sawtooth wave, we can create a sense of anticipation or a sudden release that mimics the feeling of tires slipping on the tarmac.
 
 ## Merging the Waves: The Art of Mixing
 
 With three different waveforms representing distinct aspects of the driving experience, the next challenge is to blend them into a single output that our haptic devices can interpret. This process, known as mixing, requires careful attention to ensure that no single waveform overwhelms the others and all contribute to the overall feedback.
 
-Typically, the mixing process involves normalizing the amplitude of each waveform relative to its importance to the feedback. The RPM sine wave, for example, might contribute significantly to the overall mix, while the sawtooth wave for tire slippage might only contribute under specific conditions (like when navigating a slippery turn).
+Typically the mixing process involves normalizing the amplitude of each waveform relative to its importance to the feedback. The RPM sine wave, for example, might contribute significantly to the overall mix, while the sawtooth wave for tire slippage might only contribute under specific conditions (like when navigating a slippery turn).
 
 ## The Result: A Symphony of Sensation
 
@@ -54,4 +54,4 @@ The `mix` function takes two inputs, `a` and `b`, representing two different wav
 
 So, we can mix the sine wave from the RPM, the square wave from the road noise, and the sawtooth wave from the tire slippage into a single waveform. This combined signal is used to drive the haptic feedback, enabling a nuanced sensation of the car's state.
 
-The result is much like listening to a symphony. Just as our ears pick up the distinct sounds of different instruments, each contributing to the overall music, the haptic feedback system provides a layered sensation. Every turn of the wheel, press of the pedal, or slip of the tire creates a distinct tactile response, each adding to the immersive experience of the game.
+The result is much like listening to a symphony. Just as our ears pick up the distinct sounds of different instruments each contributing to the overall music. The haptic feedback system provides a layered sensation. Every turn of the wheel, press of the pedal, or slip of the tire creates a distinct tactile response, each adding to the immersive experience of the game.

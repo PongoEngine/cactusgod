@@ -6,12 +6,12 @@ hue: 50
 ---
 
 {% dynamics %}
-values:5-5-5-5-5-5-5-5-5-5-5-5|91-1-1-1-1-1
+values:5-5-5-5-5-5-5-5-5-5-5-5/|91-1-1-1-1-1
 labels:
 tagline:detecting and quantifying crash events
 {% enddynamics %}
 
-The adrenaline rush in a racing simulator is not just about mastering the art of maneuvering around bends at dizzying speeds; it's also about the abruptness of a high-speed crash. But with limited telemetry data from the game often lacking specific collision information, how do we detect and quantify the severity of a crash?
+The adrenaline rush in a racing simulator is not just about mastering the art of maneuvering around bends at dizzying speeds; it's also about the abruptness of a high-speed crash. But with limited telemetry data from the game often lacking specific collision information how do we detect and quantify the severity of a crash?
 
 Thankfully the regular updates we get from the simulator — 60 times a second, to be precise — provides an opportunity. This high-frequency data, specifically the velocity data, can be our secret weapon in detecting and quantifying crash events.
 
@@ -19,7 +19,7 @@ Thankfully the regular updates we get from the simulator — 60 times a second, 
 
 ## Deciphering Velocity Data to Detect Crashes
 
-The principle is simple: During regular driving, the velocity changes smoothly. However, during a crash, there is a sudden and significant change in velocity. 
+The principle is simple: During regular driving the velocity changes smoothly. However during a crash there is a sudden and significant change in velocity. 
 
 By calculating acceleration, which is the change in velocity over time, we can detect a crash. But we can also do one better – by comparing the calculated acceleration to a known maximum value (representing the most severe crash), we can get a crash severity value between 0 and 1. A value closer to 0 represents no crash, while a value closer to 1 represents a severe crash.
 
@@ -54,4 +54,4 @@ We use the `fabsf` function to ensure we are working with the magnitude of the a
 
 ## Bringing Crashes to Life
 
-Through the power of velocity data, acceleration calculations, and a touch of programming magic, we can translate abstract numbers into real-world sensations. It's the crash that shakes the steering wheel, the jolt that moves the seat — the perfect illusion of reality. So, next time you skid, spin, and collide in your virtual race car, remember, behind every crash is a powerful function computing, calibrating, and creating your reality.
+Through the power of velocity data, acceleration calculations, and a touch of programming magic we can translate abstract numbers into real-world sensations. It's the crash that shakes the steering wheel, the jolt that moves the seat — the perfect illusion of reality. So next time you skid, spin, and collide in your virtual race car remember behind every crash is a powerful function generating your reality.
