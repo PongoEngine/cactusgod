@@ -149,7 +149,7 @@ header h1 {
   }
 }
 figure {
-  font-size: 2rem;
+  font-size: 1.6rem;
   margin: 0;
   font-family: monospace;
   overflow: auto;
@@ -159,14 +159,6 @@ figure {
 }
 figure .gutter {
   padding-right: 1rem;
-}
-@media only screen and (max-width: 750px) {
-  figure {
-    font-size: 1.4rem;
-  }
-  figure .gutter {
-    padding-right: 8px;
-  }
 }
 code {
   white-space: nowrap;
