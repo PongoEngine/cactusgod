@@ -45,8 +45,6 @@ float easedValue = quadIn(normalizedValue); // apply quadratic easing
 
 In effect, it makes the road noise less noticeable when it's low, and ensures it becomes more prominent when the values are high. This way, the road noise can subtly augment the immersive experience without being too intrusive at lower levels, creating a more natural and pleasing progression.
 
-The combination of normalization and carefully chosen easing functions can dramatically enhance the versatility and user experience of your modules. With these powerful tools, you can manage complexity while creating more dynamic, scalable, and immersive experiences.
-
 ## Real-time Adjustments with Potentiometers
 
 A potentiometer is a simple yet powerful electronic component commonly used for adjusting signal levels in various types of circuits. Essentially it's a variable resistor where its resistance value can be adjusted by turning a knob or a dial. In the world of user interfaces, potentiometers find application as knobs or sliders on audio equipment or as control inputs in a wide range of electronic devices.
@@ -61,10 +59,10 @@ float clampedValue = min(rawValue, maxLevel);
 float normalizedValue = clampedValue / maxLevel;
 ```
 
-Here, the maxLevel for normalization is directly controlled by the potentiometer's value. This normalized value is then further processed by the quadIn easing function.
+Here the maxLevel for normalization is directly controlled by the potentiometer's value. This normalized value is then further processed by the quadIn easing function.
 
 ```C
 float easedValue = quadIn(normalizedValue); // apply quadratic easing
 ```
 
-With this real-time control, users can dynamically adjust the road noise level during the race. The seamless interactivity allows for an enhanced user experience making it more immersive and personal. 
+With this real-time control users can dynamically adjust the road noise level during the race.
