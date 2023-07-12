@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+     
+    <meta name="author" content="Jeremy" />
+     
+    <meta name="description" content="Technical specifications of the forever 2012 album." />
+     
+    <meta property="og:title" content="The Science of Smash" />
+    
+    <meta property="og:site_name" content="Cactus God" />
+
+    
+    <meta property="og:image" content="" />
+     <link rel="shortcut icon" href="/img/favicon.ico">  <link rel="alternate" href="/atom.xml" title="Cactus God" type="application/atom+xml"> 
+    <title>The Science of Smash | Cactus God</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    
+    <style>
+      body {
+        background-color: #111;
+        color: #fff;
+      }
+
+      header {
+        background-color: #ff8800;
+        color: #222;
+      }
+
+      code {
+        background-color: #ffe1bf;
+        color: #222;
+      }
+
+      figure {
+        background-color: #ffe1bf;
+        color: #222;
+      }
+
+      .arrangement {
+        border: 1px solid #ffc480;
+      }
+
+      .arrangement-wavy {
+        stroke: #ff8800;
+      }
+
+      .tubs-segment {
+        fill: #444;
+        stroke: #000;
+      }
+
+      .tubs-segment.down {
+        stroke: #888;
+        stroke-width: 3px;
+      }
+
+      .tubs-segment.back {
+        stroke: #888;
+        stroke-width: 2px;
+      }
+
+      .tubs-segment.split {
+        stroke: #888;
+        stroke-width: 1px;
+      }
+
+      .tubs-segment.hit {
+        fill: #ff8800;
+      }
+
+      .tubs-line {
+        stroke: #ffc480;
+      }
+
+      .tubs-text {
+        fill: #fff;
+      }
+
+      .tubs-backing-cur {
+        stroke: #ffc480;
+      }
+
+      .tubs-text-cur {
+        fill: #fff;
+      }
+
+      .dyn-pattern-path {
+        stroke: #ff8800;
+      }
+
+      .dyn-text {
+        fill: #000;
+      }
+
+      .dyn-dynamics {
+        fill: none;
+        stroke: #ff8800;
+      }
+
+      .dyn-point-tri {
+        fill: none;
+        stroke: #ff8800;
+      }
+
+      .dyn-point-text {
+        fill: #fff;
+      }
+    </style>
+  
+    
+<link rel="stylesheet" href="/css/blog.css">
+
+  <meta name="generator" content="Hexo 5.4.0"></head>
+  <body>
+    <div class="container">
+      <header>
+  <ul class="blog-nav">
+    
+    <li class="blog-nav-item">
+      <a href="/">Home</a>
+    </li>
+    
+    <li class="blog-nav-item">
+      <a href="/about">About</a>
+    </li>
+    
+  </ul>
+  <h1>
+    <span class="header-title">Cactus God</span
+    >
+  </h1>
+  <div class="header-line"></div>
+</header>
+ 
+      <div class="post">
+  <!-- Title -->
+  <h1>
+    
+      The Science of Smash
+    
+  </h1>
+  
+    <p class="post-date">
+      July 13, 2023
+    </p>
+  
+  
+    <p>The adrenaline rush in a racing simulator is not just about mastering the art of maneuvering around bends at dizzying speeds; it’s also about the abruptness of a high-speed crash. But with limited telemetry data from the game often lacking specific collision information, how do we detect and quantify the severity of a crash?</p>
+<span id="more"></span>
+
+<h2 id="The-Challenge-of-Limited-Telemetry-Data"><a href="#The-Challenge-of-Limited-Telemetry-Data" class="headerlink" title="The Challenge of Limited Telemetry Data"></a>The Challenge of Limited Telemetry Data</h2><p>In the world of racing simulators telemetry data is invaluable. It gives us information about the vehicle’s speed, position, orientation, and more. But it often falls short when it comes to specific collision data making the task of simulating crashes a tricky affair.</p>
+<p>Thankfully the regular updates we get from the simulator — 60 times a second, to be precise — provides an opportunity. This high-frequency data, specifically the velocity data, can be our secret weapon in detecting and quantifying crash events.</p>
+<h2 id="Deciphering-Velocity-Data-to-Detect-Crashes"><a href="#Deciphering-Velocity-Data-to-Detect-Crashes" class="headerlink" title="Deciphering Velocity Data to Detect Crashes"></a>Deciphering Velocity Data to Detect Crashes</h2><p>The principle is simple: During regular driving, the velocity changes smoothly. However, during a crash, there is a sudden and significant change in velocity. </p>
+<p>By calculating acceleration, which is the change in velocity over time, we can detect a crash. But we can also do one better – by comparing the calculated acceleration to a known maximum value (representing the most severe crash), we can get a crash severity value between 0 and 1. A value closer to 0 represents no crash, while a value closer to 1 represents a severe crash.</p>
+<h2 id="A-Practical-Example-C-Function-for-Crash-Severity"><a href="#A-Practical-Example-C-Function-for-Crash-Severity" class="headerlink" title="A Practical Example: C Function for Crash Severity"></a>A Practical Example: C Function for Crash Severity</h2><p>Here’s a C function that implements the above principle:</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// Function to calculate crash severity</span></span><br><span class="line"><span class="comment">// v0 and v1 represent consecutive velocity values.</span></span><br><span class="line"><span class="comment">// max_acceleration is the maximum acceleration representing a severe crash.</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">float</span> <span class="title">calculate_crash_severity</span><span class="params">(<span class="keyword">float</span> v0, <span class="keyword">float</span> v1, <span class="keyword">float</span> max_acceleration)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">float</span> delta_v = v1 - v0; <span class="comment">// Change in velocity</span></span><br><span class="line">    <span class="keyword">float</span> <span class="keyword">delta_t</span> = <span class="number">1.0</span> / <span class="number">60.0</span>; <span class="comment">// Time interval (we&#x27;re assuming data is updated 60 times a second)</span></span><br><span class="line">    <span class="keyword">float</span> acceleration = delta_v / <span class="keyword">delta_t</span>; <span class="comment">// Calculating acceleration</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// Normalizing acceleration to get a value between 0 and 1</span></span><br><span class="line">    <span class="comment">// fabsf is used to get the absolute value of acceleration as we&#x27;re interested in the magnitude of acceleration, not its direction.</span></span><br><span class="line">    <span class="keyword">float</span> crash_severity = fabsf(acceleration) / max_acceleration;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// Clamping the value between 0 and 1</span></span><br><span class="line">    <span class="keyword">if</span> (crash_severity &gt; <span class="number">1.0f</span>) crash_severity = <span class="number">1.0f</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> crash_severity;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>In this function, we first calculate the change in velocity (<code>delta_v</code>). The time interval (<code>delta_t</code>) is 1/60 seconds as the data updates 60 times a second. We then calculate the acceleration and normalize it against a known maximum value (<code>max_acceleration</code>) to get a crash severity value.</p>
+<p>We use the <code>fabsf</code> function to ensure we are working with the magnitude of the acceleration, as a sudden deceleration during a collision would yield a negative acceleration value. Finally, we make sure to clamp the crash severity value between 0 and 1 to ensure it stays within our desired range.</p>
+<h2 id="Bringing-Crashes-to-Life"><a href="#Bringing-Crashes-to-Life" class="headerlink" title="Bringing Crashes to Life"></a>Bringing Crashes to Life</h2><p>Through the power of velocity data, acceleration calculations, and a touch of programming magic, we can translate abstract numbers into real-world sensations. It’s the crash that shakes the steering wheel, the jolt that moves the seat — the perfect illusion of reality. So, next time you skid, spin, and collide in your virtual race car, remember, behind every crash is a powerful function computing, calibrating, and creating your reality.</p>
+
+  
+</div>
+ 
+      <footer>
+    &#169; 2021 Cactus God | Jeremy
+</footer>
+    </div>
+    
+<script src="/js/script.js"></script>
+
+  </body>
+</html>
