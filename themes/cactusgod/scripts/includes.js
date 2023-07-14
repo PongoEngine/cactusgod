@@ -71,7 +71,7 @@ hexo.extend.helper.register("fancy", function (a) {
       }
 
       .arrangement {
-        border: 1px solid #${color1d};
+        background-color: #${colors[1]}1f;
       }
 
       .arrangement-wavy {

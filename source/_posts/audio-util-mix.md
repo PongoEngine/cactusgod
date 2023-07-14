@@ -5,11 +5,8 @@ date: 2023/07/11
 hue: 350
 ---
 
-{% dynamics %}
-values:1-2-1-2-3-1/9--------------9\3-2-1-\2-3-2-1/9--
-labels:
-tagline:needs to prevent clipping
-{% enddynamics %}
+{% attrs %}
+{% endattrs %}
 
 Racing simulators hinge on immersive experiences and achieving quality sound plays a significant role. The crux lies in accurately blending multiple audio signals without distortion or clipping - a consequence of exceeding the system's maximum limit.
 
